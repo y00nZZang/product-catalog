@@ -1,0 +1,636 @@
+{
+  "kind": "manufacturer_specs_and_synthetic_edge_cases",
+  "checkedAt": "2026-09-30",
+  "notes": "Manufacturer specifications are normalized excerpts, not captured seller listings. Prices used by tests are synthetic; no purchase or live market-price claim. Classifications are candidate profiles, not confirmed HSK.",
+  "samples": [
+    {
+      "id": "yamazaki12",
+      "kind": "manufacturer_spec",
+      "source": "https://www.suntory.co.jp/whisky/yamazaki/product/",
+      "title": "山崎12年 シングルモルトウイスキー",
+      "description": "レギュラー（700ml）43度",
+      "expected": [
+        "whisky"
+      ],
+      "ml": 700,
+      "abv": 43
+    },
+    {
+      "id": "tominooka2023",
+      "kind": "manufacturer_spec",
+      "source": "https://www.suntory.co.jp/news/article/2026/15073.html",
+      "title": "日本ワイン SUNTORY FROM FARM 登美の丘 赤 2023",
+      "description": "750ml アルコール度数 14％ 果実酒",
+      "expected": [
+        "wine"
+      ],
+      "ml": 750,
+      "abv": 14
+    },
+    {
+      "id": "hakkaisan",
+      "kind": "manufacturer_spec",
+      "source": "https://www.hakkaisan.co.jp/sake/daiginjo45/",
+      "title": "大吟醸 八海山",
+      "description": "720ml アルコール分15.5度 精米歩合45％",
+      "expected": [
+        "sake"
+      ],
+      "ml": 720,
+      "abv": 15.5
+    },
+    {
+      "id": "empty-bottle",
+      "kind": "synthetic",
+      "title": "山崎12年 ウイスキー 空瓶 700ml",
+      "description": "中身なし",
+      "expected": [],
+      "unsupported": true
+    },
+    {
+      "id": "beer",
+      "kind": "synthetic",
+      "title": "ビール 350ml 6本 5%",
+      "description": "麦芽",
+      "expected": [],
+      "unsupported": true
+    },
+    {
+      "id": "liqueur",
+      "kind": "synthetic",
+      "title": "梅酒 リキュール 720ml 14度",
+      "description": "",
+      "expected": [],
+      "unsupported": true
+    },
+    {
+      "id": "nonalcohol",
+      "kind": "synthetic",
+      "title": "ノンアルコール ワイン 750ml 0%",
+      "description": "",
+      "expected": [],
+      "unsupported": true
+    },
+    {
+      "id": "mixed",
+      "kind": "synthetic",
+      "title": "ワイン ウイスキー 2本 セット",
+      "description": "別種類混合",
+      "expected": [],
+      "unsupported": true
+    },
+    {
+      "id": "plush",
+      "kind": "synthetic",
+      "title": "ぬいぐるみ 玩具",
+      "description": "ポリエステル",
+      "expected": [
+        "toy"
+      ]
+    },
+    {
+      "id": "cushion",
+      "kind": "synthetic",
+      "title": "クッション",
+      "description": "ポリエステル 詰め物入り 寝具",
+      "expected": [
+        "cushion"
+      ]
+    },
+    {
+      "id": "ambiguous",
+      "kind": "synthetic",
+      "title": "ぬいぐるみ クッション",
+      "description": "",
+      "expected": [
+        "cushion",
+        "toy"
+      ]
+    },
+    {
+      "id": "statue",
+      "kind": "synthetic",
+      "title": "レジン スタチュー statue",
+      "description": "装飾用",
+      "expected": [],
+      "unsupported": true
+    },
+    {
+      "id": "shirt",
+      "kind": "synthetic",
+      "title": "綿100% シャツ",
+      "description": "衣類",
+      "expected": [
+        "apparel"
+      ]
+    },
+    {
+      "id": "media",
+      "kind": "synthetic",
+      "title": "CD DVD 音楽セット",
+      "description": "音源収録済み",
+      "expected": [
+        "recorded_media"
+      ]
+    },
+    {
+      "id": "unknown",
+      "kind": "synthetic",
+      "title": "限定 コレクション",
+      "description": "詳細なし",
+      "expected": []
+    },
+    {
+      "id": "sake-units",
+      "kind": "synthetic",
+      "title": "日本酒 1本 1.8L アルコール分15度",
+      "description": "",
+      "expected": [
+        "sake"
+      ],
+      "ml": 1800,
+      "abv": 15
+    },
+    {
+      "id": "multi-volume",
+      "kind": "synthetic",
+      "title": "ワイン 750ml 375ml セット",
+      "description": "2本",
+      "expected": [
+        "wine"
+      ],
+      "ml": null
+    },
+    {
+      "id": "sony-xm6",
+      "kind": "manufacturer_spec",
+      "source": "https://www.sony.jp/headphone/products/WH-1000XM6/",
+      "checkedAt": "2026-09-30",
+      "title": "WH-1000XM6",
+      "description": "ヘッドホン ワイヤレスノイズキャンセリングステレオヘッドセット",
+      "expected": [
+        "headphones"
+      ],
+      "targetProfile": "headphones",
+      "expectedRoute": "rules",
+      "normalization": "Primary product identity excerpt; navigation, cross-sells and prices omitted.",
+      "reviewedBy": "agent_not_independent_hsk_review"
+    },
+    {
+      "id": "mx-keys-s",
+      "kind": "manufacturer_spec",
+      "source": "https://www.logicool.co.jp/ja-jp/shop/p/mx-keys-s",
+      "checkedAt": "2026-09-30",
+      "title": "MX Keys S",
+      "description": "アドバンスド ワイヤレス イルミネイテッド キーボード",
+      "expected": [
+        "keyboard"
+      ],
+      "targetProfile": "keyboard",
+      "expectedRoute": "rules",
+      "normalization": "Primary product identity excerpt; navigation, cross-sells and prices omitted.",
+      "reviewedBy": "agent_not_independent_hsk_review"
+    },
+    {
+      "id": "mx-master-3s",
+      "kind": "manufacturer_spec",
+      "source": "https://press.logicool.co.jp/ja-jp/mx_master_3S/",
+      "checkedAt": "2026-09-30",
+      "title": "MX MASTER 3S",
+      "description": "アドバンスド ワイヤレス マウス",
+      "expected": [
+        "mouse"
+      ],
+      "targetProfile": "mouse",
+      "expectedRoute": "rules",
+      "normalization": "Primary product identity excerpt; navigation, cross-sells and prices omitted.",
+      "reviewedBy": "agent_not_independent_hsk_review"
+    },
+    {
+      "id": "vsop",
+      "kind": "manufacturer_spec",
+      "source": "https://www.suntory.co.jp/brandy/lineup/suntory/01.html?ke=hd",
+      "checkedAt": "2026-09-30",
+      "title": "サントリーブランデー V.S.O.P",
+      "description": "デキャンタ 700ml アルコール度数40度",
+      "expected": [
+        "brandy"
+      ],
+      "targetProfile": "brandy",
+      "expectedRoute": "rules",
+      "normalization": "Primary product identity excerpt; navigation, cross-sells and prices omitted.",
+      "reviewedBy": "agent_not_independent_hsk_review",
+      "ml": 700,
+      "abv": 40
+    },
+    {
+      "id": "merit",
+      "kind": "manufacturer_spec",
+      "source": "https://www.kao.co.jp/merit/products/shampoo/?pbid=93039",
+      "checkedAt": "2026-09-30",
+      "title": "メリット レギュラーシリーズ",
+      "description": "シャンプー",
+      "expected": [
+        "shampoo"
+      ],
+      "targetProfile": "shampoo",
+      "expectedRoute": "rules",
+      "normalization": "Primary product identity excerpt; navigation, cross-sells and prices omitted.",
+      "reviewedBy": "agent_not_independent_hsk_review"
+    },
+    {
+      "id": "combi-sugocal",
+      "kind": "manufacturer_spec",
+      "source": "https://www.combi.co.jp/store/pages/stroller.aspx",
+      "checkedAt": "2026-09-30",
+      "title": "スゴカル",
+      "description": "コンビ ベビーカー",
+      "expected": [
+        "stroller"
+      ],
+      "targetProfile": "stroller",
+      "expectedRoute": "rules",
+      "normalization": "Primary product identity excerpt; navigation, cross-sells and prices omitted.",
+      "reviewedBy": "agent_not_independent_hsk_review"
+    },
+    {
+      "id": "nivea-creme",
+      "kind": "manufacturer_spec",
+      "source": "https://www.nivea.co.jp/products/nivea-creme-49013010084970052.html",
+      "checkedAt": "2026-09-30",
+      "title": "ニベアクリーム 56g",
+      "description": "健康でしっとりした素肌を保つスキンケアクリーム。",
+      "expected": [],
+      "targetProfile": "skincare",
+      "expectedRoute": "llm_or_review",
+      "normalization": "Primary product identity excerpt; navigation, cross-sells and prices omitted.",
+      "reviewedBy": "agent_not_independent_hsk_review"
+    },
+    {
+      "id": "asics-kayano",
+      "kind": "manufacturer_spec",
+      "source": "https://corp.asics.com/jp/press/article/2023-06-01",
+      "checkedAt": "2026-09-30",
+      "title": "GEL-KAYANO 30",
+      "description": "ランニングシューズ",
+      "expected": [],
+      "targetProfile": "sports_shoes",
+      "expectedRoute": "llm_or_review",
+      "normalization": "Primary product identity excerpt; navigation, cross-sells and prices omitted.",
+      "reviewedBy": "agent_not_independent_hsk_review"
+    },
+    {
+      "id": "socks-jp",
+      "kind": "synthetic",
+      "title": "靴下 3足セット",
+      "description": "",
+      "expected": [
+        "hosiery"
+      ],
+      "purpose": "Category coverage or accessory/compound-word confusion"
+    },
+    {
+      "id": "mouse-jp",
+      "kind": "synthetic",
+      "title": "ワイヤレス マウス",
+      "description": "",
+      "expected": [
+        "mouse"
+      ],
+      "purpose": "Category coverage or accessory/compound-word confusion"
+    },
+    {
+      "id": "keyboard-kr",
+      "kind": "synthetic",
+      "title": "무선 키보드",
+      "description": "",
+      "expected": [
+        "keyboard"
+      ],
+      "purpose": "Category coverage or accessory/compound-word confusion"
+    },
+    {
+      "id": "headphones-en",
+      "kind": "synthetic",
+      "title": "Wireless headphones",
+      "description": "",
+      "expected": [
+        "headphones"
+      ],
+      "purpose": "Category coverage or accessory/compound-word confusion"
+    },
+    {
+      "id": "shoes-en",
+      "kind": "synthetic",
+      "title": "Leather shoes",
+      "description": "",
+      "expected": [
+        "shoes"
+      ],
+      "purpose": "Category coverage or accessory/compound-word confusion"
+    },
+    {
+      "id": "suitcase-jp",
+      "kind": "synthetic",
+      "title": "スーツケース",
+      "description": "",
+      "expected": [
+        "suitcase"
+      ],
+      "purpose": "Category coverage or accessory/compound-word confusion"
+    },
+    {
+      "id": "wallet-kr",
+      "kind": "synthetic",
+      "title": "가죽 지갑",
+      "description": "",
+      "expected": [
+        "wallet"
+      ],
+      "purpose": "Category coverage or accessory/compound-word confusion"
+    },
+    {
+      "id": "umbrella-en",
+      "kind": "synthetic",
+      "title": "Folding umbrella",
+      "description": "",
+      "expected": [
+        "umbrella"
+      ],
+      "purpose": "Category coverage or accessory/compound-word confusion"
+    },
+    {
+      "id": "tent-kr",
+      "kind": "synthetic",
+      "title": "캠핑 텐트",
+      "description": "",
+      "expected": [
+        "tent"
+      ],
+      "purpose": "Category coverage or accessory/compound-word confusion"
+    },
+    {
+      "id": "towel-en",
+      "kind": "synthetic",
+      "title": "Cotton towel",
+      "description": "",
+      "expected": [
+        "towel"
+      ],
+      "purpose": "Category coverage or accessory/compound-word confusion"
+    },
+    {
+      "id": "bedsheet-kr",
+      "kind": "synthetic",
+      "title": "침대 시트",
+      "description": "",
+      "expected": [
+        "bedsheet"
+      ],
+      "purpose": "Category coverage or accessory/compound-word confusion"
+    },
+    {
+      "id": "curtain-jp",
+      "kind": "synthetic",
+      "title": "カーテン",
+      "description": "",
+      "expected": [
+        "curtain"
+      ],
+      "purpose": "Category coverage or accessory/compound-word confusion"
+    },
+    {
+      "id": "shampoo-kr",
+      "kind": "synthetic",
+      "title": "샴푸",
+      "description": "",
+      "expected": [
+        "shampoo"
+      ],
+      "purpose": "Category coverage or accessory/compound-word confusion"
+    },
+    {
+      "id": "lipstick-jp",
+      "kind": "synthetic",
+      "title": "口紅",
+      "description": "",
+      "expected": [
+        "lipstick"
+      ],
+      "purpose": "Category coverage or accessory/compound-word confusion"
+    },
+    {
+      "id": "handcream-en",
+      "kind": "synthetic",
+      "title": "hand cream",
+      "description": "",
+      "expected": [
+        "hand_cream"
+      ],
+      "purpose": "Category coverage or accessory/compound-word confusion"
+    },
+    {
+      "id": "stroller-en",
+      "kind": "synthetic",
+      "title": "baby stroller",
+      "description": "",
+      "expected": [
+        "stroller"
+      ],
+      "purpose": "Category coverage or accessory/compound-word confusion"
+    },
+    {
+      "id": "diaper-jp",
+      "kind": "synthetic",
+      "title": "紙おむつ",
+      "description": "",
+      "expected": [
+        "diaper"
+      ],
+      "purpose": "Category coverage or accessory/compound-word confusion"
+    },
+    {
+      "id": "laptop-en",
+      "kind": "synthetic",
+      "title": "Laptop computer",
+      "description": "",
+      "expected": [
+        "laptop"
+      ],
+      "purpose": "Category coverage or accessory/compound-word confusion"
+    },
+    {
+      "id": "desktop-kr",
+      "kind": "synthetic",
+      "title": "데스크톱",
+      "description": "",
+      "expected": [
+        "computer"
+      ],
+      "purpose": "Category coverage or accessory/compound-word confusion"
+    },
+    {
+      "id": "phone-jp",
+      "kind": "synthetic",
+      "title": "スマートフォン",
+      "description": "",
+      "expected": [
+        "smartphone"
+      ],
+      "purpose": "Category coverage or accessory/compound-word confusion"
+    },
+    {
+      "id": "powerbank-en",
+      "kind": "synthetic",
+      "title": "power bank",
+      "description": "",
+      "expected": [
+        "power_bank"
+      ],
+      "purpose": "Category coverage or accessory/compound-word confusion"
+    },
+    {
+      "id": "vacuum-jp",
+      "kind": "synthetic",
+      "title": "掃除機",
+      "description": "",
+      "expected": [
+        "vacuum"
+      ],
+      "purpose": "Category coverage or accessory/compound-word confusion"
+    },
+    {
+      "id": "camera-en",
+      "kind": "synthetic",
+      "title": "digital camera",
+      "description": "",
+      "expected": [
+        "digital_camera"
+      ],
+      "purpose": "Category coverage or accessory/compound-word confusion"
+    },
+    {
+      "id": "perfume-en",
+      "kind": "synthetic",
+      "title": "perfume",
+      "description": "",
+      "expected": [
+        "catalog_31"
+      ],
+      "purpose": "Category coverage or accessory/compound-word confusion"
+    },
+    {
+      "id": "book-en",
+      "kind": "synthetic",
+      "title": "Books and magazines",
+      "description": "",
+      "expected": [
+        "catalog_248"
+      ],
+      "purpose": "Category coverage or accessory/compound-word confusion"
+    },
+    {
+      "id": "supplement-en",
+      "kind": "synthetic",
+      "title": "dietary supplement",
+      "description": "",
+      "expected": [
+        "catalog_23"
+      ],
+      "purpose": "Category coverage or accessory/compound-word confusion"
+    },
+    {
+      "id": "brandy-width",
+      "kind": "synthetic",
+      "title": "ブランデー ７００ｍｌ ４０％ １本",
+      "description": "",
+      "expected": [
+        "brandy"
+      ],
+      "purpose": "Category coverage or accessory/compound-word confusion",
+      "ml": 700,
+      "abv": 40,
+      "bottles": 1
+    },
+    {
+      "id": "sake-abv-conflict",
+      "kind": "synthetic",
+      "title": "日本酒 アルコール分14% アルコール分16%",
+      "description": "",
+      "expected": [
+        "sake"
+      ],
+      "purpose": "Category coverage or accessory/compound-word confusion",
+      "abv": null
+    },
+    {
+      "id": "wine-no-bottle",
+      "kind": "synthetic",
+      "title": "ワイン 750ml 14度",
+      "description": "",
+      "expected": [
+        "wine"
+      ],
+      "purpose": "Category coverage or accessory/compound-word confusion",
+      "bottles": null
+    },
+    {
+      "id": "brandy-litres",
+      "kind": "synthetic",
+      "title": "ブランデー 0.7L 40度 1本",
+      "description": "",
+      "expected": [
+        "brandy"
+      ],
+      "purpose": "Category coverage or accessory/compound-word confusion",
+      "ml": 700,
+      "abv": 40,
+      "bottles": 1
+    },
+    {
+      "id": "earbud-case",
+      "kind": "synthetic",
+      "title": "イヤホンケース",
+      "description": "",
+      "expected": [],
+      "purpose": "Category coverage or accessory/compound-word confusion",
+      "unsupported": true
+    },
+    {
+      "id": "mouse-pad",
+      "kind": "synthetic",
+      "title": "マウスパッド",
+      "description": "",
+      "expected": [],
+      "purpose": "Category coverage or accessory/compound-word confusion",
+      "unsupported": true
+    },
+    {
+      "id": "shampoo-brush",
+      "kind": "synthetic",
+      "title": "シャンプーブラシ",
+      "description": "",
+      "expected": [],
+      "purpose": "Category coverage or accessory/compound-word confusion",
+      "unsupported": true
+    },
+    {
+      "id": "whisky-glass",
+      "kind": "synthetic",
+      "title": "whisky glass",
+      "description": "",
+      "expected": [],
+      "purpose": "Category coverage or accessory/compound-word confusion",
+      "unsupported": true
+    },
+    {
+      "id": "plush-clothes",
+      "kind": "synthetic",
+      "title": "ぬいぐるみ用シャツ",
+      "description": "",
+      "expected": [],
+      "purpose": "Category coverage or accessory/compound-word confusion",
+      "unsupported": true
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+services:
+  db:
+    image: postgres:17-bookworm
+    environment:
+      POSTGRES_DB: catalog
+      POSTGRES_USER: catalog
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-catalog-local-only}
+    volumes: [catalog-data:/var/lib/postgresql/data]
+    healthcheck:
+      test: [CMD-SHELL, pg_isready -U catalog -d catalog]
+      interval: 3s
+      retries: 20
+  migrate:
+    build: .
+    command: [node, scripts/database/migrate-container.cjs]
+    environment:
+      DATABASE_URL: postgresql://catalog:${POSTGRES_PASSWORD:-catalog-local-only}@db:5432/catalog
+    depends_on:
+      db: { condition: service_healthy }
+  api:
+    build: .
+    init: true
+    ports: ["127.0.0.1:${CATALOG_HOST_PORT:-4310}:4310"]
+    environment:
+      DATABASE_URL: postgresql://catalog:${POSTGRES_PASSWORD:-catalog-local-only}@db:5432/catalog
+      HOST: 0.0.0.0
+      CATALOG_PUBLIC_ACCESS: ${CATALOG_PUBLIC_ACCESS:-true}
+      CATALOG_ACCESS_TOKEN: ${CATALOG_ACCESS_TOKEN:-}
+      EXECUTION_ENV: ${EXECUTION_ENV:-container}
+      EXECUTION_REGION: ${EXECUTION_REGION:-local}
+      AUTO_CUSTOMS_ENABLED: ${AUTO_CUSTOMS_ENABLED:-true}
+      CUSTOMS_API_KEY: ${CUSTOMS_API_KEY:-}
+    depends_on:
+      migrate: { condition: service_completed_successfully }
+    restart: unless-stopped
+  worker:
+    build: .
+    init: true
+    command: [node, dist/worker.js]
+    environment:
+      DATABASE_URL: postgresql://catalog:${POSTGRES_PASSWORD:-catalog-local-only}@db:5432/catalog
+      EXECUTION_ENV: ${EXECUTION_ENV:-container}
+      EXECUTION_REGION: ${EXECUTION_REGION:-local}
+      AUTO_CUSTOMS_ENABLED: ${AUTO_CUSTOMS_ENABLED:-true}
+      CUSTOMS_API_KEY: ${CUSTOMS_API_KEY:-}
+      BROWSER_ENABLED: ${BROWSER_ENABLED:-true}
+      LLM_ENABLED: ${LLM_ENABLED:-false}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      OPENAI_MODEL: ${OPENAI_MODEL:-gpt-6-luna}
+      OPENAI_BUDGET_UNLIMITED: ${OPENAI_BUDGET_UNLIMITED:-false}
+      OPENAI_DAILY_BUDGET_USD: ${OPENAI_DAILY_BUDGET_USD:-0}
+      RAKUTEN_APPLICATION_ID: ${RAKUTEN_APPLICATION_ID:-}
+      RAKUTEN_ACCESS_KEY: ${RAKUTEN_ACCESS_KEY:-}
+    depends_on:
+      migrate: { condition: service_completed_successfully }
+    restart: unless-stopped
+    shm_size: 256mb
+    stop_grace_period: 60s
+volumes:
+  catalog-data:

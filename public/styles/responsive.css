@@ -1,0 +1,101 @@
+/* Breakpoint overrides are loaded last to preserve the existing cascade. */
+@media (max-width: 900px) {
+  .workspace {
+    grid-template-columns: 1fr;
+  }
+  .product {
+    grid-template-columns: 120px 1fr;
+  }
+  .product img {
+    width: 120px;
+  }
+  .intro h1 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 600px) {
+  header,
+  main,
+  footer {
+    padding: 18px;
+  }
+  header > span {
+    display: none;
+  }
+  .intro h1 {
+    font-size: 27px;
+  }
+  .lookup,
+  .panel {
+    padding: 18px;
+  }
+  .input-row {
+    flex-wrap: wrap;
+  }
+  .input-row input {
+    flex-basis: 100%;
+  }
+  .input-row button {
+    width: 100%;
+  }
+  .lookup-footer {
+    display: block;
+  }
+  .lookup-footer details {
+    margin-top: 8px;
+    text-align: left !important;
+  }
+  .flow {
+    gap: 12px;
+  }
+  .flow li {
+    gap: 8px;
+    font-size: 12px;
+  }
+  .flow li > span {
+    font-size: 18px;
+  }
+  .product {
+    grid-template-columns: 80px 1fr;
+    gap: 14px;
+  }
+  .product img {
+    width: 80px;
+    height: 110px;
+  }
+  h3 {
+    font-size: 17px;
+  }
+  .price {
+    font-size: 23px;
+  }
+  .fields {
+    grid-template-columns: 1fr 1fr;
+  }
+  .quotes {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+  .quote + .quote {
+    border-left: 0;
+    border-top: 1px solid var(--line);
+    padding: 18px 0 0;
+  }
+  .section-heading > span {
+    font-size: 11px;
+  }
+  .proposal .section-heading {
+    align-items: flex-start;
+  }
+  .badge {
+    white-space: normal;
+  }
+  .product-actions {
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  th,
+  td {
+    white-space: nowrap;
+  }
+}

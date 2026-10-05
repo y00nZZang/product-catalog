@@ -1,0 +1,2220 @@
+{
+  "kind": "agent_reviewed_public_dom",
+  "methodology": "60 real merchant snapshots. Agent reviewed visible title, sales state, condition and shipping text. All 30 Mercari prices independently checked in native browser; Rakuten prices cross-checked with ranking and product price DOM. No human-review claim. Initial automated QA price reads rejected where shipping/group prices could contaminate them. In-sample regression cohort, not holdout accuracy.",
+  "samples": [
+    {
+      "url": "https://books.rakuten.co.jp/rb/18814391/",
+      "discoveryUrl": "https://books.rakuten.co.jp/ranking/daily/003/",
+      "rankingPrice": 13649,
+      "platform": "rakuten",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/rakuten-books-18814391.html",
+      "capturedAt": "2026-09-22T06:36:49.216Z",
+      "captureMethod": "http",
+      "captureMs": 323.2862909999999,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "MILESixTONES(初回盤＋通常盤 Blu-rayセット)【Blu-ray】",
+        "price": 13649,
+        "currency": "JPY",
+        "availability": "preorder",
+        "domesticShippingAmount": 0
+      },
+      "evidence": {
+        "title": "MILESixTONES(初回盤＋通常盤 Blu-rayセット)【Blu-ray】",
+        "price": "13,649円",
+        "availability": "予約受付中",
+        "shipping": "送料無料"
+      },
+      "baseline": {
+        "title": "MILESixTONES(初回盤＋通常盤 Blu-rayセット)【Blu-ray】",
+        "price": 13649,
+        "currency": "JPY",
+        "availability": "unknown",
+        "condition": null,
+        "domesticShippingAmount": 0
+      },
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.465Z"
+    },
+    {
+      "url": "https://books.rakuten.co.jp/rb/18814392/",
+      "discoveryUrl": "https://books.rakuten.co.jp/ranking/daily/003/",
+      "rankingPrice": 13649,
+      "platform": "rakuten",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/rakuten-books-18814392.html",
+      "capturedAt": "2026-09-22T06:36:51.875Z",
+      "captureMethod": "http",
+      "captureMs": 156.6257499999997,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "MILESixTONES(初回盤＋通常盤 DVDセット)",
+        "price": 13649,
+        "currency": "JPY",
+        "availability": "preorder",
+        "domesticShippingAmount": 0
+      },
+      "evidence": {
+        "title": "MILESixTONES(初回盤＋通常盤 DVDセット)",
+        "price": "13,649円",
+        "availability": "予約受付中",
+        "shipping": "送料無料"
+      },
+      "baseline": {
+        "title": "MILESixTONES(初回盤＋通常盤 DVDセット)",
+        "price": 13649,
+        "currency": "JPY",
+        "availability": "unknown",
+        "condition": null,
+        "domesticShippingAmount": 0
+      },
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://books.rakuten.co.jp/rb/18814387/",
+      "discoveryUrl": "https://books.rakuten.co.jp/ranking/daily/003/",
+      "rankingPrice": 8299,
+      "platform": "rakuten",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/rakuten-books-18814387.html",
+      "capturedAt": "2026-09-22T06:36:54.581Z",
+      "captureMethod": "http",
+      "captureMs": 203.604875,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "MILESixTONES(Blu-ray初回盤)【Blu-ray】",
+        "price": 8299,
+        "currency": "JPY",
+        "availability": "preorder",
+        "domesticShippingAmount": 0
+      },
+      "evidence": {
+        "title": "MILESixTONES(Blu-ray初回盤)【Blu-ray】",
+        "price": "8,299円",
+        "availability": "予約受付中",
+        "shipping": "送料無料"
+      },
+      "baseline": {
+        "title": "MILESixTONES(Blu-ray初回盤)【Blu-ray】",
+        "price": 8299,
+        "currency": "JPY",
+        "availability": "unknown",
+        "condition": null,
+        "domesticShippingAmount": 0
+      },
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://books.rakuten.co.jp/rb/18788925/",
+      "discoveryUrl": "https://books.rakuten.co.jp/ranking/daily/003/",
+      "rankingPrice": 12474,
+      "platform": "rakuten",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/rakuten-books-18788925.html",
+      "capturedAt": "2026-09-22T06:36:57.237Z",
+      "captureMethod": "http",
+      "captureMs": 154.29720799999996,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "We're timelesz LIVE TOUR 2026 episode 2 MOMENTUM (初回限定盤＋通常盤 Blu-rayセット)【Blu-ray】",
+        "price": 12474,
+        "currency": "JPY",
+        "availability": "preorder",
+        "domesticShippingAmount": 0
+      },
+      "evidence": {
+        "title": "We're timelesz LIVE TOUR 2026 episode 2 MOMENTUM (初回限定盤＋通常盤 Blu-rayセット)【Blu-ray】",
+        "price": "12,474円",
+        "availability": "予約受付中",
+        "shipping": "送料無料"
+      },
+      "baseline": {
+        "title": "We're timelesz LIVE TOUR 2026 episode 2 MOMENTUM (初回限定盤＋通常盤 Blu-rayセット)【Blu-ray】",
+        "price": 12474,
+        "currency": "JPY",
+        "availability": "unknown",
+        "condition": null,
+        "domesticShippingAmount": 0
+      },
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://books.rakuten.co.jp/rb/18814390/",
+      "discoveryUrl": "https://books.rakuten.co.jp/ranking/daily/003/",
+      "rankingPrice": 5924,
+      "platform": "rakuten",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/rakuten-books-18814390.html",
+      "capturedAt": "2026-09-22T06:37:00.155Z",
+      "captureMethod": "http",
+      "captureMs": 417.0584999999992,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "MILESixTONES(DVD通常盤)",
+        "price": 5924,
+        "currency": "JPY",
+        "availability": "preorder",
+        "domesticShippingAmount": 0
+      },
+      "evidence": {
+        "title": "MILESixTONES(DVD通常盤)",
+        "price": "5,924円",
+        "availability": "予約受付中",
+        "shipping": "送料無料"
+      },
+      "baseline": {
+        "title": "MILESixTONES(DVD通常盤)",
+        "price": 5924,
+        "currency": "JPY",
+        "availability": "unknown",
+        "condition": null,
+        "domesticShippingAmount": 0
+      },
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://books.rakuten.co.jp/rb/18814388/",
+      "discoveryUrl": "https://books.rakuten.co.jp/ranking/daily/003/",
+      "rankingPrice": 5924,
+      "platform": "rakuten",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/rakuten-books-18814388.html",
+      "capturedAt": "2026-09-22T06:37:03.032Z",
+      "captureMethod": "http",
+      "captureMs": 374.47545900000114,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "MILESixTONES(Blu-ray通常盤)【Blu-ray】",
+        "price": 5924,
+        "currency": "JPY",
+        "availability": "preorder",
+        "domesticShippingAmount": 0
+      },
+      "evidence": {
+        "title": "MILESixTONES(Blu-ray通常盤)【Blu-ray】",
+        "price": "5,924円",
+        "availability": "予約受付中",
+        "shipping": "送料無料"
+      },
+      "baseline": {
+        "title": "MILESixTONES(Blu-ray通常盤)【Blu-ray】",
+        "price": 5924,
+        "currency": "JPY",
+        "availability": "unknown",
+        "condition": null,
+        "domesticShippingAmount": 0
+      },
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://books.rakuten.co.jp/rb/18814389/",
+      "discoveryUrl": "https://books.rakuten.co.jp/ranking/daily/003/",
+      "rankingPrice": 8299,
+      "platform": "rakuten",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/rakuten-books-18814389.html",
+      "capturedAt": "2026-09-22T06:37:05.648Z",
+      "captureMethod": "http",
+      "captureMs": 114.6894579999971,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "MILESixTONES(DVD初回盤)",
+        "price": 8299,
+        "currency": "JPY",
+        "availability": "preorder",
+        "domesticShippingAmount": 0
+      },
+      "evidence": {
+        "title": "MILESixTONES(DVD初回盤)",
+        "price": "8,299円",
+        "availability": "予約受付中",
+        "shipping": "送料無料"
+      },
+      "baseline": {
+        "title": "MILESixTONES(DVD初回盤)",
+        "price": 8299,
+        "currency": "JPY",
+        "availability": "unknown",
+        "condition": null,
+        "domesticShippingAmount": 0
+      },
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://books.rakuten.co.jp/rb/18788919/",
+      "discoveryUrl": "https://books.rakuten.co.jp/ranking/daily/003/",
+      "rankingPrice": 7012,
+      "platform": "rakuten",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/rakuten-books-18788919.html",
+      "capturedAt": "2026-09-22T06:37:08.288Z",
+      "captureMethod": "http",
+      "captureMs": 137.98133400000006,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "We're timelesz LIVE TOUR 2026 episode 2 MOMENTUM (初回限定盤)【Blu-ray】",
+        "price": 7012,
+        "currency": "JPY",
+        "availability": "preorder",
+        "domesticShippingAmount": 0
+      },
+      "evidence": {
+        "title": "We're timelesz LIVE TOUR 2026 episode 2 MOMENTUM (初回限定盤)【Blu-ray】",
+        "price": "7,012円",
+        "availability": "予約受付中",
+        "shipping": "送料無料"
+      },
+      "baseline": {
+        "title": "We're timelesz LIVE TOUR 2026 episode 2 MOMENTUM (初回限定盤)【Blu-ray】",
+        "price": 7012,
+        "currency": "JPY",
+        "availability": "unknown",
+        "condition": null,
+        "domesticShippingAmount": 0
+      },
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://books.rakuten.co.jp/rb/18788926/",
+      "discoveryUrl": "https://books.rakuten.co.jp/ranking/daily/003/",
+      "rankingPrice": 12474,
+      "platform": "rakuten",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/rakuten-books-18788926.html",
+      "capturedAt": "2026-09-22T06:37:10.965Z",
+      "captureMethod": "http",
+      "captureMs": 176.20604100000128,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "We're timelesz LIVE TOUR 2026 episode 2 MOMENTUM (初回限定盤＋通常盤 DVDセット)",
+        "price": 12474,
+        "currency": "JPY",
+        "availability": "preorder",
+        "domesticShippingAmount": 0
+      },
+      "evidence": {
+        "title": "We're timelesz LIVE TOUR 2026 episode 2 MOMENTUM (初回限定盤＋通常盤 DVDセット)",
+        "price": "12,474円",
+        "availability": "予約受付中",
+        "shipping": "送料無料"
+      },
+      "baseline": {
+        "title": "We're timelesz LIVE TOUR 2026 episode 2 MOMENTUM (初回限定盤＋通常盤 DVDセット)",
+        "price": 12474,
+        "currency": "JPY",
+        "availability": "unknown",
+        "condition": null,
+        "domesticShippingAmount": 0
+      },
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://books.rakuten.co.jp/rb/18816678/",
+      "discoveryUrl": "https://books.rakuten.co.jp/ranking/daily/003/",
+      "rankingPrice": 23982,
+      "platform": "rakuten",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/rakuten-books-18816678.html",
+      "capturedAt": "2026-09-22T06:37:13.666Z",
+      "captureMethod": "http",
+      "captureMs": 199.9169170000023,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "【楽天ブックス限定先着特典】キスは捜査のあとで Blu-ray BOX【Blu-ray】(ポストカード)",
+        "price": 23982,
+        "currency": "JPY",
+        "availability": "preorder",
+        "domesticShippingAmount": 0
+      },
+      "evidence": {
+        "title": "【楽天ブックス限定先着特典】キスは捜査のあとで Blu-ray BOX【Blu-ray】(ポストカード)",
+        "price": "23,982円",
+        "availability": "予約受付中",
+        "shipping": "送料無料"
+      },
+      "baseline": {
+        "title": "【楽天ブックス限定先着特典】キスは捜査のあとで Blu-ray BOX【Blu-ray】(ポストカード)",
+        "price": 23982,
+        "currency": "JPY",
+        "availability": "unknown",
+        "condition": null,
+        "domesticShippingAmount": 0
+      },
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://books.rakuten.co.jp/rb/18788921/",
+      "discoveryUrl": "https://books.rakuten.co.jp/ranking/daily/003/",
+      "rankingPrice": 7012,
+      "platform": "rakuten",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/rakuten-books-18788921.html",
+      "capturedAt": "2026-09-22T06:37:16.287Z",
+      "captureMethod": "http",
+      "captureMs": 118.86575000000084,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "We're timelesz LIVE TOUR 2026 episode 2 MOMENTUM (初回限定盤)",
+        "price": 7012,
+        "currency": "JPY",
+        "availability": "preorder",
+        "domesticShippingAmount": 0
+      },
+      "evidence": {
+        "title": "We're timelesz LIVE TOUR 2026 episode 2 MOMENTUM (初回限定盤)",
+        "price": "7,012円",
+        "availability": "予約受付中",
+        "shipping": "送料無料"
+      },
+      "baseline": {
+        "title": "We're timelesz LIVE TOUR 2026 episode 2 MOMENTUM (初回限定盤)",
+        "price": 7012,
+        "currency": "JPY",
+        "availability": "unknown",
+        "condition": null,
+        "domesticShippingAmount": 0
+      },
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://books.rakuten.co.jp/rb/18809122/",
+      "discoveryUrl": "https://books.rakuten.co.jp/ranking/daily/003/",
+      "rankingPrice": 9350,
+      "platform": "rakuten",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/rakuten-books-18809122.html",
+      "capturedAt": "2026-09-22T06:37:18.945Z",
+      "captureMethod": "http",
+      "captureMs": 156.57091700000092,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "【楽天ブックス限定先着特典】【9月23日(水祝) 東京国際フォーラム ホールA来場者限定】【クレジットカード決済限定】ICEx 3rd Anniversary Concert 2026 “ICEx School”(初回限定盤2Blu-ray+書籍)【Blu-ray】【会場販売対象】(会場限定抽選券3枚)",
+        "price": 9350,
+        "currency": "JPY",
+        "domesticShippingAmount": 0,
+        "availability": "backorder"
+      },
+      "evidence": {
+        "title": "【楽天ブックス限定先着特典】【9月23日(水祝) 東京国際フォーラム ホールA来場者限定】【クレジットカード決済限定】ICEx 3rd Anniversary Concert 2026 “ICEx School”(初回限定盤2Blu-ray+書籍)【Blu-ray】【会場販売対象】(会場限定抽選券3枚)",
+        "price": "9,350円",
+        "availability": "入荷予約",
+        "shipping": "送料無料"
+      },
+      "baseline": {
+        "title": "【楽天ブックス限定先着特典】【9月23日(水祝) 東京国際フォーラム ホールA来場者限定】【クレジットカード決済限定】ICEx 3rd Anniversary Concert 2026 “ICEx School”(初回限定盤2Blu-ray+書籍)【Blu-ray】【会場販売対象】(会場限定抽選券3枚)",
+        "price": 9350,
+        "currency": "JPY",
+        "availability": "unknown",
+        "condition": null,
+        "domesticShippingAmount": 0
+      },
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://books.rakuten.co.jp/rb/18816679/",
+      "discoveryUrl": "https://books.rakuten.co.jp/ranking/daily/003/",
+      "rankingPrice": 19750,
+      "platform": "rakuten",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/rakuten-books-18816679.html",
+      "capturedAt": "2026-09-22T06:37:21.586Z",
+      "captureMethod": "http",
+      "captureMs": 138.37079200000153,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "【楽天ブックス限定先着特典】キスは捜査のあとで DVD-BOX(ポストカード)",
+        "price": 19750,
+        "currency": "JPY",
+        "availability": "preorder",
+        "domesticShippingAmount": 0
+      },
+      "evidence": {
+        "title": "【楽天ブックス限定先着特典】キスは捜査のあとで DVD-BOX(ポストカード)",
+        "price": "19,750円",
+        "availability": "予約受付中",
+        "shipping": "送料無料"
+      },
+      "baseline": {
+        "title": "【楽天ブックス限定先着特典】キスは捜査のあとで DVD-BOX(ポストカード)",
+        "price": 19750,
+        "currency": "JPY",
+        "availability": "unknown",
+        "condition": null,
+        "domesticShippingAmount": 0
+      },
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://books.rakuten.co.jp/rb/18816034/",
+      "discoveryUrl": "https://books.rakuten.co.jp/ranking/daily/003/",
+      "rankingPrice": 19691,
+      "platform": "rakuten",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/rakuten-books-18816034.html",
+      "capturedAt": "2026-09-22T06:37:24.313Z",
+      "captureMethod": "http",
+      "captureMs": 225.36904199999844,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "キスは捜査のあとで Blu-ray BOX【Blu-ray】",
+        "price": 19691,
+        "currency": "JPY",
+        "availability": "preorder",
+        "domesticShippingAmount": 0
+      },
+      "evidence": {
+        "title": "キスは捜査のあとで Blu-ray BOX【Blu-ray】",
+        "price": "19,691円",
+        "availability": "予約受付中",
+        "shipping": "送料無料"
+      },
+      "baseline": {
+        "title": "キスは捜査のあとで Blu-ray BOX【Blu-ray】",
+        "price": 19691,
+        "currency": "JPY",
+        "availability": "unknown",
+        "condition": null,
+        "domesticShippingAmount": 0
+      },
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://books.rakuten.co.jp/rb/18602198/",
+      "platform": "rakuten",
+      "capturedAt": "2026-09-22T06:46:45.926Z",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "劇場版「鬼滅の刃」無限城編 第一章 猗窩座再来(通常版)",
+        "price": 3605,
+        "currency": "JPY",
+        "availability": "in_stock",
+        "domesticShippingAmount": 0
+      },
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/rakuten-books-18602198.html",
+      "captureMethod": "http",
+      "reviewerType": "agent",
+      "evidence": {
+        "title": "劇場版「鬼滅の刃」無限城編 第一章 猗窩座再来(通常版)",
+        "price": "3,605円",
+        "availability": "在庫あり",
+        "shipping": "送料無料"
+      },
+      "previousCapture": {
+        "captureError": "redirect_identity_changed",
+        "capturedAt": "2026-09-22T06:37:26.888Z"
+      },
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://books.rakuten.co.jp/rb/18809071/",
+      "discoveryUrl": "https://books.rakuten.co.jp/ranking/daily/003/",
+      "rankingPrice": 12100,
+      "platform": "rakuten",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/rakuten-books-18809071.html",
+      "capturedAt": "2026-09-22T06:37:29.532Z",
+      "captureMethod": "http",
+      "captureMs": 142.00612499999988,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "【楽天ブックス限定先着特典】LIVE FILM「AKINA NAKAMORI DINNER SHOW 2025」完全生産限定BOX(Blu-ray+CD+アクリルブロック)【Blu-ray】(マスキングテープ)",
+        "price": 12100,
+        "currency": "JPY",
+        "availability": "preorder",
+        "domesticShippingAmount": 0
+      },
+      "evidence": {
+        "title": "【楽天ブックス限定先着特典】LIVE FILM「AKINA NAKAMORI DINNER SHOW 2025」完全生産限定BOX(Blu-ray+CD+アクリルブロック)【Blu-ray】(マスキングテープ)",
+        "price": "12,100円",
+        "availability": "予約受付中",
+        "shipping": "送料無料"
+      },
+      "baseline": {
+        "title": "【楽天ブックス限定先着特典】LIVE FILM「AKINA NAKAMORI DINNER SHOW 2025」完全生産限定BOX(Blu-ray+CD+アクリルブロック)【Blu-ray】(マスキングテープ)",
+        "price": 12100,
+        "currency": "JPY",
+        "availability": "unknown",
+        "condition": null,
+        "domesticShippingAmount": 0
+      },
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://books.rakuten.co.jp/rb/18805780/",
+      "discoveryUrl": "https://books.rakuten.co.jp/ranking/daily/003/",
+      "rankingPrice": 6083,
+      "platform": "rakuten",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/rakuten-books-18805780.html",
+      "capturedAt": "2026-09-22T06:37:32.173Z",
+      "captureMethod": "http",
+      "captureMs": 139.70204099999683,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "チェッカーズ 1986 FLASH!! TOUR at 日本武道館 (Remaster Edition)【Blu-ray】",
+        "price": 6083,
+        "currency": "JPY",
+        "availability": "preorder",
+        "domesticShippingAmount": 0
+      },
+      "evidence": {
+        "title": "チェッカーズ 1986 FLASH!! TOUR at 日本武道館 (Remaster Edition)【Blu-ray】",
+        "price": "6,083円",
+        "availability": "予約受付中",
+        "shipping": "送料無料"
+      },
+      "baseline": {
+        "title": "チェッカーズ 1986 FLASH!! TOUR at 日本武道館 (Remaster Edition)【Blu-ray】",
+        "price": 6083,
+        "currency": "JPY",
+        "availability": "unknown",
+        "condition": null,
+        "domesticShippingAmount": 0
+      },
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://books.rakuten.co.jp/rb/18788922/",
+      "discoveryUrl": "https://books.rakuten.co.jp/ranking/daily/003/",
+      "rankingPrice": 5610,
+      "platform": "rakuten",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/rakuten-books-18788922.html",
+      "capturedAt": "2026-09-22T06:37:34.903Z",
+      "captureMethod": "http",
+      "captureMs": 227.34029200000077,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "We're timelesz LIVE TOUR 2026 episode 2 MOMENTUM (通常盤)",
+        "price": 5610,
+        "currency": "JPY",
+        "availability": "preorder",
+        "domesticShippingAmount": 0
+      },
+      "evidence": {
+        "title": "We're timelesz LIVE TOUR 2026 episode 2 MOMENTUM (通常盤)",
+        "price": "5,610円",
+        "availability": "予約受付中",
+        "shipping": "送料無料"
+      },
+      "baseline": {
+        "title": "We're timelesz LIVE TOUR 2026 episode 2 MOMENTUM (通常盤)",
+        "price": 5610,
+        "currency": "JPY",
+        "availability": "unknown",
+        "condition": null,
+        "domesticShippingAmount": 0
+      },
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://books.rakuten.co.jp/rb/18740528/",
+      "discoveryUrl": "https://books.rakuten.co.jp/ranking/daily/003/",
+      "rankingPrice": 8690,
+      "platform": "rakuten",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/rakuten-books-18740528.html",
+      "capturedAt": "2026-09-22T06:37:37.566Z",
+      "captureMethod": "http",
+      "captureMs": 161.1964999999982,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "TMNETWORK TOUR 2026 QUANTUM【Blu-ray】",
+        "price": 8690,
+        "currency": "JPY",
+        "availability": "preorder",
+        "domesticShippingAmount": 0
+      },
+      "evidence": {
+        "title": "TMNETWORK TOUR 2026 QUANTUM【Blu-ray】",
+        "price": "8,690円",
+        "availability": "予約受付中",
+        "shipping": "送料無料"
+      },
+      "baseline": {
+        "title": "TMNETWORK TOUR 2026 QUANTUM【Blu-ray】",
+        "price": 8690,
+        "currency": "JPY",
+        "availability": "unknown",
+        "condition": null,
+        "domesticShippingAmount": 0
+      },
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://books.rakuten.co.jp/rb/18816035/",
+      "discoveryUrl": "https://books.rakuten.co.jp/ranking/daily/003/",
+      "rankingPrice": 16216,
+      "platform": "rakuten",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/rakuten-books-18816035.html",
+      "capturedAt": "2026-09-22T06:37:40.244Z",
+      "captureMethod": "http",
+      "captureMs": 176.12379200000578,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "キスは捜査のあとで DVD-BOX",
+        "price": 16216,
+        "currency": "JPY",
+        "availability": "preorder",
+        "domesticShippingAmount": 0
+      },
+      "evidence": {
+        "title": "キスは捜査のあとで DVD-BOX",
+        "price": "16,216円",
+        "availability": "予約受付中",
+        "shipping": "送料無料"
+      },
+      "baseline": {
+        "title": "キスは捜査のあとで DVD-BOX",
+        "price": 16216,
+        "currency": "JPY",
+        "availability": "unknown",
+        "condition": null,
+        "domesticShippingAmount": 0
+      },
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://books.rakuten.co.jp/rb/18602197/",
+      "platform": "rakuten",
+      "capturedAt": "2026-09-22T06:46:48.662Z",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "劇場版「鬼滅の刃」無限城編 第一章 猗窩座再来(通常版)【Blu-ray】",
+        "price": 4022,
+        "currency": "JPY",
+        "availability": "in_stock",
+        "domesticShippingAmount": 0
+      },
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/rakuten-books-18602197.html",
+      "captureMethod": "http",
+      "reviewerType": "agent",
+      "evidence": {
+        "title": "劇場版「鬼滅の刃」無限城編 第一章 猗窩座再来(通常版)【Blu-ray】",
+        "price": "4,022円",
+        "availability": "在庫あり",
+        "shipping": "送料無料"
+      },
+      "previousCapture": {
+        "captureError": "redirect_identity_changed",
+        "capturedAt": "2026-09-22T06:37:42.870Z"
+      },
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://books.rakuten.co.jp/rb/18816671/",
+      "discoveryUrl": "https://books.rakuten.co.jp/ranking/daily/003/",
+      "rankingPrice": 26136,
+      "platform": "rakuten",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/rakuten-books-18816671.html",
+      "capturedAt": "2026-09-22T06:37:45.514Z",
+      "captureMethod": "http",
+      "captureMs": 142.5454580000005,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "【先着特典】告白ー25年目の秘密ー Blu-ray BOX【Blu-ray】(オリジナルA5サイズノート)",
+        "price": 26136,
+        "currency": "JPY",
+        "availability": "preorder",
+        "domesticShippingAmount": 0
+      },
+      "evidence": {
+        "title": "【先着特典】告白ー25年目の秘密ー Blu-ray BOX【Blu-ray】(オリジナルA5サイズノート)",
+        "price": "26,136円",
+        "availability": "予約受付中",
+        "shipping": "送料無料"
+      },
+      "baseline": {
+        "title": "【先着特典】告白ー25年目の秘密ー Blu-ray BOX【Blu-ray】(オリジナルA5サイズノート)",
+        "price": 26136,
+        "currency": "JPY",
+        "availability": "unknown",
+        "condition": null,
+        "domesticShippingAmount": 0
+      },
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://books.rakuten.co.jp/rb/18788920/",
+      "discoveryUrl": "https://books.rakuten.co.jp/ranking/daily/003/",
+      "rankingPrice": 5610,
+      "platform": "rakuten",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/rakuten-books-18788920.html",
+      "capturedAt": "2026-09-22T06:37:48.160Z",
+      "captureMethod": "http",
+      "captureMs": 144.54816700000083,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "We're timelesz LIVE TOUR 2026 episode 2 MOMENTUM (通常盤)【Blu-ray】",
+        "price": 5610,
+        "currency": "JPY",
+        "availability": "preorder",
+        "domesticShippingAmount": 0
+      },
+      "evidence": {
+        "title": "We're timelesz LIVE TOUR 2026 episode 2 MOMENTUM (通常盤)【Blu-ray】",
+        "price": "5,610円",
+        "availability": "予約受付中",
+        "shipping": "送料無料"
+      },
+      "baseline": {
+        "title": "We're timelesz LIVE TOUR 2026 episode 2 MOMENTUM (通常盤)【Blu-ray】",
+        "price": 5610,
+        "currency": "JPY",
+        "availability": "unknown",
+        "condition": null,
+        "domesticShippingAmount": 0
+      },
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://books.rakuten.co.jp/rb/18765538/",
+      "discoveryUrl": "https://books.rakuten.co.jp/ranking/daily/003/",
+      "rankingPrice": 7480,
+      "platform": "rakuten",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/rakuten-books-18765538.html",
+      "capturedAt": "2026-09-22T06:37:50.797Z",
+      "captureMethod": "http",
+      "captureMs": 134.97129100000166,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "【先着特典】KOICHI DOMOTO LIVE TOUR 2025 RAISE(Blu-ray初回盤)【Blu-ray】(RAISE LIVE ステッカー A)",
+        "price": 7480,
+        "currency": "JPY",
+        "availability": "preorder",
+        "domesticShippingAmount": 0
+      },
+      "evidence": {
+        "title": "【先着特典】KOICHI DOMOTO LIVE TOUR 2025 RAISE(Blu-ray初回盤)【Blu-ray】(RAISE LIVE ステッカー A)",
+        "price": "7,480円",
+        "availability": "予約受付中",
+        "shipping": "送料無料"
+      },
+      "baseline": {
+        "title": "【先着特典】KOICHI DOMOTO LIVE TOUR 2025 RAISE(Blu-ray初回盤)【Blu-ray】(RAISE LIVE ステッカー A)",
+        "price": 7480,
+        "currency": "JPY",
+        "availability": "unknown",
+        "condition": null,
+        "domesticShippingAmount": 0
+      },
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://books.rakuten.co.jp/rb/18687189/",
+      "discoveryUrl": "https://books.rakuten.co.jp/ranking/daily/003/",
+      "rankingPrice": 15642,
+      "platform": "rakuten",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/rakuten-books-18687189.html",
+      "capturedAt": "2026-09-22T06:37:53.458Z",
+      "captureMethod": "http",
+      "captureMs": 155.26024999999936,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "東方神起 20th Anniversary LIVE IN NISSAN STADIUM 〜RED OCEAN〜(初回生産限定盤 3枚組Blu-ray Disc＋グッズ(スマプラ対応))【Blu-ray】",
+        "price": 15642,
+        "currency": "JPY",
+        "availability": "in_stock",
+        "domesticShippingAmount": 0
+      },
+      "evidence": {
+        "title": "東方神起 20th Anniversary LIVE IN NISSAN STADIUM 〜RED OCEAN〜(初回生産限定盤 3枚組Blu-ray Disc＋グッズ(スマプラ対応))【Blu-ray】",
+        "price": "15,642円",
+        "availability": "在庫あり",
+        "shipping": "送料無料"
+      },
+      "baseline": {
+        "title": "東方神起 20th Anniversary LIVE IN NISSAN STADIUM 〜RED OCEAN〜(初回生産限定盤 3枚組Blu-ray Disc＋グッズ(スマプラ対応))【Blu-ray】",
+        "price": 15642,
+        "currency": "JPY",
+        "availability": "unknown",
+        "condition": null,
+        "domesticShippingAmount": 0
+      },
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://books.rakuten.co.jp/rb/18682307/",
+      "discoveryUrl": "https://books.rakuten.co.jp/ranking/daily/003/",
+      "rankingPrice": 8580,
+      "platform": "rakuten",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/rakuten-books-18682307.html",
+      "capturedAt": "2026-09-22T06:37:56.141Z",
+      "captureMethod": "http",
+      "captureMs": 181.61079200000677,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "『映画 ラブライブ！蓮ノ空女学院スクールアイドルクラブ Bloom Garden Party』(特装限定版)【Blu-ray】",
+        "price": 8580,
+        "currency": "JPY",
+        "availability": "preorder",
+        "domesticShippingAmount": 0
+      },
+      "evidence": {
+        "title": "『映画 ラブライブ！蓮ノ空女学院スクールアイドルクラブ Bloom Garden Party』(特装限定版)【Blu-ray】",
+        "price": "8,580円",
+        "availability": "予約受付中",
+        "shipping": "送料無料"
+      },
+      "baseline": {
+        "title": "『映画 ラブライブ！蓮ノ空女学院スクールアイドルクラブ Bloom Garden Party』(特装限定版)【Blu-ray】",
+        "price": 8580,
+        "currency": "JPY",
+        "availability": "unknown",
+        "condition": null,
+        "domesticShippingAmount": 0
+      },
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://books.rakuten.co.jp/rb/18615693/",
+      "discoveryUrl": "https://books.rakuten.co.jp/ranking/daily/003/",
+      "rankingPrice": 7538,
+      "platform": "rakuten",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/rakuten-books-18615693.html",
+      "capturedAt": "2026-09-22T06:37:58.830Z",
+      "captureMethod": "http",
+      "captureMs": 188.26691600000777,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "M!LK ARENA TOUR 2025-2026 “SMILE POP!”(初回限定盤2DVD+Photobook)",
+        "price": 7538,
+        "currency": "JPY",
+        "availability": "in_stock",
+        "domesticShippingAmount": 0
+      },
+      "evidence": {
+        "title": "M!LK ARENA TOUR 2025-2026 “SMILE POP!”(初回限定盤2DVD+Photobook)",
+        "price": "7,538円",
+        "availability": "在庫あり",
+        "shipping": "送料無料"
+      },
+      "baseline": {
+        "title": "M!LK ARENA TOUR 2025-2026 “SMILE POP!”(初回限定盤2DVD+Photobook)",
+        "price": 7538,
+        "currency": "JPY",
+        "availability": "unknown",
+        "condition": null,
+        "domesticShippingAmount": 0
+      },
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://books.rakuten.co.jp/rb/18763182/",
+      "discoveryUrl": "https://books.rakuten.co.jp/ranking/daily/003/",
+      "rankingPrice": 4204,
+      "platform": "rakuten",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/rakuten-books-18763182.html",
+      "capturedAt": "2026-09-22T06:38:01.583Z",
+      "captureMethod": "http",
+      "captureMs": 250.3603340000118,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "【抽選特典】ザ・スーパーマリオギャラクシー・ムービー ブルーレイ+DVD セット【Blu-ray】(抽選で豪華賞品が当たる！)",
+        "price": 4204,
+        "currency": "JPY",
+        "availability": "preorder",
+        "domesticShippingAmount": 0
+      },
+      "evidence": {
+        "title": "【抽選特典】ザ・スーパーマリオギャラクシー・ムービー ブルーレイ+DVD セット【Blu-ray】(抽選で豪華賞品が当たる！)",
+        "price": "4,204円",
+        "availability": "予約受付中",
+        "shipping": "送料無料"
+      },
+      "baseline": {
+        "title": "【抽選特典】ザ・スーパーマリオギャラクシー・ムービー ブルーレイ+DVD セット【Blu-ray】(抽選で豪華賞品が当たる！)",
+        "price": 4204,
+        "currency": "JPY",
+        "availability": "unknown",
+        "condition": null,
+        "domesticShippingAmount": 0
+      },
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://books.rakuten.co.jp/rb/18815147/",
+      "discoveryUrl": "https://books.rakuten.co.jp/ranking/daily/003/",
+      "rankingPrice": 13035,
+      "platform": "rakuten",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/rakuten-books-18815147.html",
+      "capturedAt": "2026-09-22T06:38:04.392Z",
+      "captureMethod": "http",
+      "captureMs": 307.5819169999886,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "KK60 〜TOUR 2026 コイズミ記念館〜 COMPLETE BOX (完全生産限定盤)【Blu-ray】",
+        "price": 13035,
+        "currency": "JPY",
+        "availability": "preorder",
+        "domesticShippingAmount": 0
+      },
+      "evidence": {
+        "title": "KK60 〜TOUR 2026 コイズミ記念館〜 COMPLETE BOX (完全生産限定盤)【Blu-ray】",
+        "price": "13,035円",
+        "availability": "予約受付中",
+        "shipping": "送料無料"
+      },
+      "baseline": {
+        "title": "KK60 〜TOUR 2026 コイズミ記念館〜 COMPLETE BOX (完全生産限定盤)【Blu-ray】",
+        "price": 13035,
+        "currency": "JPY",
+        "availability": "unknown",
+        "condition": null,
+        "domesticShippingAmount": 0
+      },
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://books.rakuten.co.jp/rb/18788886/",
+      "discoveryUrl": "https://books.rakuten.co.jp/ranking/daily/003/",
+      "rankingPrice": 10340,
+      "platform": "rakuten",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/rakuten-books-18788886.html",
+      "capturedAt": "2026-09-22T06:38:07.026Z",
+      "captureMethod": "http",
+      "captureMs": 131.3132079999923,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "【楽天ブックス限定配送BOX】【楽天ブックス限定グッズ+楽天ブックス限定先着特典+他】劇場版「名探偵コナン ハイウェイの堕天使」 (豪華盤)【Blu-ray】(アクリルスタンド時計+ステッカー5枚セット+オリジナルクリアファイル（A5サイズ）)",
+        "price": 10340,
+        "currency": "JPY",
+        "availability": "preorder",
+        "domesticShippingAmount": 0
+      },
+      "evidence": {
+        "title": "【楽天ブックス限定配送BOX】【楽天ブックス限定グッズ+楽天ブックス限定先着特典+他】劇場版「名探偵コナン ハイウェイの堕天使」 (豪華盤)【Blu-ray】(アクリルスタンド時計+ステッカー5枚セット+オリジナルクリアファイル（A5サイズ）)",
+        "price": "10,340円",
+        "availability": "予約受付中",
+        "shipping": "送料無料"
+      },
+      "baseline": {
+        "title": "【楽天ブックス限定配送BOX】【楽天ブックス限定グッズ+楽天ブックス限定先着特典+他】劇場版「名探偵コナン ハイウェイの堕天使」 (豪華盤)【Blu-ray】(アクリルスタンド時計+ステッカー5枚セット+オリジナルクリアファイル（A5サイズ）)",
+        "price": 10340,
+        "currency": "JPY",
+        "availability": "unknown",
+        "condition": null,
+        "domesticShippingAmount": 0
+      },
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://jp.mercari.com/item/m67566025342",
+      "discoveryUrl": "https://sazo.kr/detail/d748be6694f303a4f8bdb264f89346e7",
+      "platform": "mercari",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/mercari-m67566025342.html",
+      "capturedAt": "2026-09-22T06:38:11.778Z",
+      "captureMethod": "browser",
+      "captureMs": 2248.292291000005,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "リラックマ 湯のみ 一番くじ 湯のみ賞",
+        "price": 3000,
+        "currency": "JPY",
+        "availability": "in_stock",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "domesticShippingAmount": 0
+      },
+      "evidence": {
+        "title": "リラックマ 湯のみ 一番くじ 湯のみ賞",
+        "price": "Independently reviewed visible merchant price: 3000 JPY",
+        "purchase": "購入手続きへ",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "shipping": "送料込み(出品者負担)",
+        "dispatch": "2~3日で発送"
+      },
+      "baseline": {
+        "title": "リラックマ 湯のみ 一番くじ 湯のみ賞",
+        "price": 3000,
+        "currency": "JPY",
+        "availability": "in_stock",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "domesticShippingAmount": 0
+      },
+      "previousAutomatedPriceEvidence": "¥3,000",
+      "priceReviewSource": "Historical agent visible-page review; private capture excluded from public repository",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://jp.mercari.com/item/m91380829552",
+      "discoveryUrl": "https://sazo.kr/detail/fe971fe9fa0d781655a7e8aa076f8a60",
+      "platform": "mercari",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/mercari-m91380829552.html",
+      "capturedAt": "2026-09-22T06:38:16.957Z",
+      "captureMethod": "browser",
+      "captureMs": 2677.3141659999965,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "一番くじ ジョジョ スタンドラッシュ スタープラチナ ザ・ワールド B賞 D賞",
+        "availability": "in_stock",
+        "condition": "未使用に近い数回使用し、あまり使用感がない",
+        "domesticShippingAmount": 0,
+        "price": 25000,
+        "currency": "JPY"
+      },
+      "evidence": {
+        "title": "一番くじ ジョジョ スタンドラッシュ スタープラチナ ザ・ワールド B賞 D賞",
+        "price": "Independently reviewed visible merchant price: 25000 JPY",
+        "purchase": "購入手続きへ",
+        "condition": "未使用に近い数回使用し、あまり使用感がない",
+        "shipping": "送料込み(出品者負担)",
+        "dispatch": "1~2日で発送"
+      },
+      "baseline": {
+        "title": "一番くじ ジョジョ スタンドラッシュ スタープラチナ ザ・ワールド B賞 D賞",
+        "price": 25000,
+        "currency": "JPY",
+        "availability": "in_stock",
+        "condition": "未使用に近い数回使用し、あまり使用感がない",
+        "domesticShippingAmount": 0
+      },
+      "previousAutomatedPriceEvidence": null,
+      "priceReviewSource": "Historical agent visible-page review; private capture excluded from public repository",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://jp.mercari.com/item/m15686724698",
+      "discoveryUrl": "https://sazo.kr/detail/ecc8be592c91b858c1dce71381d8c7aa",
+      "platform": "mercari",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/mercari-m15686724698.html",
+      "capturedAt": "2026-09-22T06:38:21.328Z",
+      "captureMethod": "browser",
+      "captureMs": 1869.42079199999,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "ちいかわ★ナガノくじ★ぬいぐるみマスコット★2点セット",
+        "availability": "in_stock",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "domesticShippingAmount": 0,
+        "price": 1600,
+        "currency": "JPY"
+      },
+      "evidence": {
+        "title": "ちいかわ★ナガノくじ★ぬいぐるみマスコット★2点セット",
+        "price": "Independently reviewed visible merchant price: 1600 JPY",
+        "purchase": "購入手続きへ",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "shipping": "送料込み(出品者負担)",
+        "dispatch": "1~2日で発送"
+      },
+      "baseline": {
+        "title": "ちいかわ★ナガノくじ★ぬいぐるみマスコット★2点セット",
+        "price": 1600,
+        "currency": "JPY",
+        "availability": "in_stock",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "domesticShippingAmount": 0
+      },
+      "previousAutomatedPriceEvidence": null,
+      "priceReviewSource": "Historical agent visible-page review; private capture excluded from public repository",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://jp.mercari.com/item/m42760835524",
+      "discoveryUrl": "https://sazo.kr/detail/e84a82dc2bc9065949954101592c3957",
+      "platform": "mercari",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/mercari-m42760835524.html",
+      "capturedAt": "2026-09-22T06:38:25.866Z",
+      "captureMethod": "browser",
+      "captureMs": 2036.1367920000048,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "ポケモン 花札 未開封 最安値",
+        "price": 419899,
+        "currency": "JPY",
+        "availability": "sold_out",
+        "condition": "未使用に近い数回使用し、あまり使用感がない",
+        "domesticShippingAmount": 0
+      },
+      "evidence": {
+        "title": "ポケモン 花札 未開封 最安値",
+        "price": "Independently reviewed visible merchant price: 419899 JPY",
+        "purchase": "売り切れました",
+        "condition": "未使用に近い数回使用し、あまり使用感がない",
+        "shipping": "送料込み(出品者負担)",
+        "dispatch": "1~2日で発送"
+      },
+      "baseline": {
+        "title": "ポケモン 花札 未開封 最安値",
+        "price": 419899,
+        "currency": "JPY",
+        "availability": "sold_out",
+        "condition": "未使用に近い数回使用し、あまり使用感がない",
+        "domesticShippingAmount": 0
+      },
+      "previousAutomatedPriceEvidence": "¥750",
+      "priceReviewSource": "Historical agent visible-page review; private capture excluded from public repository",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://jp.mercari.com/item/m62790639478",
+      "discoveryUrl": "https://sazo.kr/detail/a256314ebd4cd7e2694bdcc077a9ed21",
+      "platform": "mercari",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/mercari-m62790639478.html",
+      "capturedAt": "2026-09-22T06:38:30.127Z",
+      "captureMethod": "browser",
+      "captureMs": 1759.5289579999953,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "世界樹の迷宮V 長き神話の果て コレクターズパック 3DS",
+        "price": 8000,
+        "currency": "JPY",
+        "availability": "in_stock",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "domesticShippingAmount": 0
+      },
+      "evidence": {
+        "title": "世界樹の迷宮V 長き神話の果て コレクターズパック 3DS",
+        "price": "Independently reviewed visible merchant price: 8000 JPY",
+        "purchase": "購入手続きへ",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "shipping": "送料込み(出品者負担)",
+        "dispatch": "4~7日で発送"
+      },
+      "baseline": {
+        "title": "世界樹の迷宮V 長き神話の果て コレクターズパック 3DS",
+        "price": 8000,
+        "currency": "JPY",
+        "availability": "in_stock",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "domesticShippingAmount": 0
+      },
+      "previousAutomatedPriceEvidence": "¥8,000",
+      "priceReviewSource": "Historical agent visible-page review; private capture excluded from public repository",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://jp.mercari.com/item/m88047665197",
+      "discoveryUrl": "https://sazo.kr/detail/b0b3a0a69d236c09ca0cd56aafa612a7",
+      "platform": "mercari",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/mercari-m88047665197.html",
+      "capturedAt": "2026-09-22T06:38:34.039Z",
+      "captureMethod": "browser",
+      "captureMs": 1410.3743749999994,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "マイメロディ ポムポムプリン 地球儀オイルマスコットキーホルダー スノードーム風",
+        "availability": "in_stock",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "domesticShippingAmount": 0,
+        "price": 1800,
+        "currency": "JPY"
+      },
+      "evidence": {
+        "title": "マイメロディ ポムポムプリン 地球儀オイルマスコットキーホルダー スノードーム風",
+        "price": "Independently reviewed visible merchant price: 1800 JPY",
+        "purchase": "購入手続きへ",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "shipping": "送料込み(出品者負担)",
+        "dispatch": "1~2日で発送"
+      },
+      "baseline": {
+        "title": "マイメロディ ポムポムプリン 地球儀オイルマスコットキーホルダー スノードーム風",
+        "price": 1800,
+        "currency": "JPY",
+        "availability": "in_stock",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "domesticShippingAmount": 0
+      },
+      "previousAutomatedPriceEvidence": null,
+      "priceReviewSource": "Historical agent visible-page review; private capture excluded from public repository",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://jp.mercari.com/item/m43966190904",
+      "discoveryUrl": "https://sazo.kr/detail/e507bb491f7700668d3f49ee19a64b6a",
+      "platform": "mercari",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/mercari-m43966190904.html",
+      "capturedAt": "2026-09-22T06:38:39.286Z",
+      "captureMethod": "browser",
+      "captureMs": 2744.550125000009,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "NCT WISH ぷくっとリング クリ まとめ売り",
+        "price": 2555,
+        "currency": "JPY",
+        "availability": "sold_out",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "domesticShippingAmount": 0
+      },
+      "evidence": {
+        "title": "NCT WISH ぷくっとリング クリ まとめ売り",
+        "price": "Independently reviewed visible merchant price: 2555 JPY",
+        "purchase": "売り切れました",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "shipping": "送料込み(出品者負担)",
+        "dispatch": "2~3日で発送"
+      },
+      "baseline": {
+        "title": "NCT WISH ぷくっとリング クリ まとめ売り",
+        "price": 2555,
+        "currency": "JPY",
+        "availability": "sold_out",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "domesticShippingAmount": 0
+      },
+      "previousAutomatedPriceEvidence": "¥750",
+      "priceReviewSource": "Historical agent visible-page review; private capture excluded from public repository",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://jp.mercari.com/item/m45045928073",
+      "discoveryUrl": "https://sazo.kr/detail/24c6ec6c7a3309f94d9715d55ef2f0c5",
+      "platform": "mercari",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/mercari-m45045928073.html",
+      "capturedAt": "2026-09-22T06:38:44.181Z",
+      "captureMethod": "browser",
+      "captureMs": 2393.1715000000113,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "rescene ゼナ トレカ 16枚 まとめ売り",
+        "availability": "in_stock",
+        "condition": "未使用に近い数回使用し、あまり使用感がない",
+        "domesticShippingAmount": 0,
+        "price": 3800,
+        "currency": "JPY"
+      },
+      "evidence": {
+        "title": "rescene ゼナ トレカ 16枚 まとめ売り",
+        "price": "Independently reviewed visible merchant price: 3800 JPY",
+        "purchase": "購入手続きへ",
+        "condition": "未使用に近い数回使用し、あまり使用感がない",
+        "shipping": "送料込み(出品者負担)",
+        "dispatch": "4~7日で発送"
+      },
+      "baseline": {
+        "title": "rescene ゼナ トレカ 16枚 まとめ売り",
+        "price": 3800,
+        "currency": "JPY",
+        "availability": "in_stock",
+        "condition": "未使用に近い数回使用し、あまり使用感がない",
+        "domesticShippingAmount": 0
+      },
+      "previousAutomatedPriceEvidence": null,
+      "priceReviewSource": "Historical agent visible-page review; private capture excluded from public repository",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://jp.mercari.com/item/m71023865595",
+      "discoveryUrl": "https://sazo.kr/detail/6491d9f40c4553a112de1e5df20d81d8",
+      "platform": "mercari",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/mercari-m71023865595.html",
+      "capturedAt": "2026-09-22T06:38:48.283Z",
+      "captureMethod": "browser",
+      "captureMs": 1599.7978750000038,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "ちいかわ 討伐マスコット ハチワレ プロペラ",
+        "availability": "sold_out",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "domesticShippingAmount": 0,
+        "price": 1949,
+        "currency": "JPY"
+      },
+      "evidence": {
+        "title": "ちいかわ 討伐マスコット ハチワレ プロペラ",
+        "price": "Independently reviewed visible merchant price: 1949 JPY",
+        "purchase": "売り切れました",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "shipping": "送料込み(出品者負担)",
+        "dispatch": "2~3日で発送"
+      },
+      "baseline": {
+        "title": "ちいかわ 討伐マスコット ハチワレ プロペラ",
+        "price": 1949,
+        "currency": "JPY",
+        "availability": "sold_out",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "domesticShippingAmount": 0
+      },
+      "previousAutomatedPriceEvidence": null,
+      "priceReviewSource": "Historical agent visible-page review; private capture excluded from public repository",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://jp.mercari.com/item/m95946538130",
+      "discoveryUrl": "https://sazo.kr/detail/c53daebbcb9d3dba03e8d7369e815fbd",
+      "platform": "mercari",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/mercari-m95946538130.html",
+      "capturedAt": "2026-09-22T06:38:52.201Z",
+      "captureMethod": "browser",
+      "captureMs": 1416.3548329999903,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "お値下げしました‼️リラックマ タンブラー・キイロイトリ保存容器セット",
+        "availability": "in_stock",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "domesticShippingAmount": 0,
+        "price": 2777,
+        "currency": "JPY"
+      },
+      "evidence": {
+        "title": "お値下げしました‼️リラックマ タンブラー・キイロイトリ保存容器セット",
+        "price": "Independently reviewed visible merchant price: 2777 JPY",
+        "purchase": "購入手続きへ",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "shipping": "送料込み(出品者負担)",
+        "dispatch": "1~2日で発送"
+      },
+      "baseline": {
+        "title": "お値下げしました‼️リラックマ タンブラー・キイロイトリ保存容器セット",
+        "price": 2777,
+        "currency": "JPY",
+        "availability": "in_stock",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "domesticShippingAmount": 0
+      },
+      "previousAutomatedPriceEvidence": null,
+      "priceReviewSource": "Historical agent visible-page review; private capture excluded from public repository",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://jp.mercari.com/item/m73225732990",
+      "discoveryUrl": "https://sazo.kr/detail/beef5b723d52e8395b528723b044fa9e",
+      "platform": "mercari",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/mercari-m73225732990.html",
+      "capturedAt": "2026-09-22T06:38:55.911Z",
+      "captureMethod": "browser",
+      "captureMs": 1208.0904169999994,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "NARUTO ナルト うずまきナルト 仙人モード フィギュア ガレージキット",
+        "availability": "in_stock",
+        "condition": "未使用に近い数回使用し、あまり使用感がない",
+        "domesticShippingAmount": 0,
+        "price": 15800,
+        "currency": "JPY"
+      },
+      "evidence": {
+        "title": "NARUTO ナルト うずまきナルト 仙人モード フィギュア ガレージキット",
+        "price": "Independently reviewed visible merchant price: 15800 JPY",
+        "purchase": "購入手続きへ",
+        "condition": "未使用に近い数回使用し、あまり使用感がない",
+        "shipping": "送料込み(出品者負担)",
+        "dispatch": "1~2日で発送"
+      },
+      "baseline": {
+        "title": "NARUTO ナルト うずまきナルト 仙人モード フィギュア ガレージキット",
+        "price": 15800,
+        "currency": "JPY",
+        "availability": "in_stock",
+        "condition": "未使用に近い数回使用し、あまり使用感がない",
+        "domesticShippingAmount": 0
+      },
+      "previousAutomatedPriceEvidence": null,
+      "priceReviewSource": "Historical agent visible-page review; private capture excluded from public repository",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://jp.mercari.com/item/m13306392672",
+      "discoveryUrl": "https://sazo.kr/detail/c6e75b37e9b9f82068e8f6ebd9d010ed",
+      "platform": "mercari",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/mercari-m13306392672.html",
+      "capturedAt": "2026-09-22T06:39:00.053Z",
+      "captureMethod": "browser",
+      "captureMs": 1640.3223750000034,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "新品未開封 スピッツ 紫の夜を越えて アートエディション 完全数量限定生産",
+        "price": 3680,
+        "currency": "JPY",
+        "availability": "in_stock",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "domesticShippingAmount": 0
+      },
+      "evidence": {
+        "title": "新品未開封 スピッツ 紫の夜を越えて アートエディション 完全数量限定生産",
+        "price": "Independently reviewed visible merchant price: 3680 JPY",
+        "purchase": "購入手続きへ",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "shipping": "送料込み(出品者負担)",
+        "dispatch": "1~2日で発送"
+      },
+      "baseline": {
+        "title": "新品未開封 スピッツ 紫の夜を越えて アートエディション 完全数量限定生産",
+        "price": 3680,
+        "currency": "JPY",
+        "availability": "in_stock",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "domesticShippingAmount": 0
+      },
+      "previousAutomatedPriceEvidence": "¥3,680",
+      "priceReviewSource": "Historical agent visible-page review; private capture excluded from public repository",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://jp.mercari.com/item/m84466904747",
+      "discoveryUrl": "https://sazo.kr/detail/41e1df5598e17285dd54859cf5aabed9",
+      "platform": "mercari",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/mercari-m84466904747.html",
+      "capturedAt": "2026-09-22T06:39:05.222Z",
+      "captureMethod": "browser",
+      "captureMs": 2667.4848749999946,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "【リラックマ】チャイロイコグマのよつあし ぬいぐるみ XL プレミアム 2点",
+        "price": 3700,
+        "currency": "JPY",
+        "availability": "in_stock",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "domesticShippingAmount": 0
+      },
+      "evidence": {
+        "title": "【リラックマ】チャイロイコグマのよつあし ぬいぐるみ XL プレミアム 2点",
+        "price": "Independently reviewed visible merchant price: 3700 JPY",
+        "purchase": "購入手続きへ",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "shipping": "送料込み(出品者負担)",
+        "dispatch": "4~7日で発送"
+      },
+      "baseline": {
+        "title": "【リラックマ】チャイロイコグマのよつあし ぬいぐるみ XL プレミアム 2点",
+        "price": 3700,
+        "currency": "JPY",
+        "availability": "in_stock",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "domesticShippingAmount": 0
+      },
+      "previousAutomatedPriceEvidence": "¥3,700",
+      "priceReviewSource": "Historical agent visible-page review; private capture excluded from public repository",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://jp.mercari.com/item/m54755573562",
+      "discoveryUrl": "https://sazo.kr/detail/ed2f1b1595420526b2abcb3c01294c0d",
+      "platform": "mercari",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/mercari-m54755573562.html",
+      "capturedAt": "2026-09-22T06:39:09.840Z",
+      "captureMethod": "browser",
+      "captureMs": 2115.1295830000017,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "サンエックスユニバース アフロ犬 まめゴマ",
+        "availability": "in_stock",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "domesticShippingAmount": 0,
+        "price": 699,
+        "currency": "JPY"
+      },
+      "evidence": {
+        "title": "サンエックスユニバース アフロ犬 まめゴマ",
+        "price": "Independently reviewed visible merchant price: 699 JPY",
+        "purchase": "購入手続きへ",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "shipping": "送料込み(出品者負担)",
+        "dispatch": "1~2日で発送"
+      },
+      "baseline": {
+        "title": "サンエックスユニバース アフロ犬 まめゴマ",
+        "price": 699,
+        "currency": "JPY",
+        "availability": "in_stock",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "domesticShippingAmount": 0
+      },
+      "previousAutomatedPriceEvidence": null,
+      "priceReviewSource": "Historical agent visible-page review; private capture excluded from public repository",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://jp.mercari.com/item/m99710099434",
+      "discoveryUrl": "https://sazo.kr/detail/b711e386938065e7ba830f31510c2099",
+      "platform": "mercari",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/mercari-m99710099434.html",
+      "capturedAt": "2026-09-22T06:39:13.771Z",
+      "captureMethod": "browser",
+      "captureMs": 1428.7479580000218,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "【廃盤】NUMBER (N)INE×LOVELESS デニム ブルー",
+        "availability": "in_stock",
+        "condition": "目立った傷や汚れなし細かな使用感・傷・汚れはあるが、目立たない",
+        "domesticShippingAmount": 0,
+        "price": 19999,
+        "currency": "JPY"
+      },
+      "evidence": {
+        "title": "【廃盤】NUMBER (N)INE×LOVELESS デニム ブルー",
+        "price": "Independently reviewed visible merchant price: 19999 JPY",
+        "purchase": "購入手続きへ",
+        "condition": "目立った傷や汚れなし細かな使用感・傷・汚れはあるが、目立たない",
+        "shipping": "送料込み(出品者負担)",
+        "dispatch": "1~2日で発送"
+      },
+      "baseline": {
+        "title": "【廃盤】NUMBER (N)INE×LOVELESS デニム ブルー",
+        "price": 19999,
+        "currency": "JPY",
+        "availability": "in_stock",
+        "condition": "目立った傷や汚れなし細かな使用感・傷・汚れはあるが、目立たない",
+        "domesticShippingAmount": 0
+      },
+      "previousAutomatedPriceEvidence": null,
+      "priceReviewSource": "Historical agent visible-page review; private capture excluded from public repository",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://jp.mercari.com/item/m70423748157",
+      "discoveryUrl": "https://sazo.kr/detail/d1ba8edafced432caf2d55745cf11b11",
+      "platform": "mercari",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/mercari-m70423748157.html",
+      "capturedAt": "2026-09-22T06:39:17.841Z",
+      "captureMethod": "browser",
+      "captureMs": 1569.5670420000097,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "ポケモンセンター サルノリ ぬいぐるみ ポケモンドールズ",
+        "availability": "in_stock",
+        "condition": "目立った傷や汚れなし細かな使用感・傷・汚れはあるが、目立たない",
+        "domesticShippingAmount": 0,
+        "price": 950,
+        "currency": "JPY"
+      },
+      "evidence": {
+        "title": "ポケモンセンター サルノリ ぬいぐるみ ポケモンドールズ",
+        "price": "Independently reviewed visible merchant price: 950 JPY",
+        "purchase": "購入手続きへ",
+        "condition": "目立った傷や汚れなし細かな使用感・傷・汚れはあるが、目立たない",
+        "shipping": "送料込み(出品者負担)",
+        "dispatch": "2~3日で発送"
+      },
+      "baseline": {
+        "title": "ポケモンセンター サルノリ ぬいぐるみ ポケモンドールズ",
+        "price": 950,
+        "currency": "JPY",
+        "availability": "in_stock",
+        "condition": "目立った傷や汚れなし細かな使用感・傷・汚れはあるが、目立たない",
+        "domesticShippingAmount": 0
+      },
+      "previousAutomatedPriceEvidence": null,
+      "priceReviewSource": "Historical agent visible-page review; private capture excluded from public repository",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://jp.mercari.com/item/m54532642379",
+      "discoveryUrl": "https://sazo.kr/detail/825c326026319ad7dc5f0c609053010c",
+      "platform": "mercari",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/mercari-m54532642379.html",
+      "capturedAt": "2026-09-22T06:39:21.644Z",
+      "captureMethod": "browser",
+      "captureMs": 1301.0009999999893,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "リラックマ 天使と悪魔ぬいぐるみXL チャイロイコグマ",
+        "availability": "in_stock",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "domesticShippingAmount": 0,
+        "price": 1680,
+        "currency": "JPY"
+      },
+      "evidence": {
+        "title": "リラックマ 天使と悪魔ぬいぐるみXL チャイロイコグマ",
+        "price": "Independently reviewed visible merchant price: 1680 JPY",
+        "purchase": "購入手続きへ",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "shipping": "送料込み(出品者負担)",
+        "dispatch": "2~3日で発送"
+      },
+      "baseline": {
+        "title": "リラックマ 天使と悪魔ぬいぐるみXL チャイロイコグマ",
+        "price": 1680,
+        "currency": "JPY",
+        "availability": "in_stock",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "domesticShippingAmount": 0
+      },
+      "previousAutomatedPriceEvidence": null,
+      "priceReviewSource": "Historical agent visible-page review; private capture excluded from public repository",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://jp.mercari.com/item/m14535743226",
+      "discoveryUrl": "https://sazo.kr/detail/4d8e5ea8a3f1439b7ee40797353fc5a3",
+      "platform": "mercari",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/mercari-m14535743226.html",
+      "capturedAt": "2026-09-22T06:39:26.037Z",
+      "captureMethod": "browser",
+      "captureMs": 1891.0320839999767,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "【新品未開封・海外限定】ポケモンカード Prismatic Evolutions",
+        "availability": "sold_out",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "domesticShippingAmount": 0,
+        "price": 36666,
+        "currency": "JPY"
+      },
+      "evidence": {
+        "title": "【新品未開封・海外限定】ポケモンカード Prismatic Evolutions",
+        "price": "Independently reviewed visible merchant price: 36666 JPY",
+        "purchase": "売り切れました",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "shipping": "送料込み(出品者負担)",
+        "dispatch": "1~2日で発送"
+      },
+      "baseline": {
+        "title": "【新品未開封・海外限定】ポケモンカード Prismatic Evolutions",
+        "price": 36666,
+        "currency": "JPY",
+        "availability": "sold_out",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "domesticShippingAmount": 0
+      },
+      "previousAutomatedPriceEvidence": null,
+      "priceReviewSource": "Historical agent visible-page review; private capture excluded from public repository",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://jp.mercari.com/item/m78867292599",
+      "discoveryUrl": "https://sazo.kr/detail/dd72ac4d5d01da9ff476c2f49431c529",
+      "platform": "mercari",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/mercari-m78867292599.html",
+      "capturedAt": "2026-09-22T06:39:30.159Z",
+      "captureMethod": "browser",
+      "captureMs": 1619.8857080000162,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "Filofax The Original Midnight Blue m6",
+        "availability": "in_stock",
+        "condition": "目立った傷や汚れなし細かな使用感・傷・汚れはあるが、目立たない",
+        "domesticShippingAmount": 0,
+        "price": 7000,
+        "currency": "JPY"
+      },
+      "evidence": {
+        "title": "Filofax The Original Midnight Blue m6",
+        "price": "Independently reviewed visible merchant price: 7000 JPY",
+        "purchase": "購入手続きへ",
+        "condition": "目立った傷や汚れなし細かな使用感・傷・汚れはあるが、目立たない",
+        "shipping": "送料込み(出品者負担)",
+        "dispatch": "4~7日で発送"
+      },
+      "baseline": {
+        "title": "Filofax The Original Midnight Blue m6",
+        "price": 7000,
+        "currency": "JPY",
+        "availability": "in_stock",
+        "condition": "目立った傷や汚れなし細かな使用感・傷・汚れはあるが、目立たない",
+        "domesticShippingAmount": 0
+      },
+      "previousAutomatedPriceEvidence": null,
+      "priceReviewSource": "Historical agent visible-page review; private capture excluded from public repository",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://jp.mercari.com/item/m89394233407",
+      "discoveryUrl": "https://sazo.kr/detail/a7c388cf2781e126c16e85b52a277941",
+      "platform": "mercari",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/mercari-m89394233407.html",
+      "capturedAt": "2026-09-22T06:39:34.008Z",
+      "captureMethod": "browser",
+      "captureMs": 1347.0319580000069,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "【値下げ 訳あり】ウルトラマンシリーズ ウルトラマンサイン入り色紙 ポスター",
+        "availability": "in_stock",
+        "condition": "全体的に状態が悪い商品の全体に目立つ傷や汚れ、ダメージがある",
+        "domesticShippingAmount": 0,
+        "price": 444,
+        "currency": "JPY"
+      },
+      "evidence": {
+        "title": "【値下げ 訳あり】ウルトラマンシリーズ ウルトラマンサイン入り色紙 ポスター",
+        "price": "Independently reviewed visible merchant price: 444 JPY",
+        "purchase": "購入手続きへ",
+        "condition": "全体的に状態が悪い商品の全体に目立つ傷や汚れ、ダメージがある",
+        "shipping": "送料込み(出品者負担)",
+        "dispatch": "1~2日で発送"
+      },
+      "baseline": {
+        "title": "【値下げ 訳あり】ウルトラマンシリーズ ウルトラマンサイン入り色紙 ポスター",
+        "price": 444,
+        "currency": "JPY",
+        "availability": "in_stock",
+        "condition": "全体的に状態が悪い商品の全体に目立つ傷や汚れ、ダメージがある",
+        "domesticShippingAmount": 0
+      },
+      "previousAutomatedPriceEvidence": null,
+      "priceReviewSource": "Historical agent visible-page review; private capture excluded from public repository",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://jp.mercari.com/item/m93861317043",
+      "discoveryUrl": "https://sazo.kr/detail/7f348886edab08b9177227e7d1a0be53",
+      "platform": "mercari",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/mercari-m93861317043.html",
+      "capturedAt": "2026-09-22T06:39:38.216Z",
+      "captureMethod": "browser",
+      "captureMs": 1705.7713750000112,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "【全9種フルセット】韓国限定 ポケモン 30周年 メガフェスタ マグネットセット",
+        "availability": "in_stock",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "domesticShippingAmount": 0,
+        "price": 36666,
+        "currency": "JPY"
+      },
+      "evidence": {
+        "title": "【全9種フルセット】韓国限定 ポケモン 30周年 メガフェスタ マグネットセット",
+        "price": "Independently reviewed visible merchant price: 36666 JPY",
+        "purchase": "購入手続きへ",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "shipping": "送料込み(出品者負担)",
+        "dispatch": "1~2日で発送"
+      },
+      "baseline": {
+        "title": "【全9種フルセット】韓国限定 ポケモン 30周年 メガフェスタ マグネットセット",
+        "price": 36666,
+        "currency": "JPY",
+        "availability": "in_stock",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "domesticShippingAmount": 0
+      },
+      "previousAutomatedPriceEvidence": null,
+      "priceReviewSource": "Historical agent visible-page review; private capture excluded from public repository",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://jp.mercari.com/item/m70946383899",
+      "discoveryUrl": "https://sazo.kr/detail/de68ec968f7a55dbc5c6f86e22cd580c",
+      "platform": "mercari",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/mercari-m70946383899.html",
+      "capturedAt": "2026-09-22T06:39:43.177Z",
+      "captureMethod": "browser",
+      "captureMs": 2459.3372079999826,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "木兎光太郎 アクリルスタンド ラバーマスコット セット",
+        "availability": "in_stock",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "domesticShippingAmount": 0,
+        "price": 750,
+        "currency": "JPY"
+      },
+      "evidence": {
+        "title": "木兎光太郎 アクリルスタンド ラバーマスコット セット",
+        "price": "Independently reviewed visible merchant price: 750 JPY",
+        "purchase": "購入手続きへ",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "shipping": "送料込み(出品者負担)",
+        "dispatch": "4~7日で発送"
+      },
+      "baseline": {
+        "title": "木兎光太郎 アクリルスタンド ラバーマスコット セット",
+        "price": 750,
+        "currency": "JPY",
+        "availability": "in_stock",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "domesticShippingAmount": 0
+      },
+      "previousAutomatedPriceEvidence": null,
+      "priceReviewSource": "Historical agent visible-page review; private capture excluded from public repository",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://jp.mercari.com/item/m33070322155",
+      "discoveryUrl": "https://sazo.kr/detail/b96bbf31aed68689d6ad789efb21719d",
+      "platform": "mercari",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/mercari-m33070322155.html",
+      "capturedAt": "2026-09-22T06:39:47.077Z",
+      "captureMethod": "browser",
+      "captureMs": 1398.4033330000238,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "超美品 リザードン 30th 拡張パック 30th CELEBRATION",
+        "price": 27800,
+        "currency": "JPY",
+        "availability": "in_stock",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "domesticShippingAmount": 0
+      },
+      "evidence": {
+        "title": "超美品 リザードン 30th 拡張パック 30th CELEBRATION",
+        "price": "Manual source-page review: ¥27,800 under the product heading; ¥2299~ belongs to the separate same-product listings link.",
+        "purchase": "購入手続きへ",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "shipping": "送料込み(出品者負担)",
+        "dispatch": "1~2日で発送"
+      },
+      "baseline": {
+        "title": "超美品 リザードン 30th 拡張パック 30th CELEBRATION",
+        "price": 27800,
+        "currency": "JPY",
+        "availability": "in_stock",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "domesticShippingAmount": 0
+      },
+      "previousAutomatedPriceEvidence": "¥1,700",
+      "priceReviewSource": "Historical agent visible-page review; private capture excluded from public repository",
+      "reviewCorrections": [
+        {
+          "field": "price",
+          "discardedAutomatedRead": 2299,
+          "correctedValue": 27800,
+          "reason": "Waited for actual product price; excluded recommendation/group price."
+        }
+      ],
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://jp.mercari.com/item/m27852637250",
+      "discoveryUrl": "https://sazo.kr/detail/52133c375949d05016b56014be4715c6",
+      "platform": "mercari",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/mercari-m27852637250.html",
+      "capturedAt": "2026-09-22T06:44:03.333Z",
+      "captureMethod": "browser",
+      "captureMs": 2732.2499580000003,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "サンエックスユニバース アフロ犬",
+        "price": 777,
+        "currency": "JPY",
+        "availability": "in_stock",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "domesticShippingAmount": 0
+      },
+      "evidence": {
+        "title": "サンエックスユニバース アフロ犬",
+        "price": "Independently reviewed visible merchant price: 777 JPY",
+        "purchase": "購入手続きへ",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "shipping": "送料込み(出品者負担)",
+        "dispatch": "1~2日で発送"
+      },
+      "baseline": {
+        "title": "サンエックスユニバース アフロ犬",
+        "price": 777,
+        "currency": "JPY",
+        "availability": "in_stock",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "domesticShippingAmount": 0
+      },
+      "previousAutomatedPriceEvidence": "¥777",
+      "priceReviewSource": "Historical agent visible-page review; private capture excluded from public repository",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://jp.mercari.com/item/m81427145588",
+      "discoveryUrl": "https://sazo.kr/detail/465a28d59d6adabdce2c502dd2d2217f",
+      "platform": "mercari",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/mercari-m81427145588.html",
+      "capturedAt": "2026-09-22T06:44:07.628Z",
+      "captureMethod": "browser",
+      "captureMs": 1792.3875420000004,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+        "availability": "sold_out",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "domesticShippingAmount": 0,
+        "price": 19800,
+        "currency": "JPY"
+      },
+      "evidence": {
+        "title": "30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+        "price": "Independently reviewed visible merchant price: 19800 JPY",
+        "purchase": "売り切れました",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "shipping": "送料込み(出品者負担)",
+        "dispatch": "1~2日で発送"
+      },
+      "baseline": {
+        "title": "30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+        "price": 19800,
+        "currency": "JPY",
+        "availability": "sold_out",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "domesticShippingAmount": 0
+      },
+      "previousAutomatedPriceEvidence": null,
+      "priceReviewSource": "Historical agent visible-page review; private capture excluded from public repository",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://jp.mercari.com/item/m99031876683",
+      "discoveryUrl": "https://sazo.kr/detail/53c5ddb8260d910fe7fce4e9ad128312",
+      "platform": "mercari",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/mercari-m99031876683.html",
+      "capturedAt": "2026-09-22T06:44:13.438Z",
+      "captureMethod": "browser",
+      "captureMs": 3307.024125,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "Marba Cameo レディース 腕時計 クォーツ",
+        "availability": "in_stock",
+        "condition": "やや傷や汚れあり目につく傷や汚れがある",
+        "domesticShippingAmount": 0,
+        "price": 5850,
+        "currency": "JPY"
+      },
+      "evidence": {
+        "title": "Marba Cameo レディース 腕時計 クォーツ",
+        "price": "Independently reviewed visible merchant price: 5850 JPY",
+        "purchase": "購入手続きへ",
+        "condition": "やや傷や汚れあり目につく傷や汚れがある",
+        "shipping": "送料込み(出品者負担)",
+        "dispatch": "1~2日で発送"
+      },
+      "baseline": {
+        "title": "Marba Cameo レディース 腕時計 クォーツ",
+        "price": 5850,
+        "currency": "JPY",
+        "availability": "in_stock",
+        "condition": "やや傷や汚れあり目につく傷や汚れがある",
+        "domesticShippingAmount": 0
+      },
+      "previousAutomatedPriceEvidence": null,
+      "priceReviewSource": "Historical agent visible-page review; private capture excluded from public repository",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://jp.mercari.com/item/m92567855567",
+      "discoveryUrl": "https://sazo.kr/detail/32b3e4d394a344f4b12f32fb2943f25c",
+      "platform": "mercari",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/mercari-m92567855567.html",
+      "capturedAt": "2026-09-22T06:44:17.484Z",
+      "captureMethod": "browser",
+      "captureMs": 1543.4144160000014,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "ポケモンカードゲーム スタートデッキ100 5個セット",
+        "availability": "in_stock",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "domesticShippingAmount": 0,
+        "price": 6280,
+        "currency": "JPY"
+      },
+      "evidence": {
+        "title": "ポケモンカードゲーム スタートデッキ100 5個セット",
+        "price": "Independently reviewed visible merchant price: 6280 JPY",
+        "purchase": "購入手続きへ",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "shipping": "送料込み(出品者負担)",
+        "dispatch": "1~2日で発送"
+      },
+      "baseline": {
+        "title": "ポケモンカードゲーム スタートデッキ100 5個セット",
+        "price": 6280,
+        "currency": "JPY",
+        "availability": "in_stock",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "domesticShippingAmount": 0
+      },
+      "previousAutomatedPriceEvidence": null,
+      "priceReviewSource": "Historical agent visible-page review; private capture excluded from public repository",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://jp.mercari.com/item/m77831768007",
+      "discoveryUrl": "https://sazo.kr/detail/ed44526419871f3a5f52be19db875e9f",
+      "platform": "mercari",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/mercari-m77831768007.html",
+      "capturedAt": "2026-09-22T06:44:21.306Z",
+      "captureMethod": "browser",
+      "captureMs": 1319.6187500000015,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "セガラッキーくじ 名探偵コナン ぬいぐるみ バッジ 怪盗キッド ストラップ 6点",
+        "price": 850,
+        "currency": "JPY",
+        "availability": "sold_out",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "domesticShippingAmount": 0
+      },
+      "evidence": {
+        "title": "セガラッキーくじ 名探偵コナン ぬいぐるみ バッジ 怪盗キッド ストラップ 6点",
+        "price": "Independently reviewed visible merchant price: 850 JPY",
+        "purchase": "売り切れました",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "shipping": "送料込み(出品者負担)",
+        "dispatch": "2~3日で発送"
+      },
+      "baseline": {
+        "title": "セガラッキーくじ 名探偵コナン ぬいぐるみ バッジ 怪盗キッド ストラップ 6点",
+        "price": 850,
+        "currency": "JPY",
+        "availability": "sold_out",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "domesticShippingAmount": 0
+      },
+      "previousAutomatedPriceEvidence": "¥215",
+      "priceReviewSource": "Historical agent visible-page review; private capture excluded from public repository",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://jp.mercari.com/item/m90598788572",
+      "discoveryUrl": "https://sazo.kr/detail/5fc18dad7dd8db61746687208a817b29",
+      "platform": "mercari",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/mercari-m90598788572.html",
+      "capturedAt": "2026-09-22T06:44:26.310Z",
+      "captureMethod": "browser",
+      "captureMs": 2501.3156249999993,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "miffy ミッフィー 花柄 半袖ワンピース",
+        "availability": "in_stock",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "domesticShippingAmount": 0,
+        "price": 1299,
+        "currency": "JPY"
+      },
+      "evidence": {
+        "title": "miffy ミッフィー 花柄 半袖ワンピース",
+        "price": "Independently reviewed visible merchant price: 1299 JPY",
+        "purchase": "購入手続きへ",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "shipping": "送料込み(出品者負担)",
+        "dispatch": "4~7日で発送"
+      },
+      "baseline": {
+        "title": "miffy ミッフィー 花柄 半袖ワンピース",
+        "price": 1299,
+        "currency": "JPY",
+        "availability": "in_stock",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "domesticShippingAmount": 0
+      },
+      "previousAutomatedPriceEvidence": null,
+      "priceReviewSource": "Historical agent visible-page review; private capture excluded from public repository",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    },
+    {
+      "url": "https://jp.mercari.com/item/m87809052320",
+      "discoveryUrl": "https://sazo.kr/detail/8b4ab9228a745eb698f10154280e09fb",
+      "platform": "mercari",
+      "htmlPath": "test/fixtures/reviewed-2026-09-22/mercari-m87809052320.html",
+      "capturedAt": "2026-09-22T06:44:30.574Z",
+      "captureMethod": "browser",
+      "captureMs": 1762.0913330000003,
+      "reviewerType": "agent",
+      "reviewStatus": "approved",
+      "expected": {
+        "title": "ちいかわ ぬいぐるみ 超bigラッコ",
+        "availability": "in_stock",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "domesticShippingAmount": 0,
+        "price": 2800,
+        "currency": "JPY"
+      },
+      "evidence": {
+        "title": "ちいかわ ぬいぐるみ 超bigラッコ",
+        "price": "Independently reviewed visible merchant price: 2800 JPY",
+        "purchase": "購入手続きへ",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "shipping": "送料込み(出品者負担)",
+        "dispatch": "1~2日で発送"
+      },
+      "baseline": {
+        "title": "ちいかわ ぬいぐるみ 超bigラッコ",
+        "price": 2800,
+        "currency": "JPY",
+        "availability": "in_stock",
+        "condition": "新品、未使用新品で購入し、一度も使用していない",
+        "domesticShippingAmount": 0
+      },
+      "previousAutomatedPriceEvidence": null,
+      "priceReviewSource": "Historical agent visible-page review; private capture excluded from public repository",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-22T06:50:18.485Z"
+    }
+  ]
+}

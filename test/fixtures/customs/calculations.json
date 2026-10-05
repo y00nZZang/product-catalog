@@ -1,0 +1,1047 @@
+{
+  "kind": "synthetic_calculation_golden_cases",
+  "checkedAt": "2026-09-30",
+  "notes": "Synthetic currency/price inputs. Expected values are independently specified basic-rate scenario arithmetic, not official assessed taxes.",
+  "cases": [
+    {
+      "id": "usd-under",
+      "input": {
+        "profile": "toy",
+        "confirmed": true,
+        "observationId": "00000000-0000-4000-8000-000000000001",
+        "classificationId": "00000000-0000-4000-8000-000000000002",
+        "route": "express",
+        "personalUse": true,
+        "currency": "USD",
+        "goods": "149.99",
+        "domestic": "0",
+        "international": "0",
+        "insurance": "0",
+        "additions": "0",
+        "shippingSeparated": true,
+        "fx": {
+          "jpyToKrw": "10",
+          "usdToKrw": "1000",
+          "validFrom": "2026-09-27",
+          "validTo": "2026-10-03",
+          "referenceDate": "2026-09-30"
+        },
+        "alcohol": {
+          "bottles": 1,
+          "mlPerBottle": 750,
+          "abv": 40
+        }
+      },
+      "expected": {
+        "status": "estimated_basic_scenario",
+        "totalTaxKrw": 0,
+        "exemption": true
+      }
+    },
+    {
+      "id": "usd-exact",
+      "input": {
+        "profile": "toy",
+        "confirmed": true,
+        "observationId": "00000000-0000-4000-8000-000000000001",
+        "classificationId": "00000000-0000-4000-8000-000000000002",
+        "route": "express",
+        "personalUse": true,
+        "currency": "USD",
+        "goods": "150",
+        "domestic": "0",
+        "international": "0",
+        "insurance": "0",
+        "additions": "0",
+        "shippingSeparated": true,
+        "fx": {
+          "jpyToKrw": "10",
+          "usdToKrw": "1000",
+          "validFrom": "2026-09-27",
+          "validTo": "2026-10-03",
+          "referenceDate": "2026-09-30"
+        },
+        "alcohol": {
+          "bottles": 1,
+          "mlPerBottle": 750,
+          "abv": 40
+        }
+      },
+      "expected": {
+        "status": "estimated_basic_scenario",
+        "totalTaxKrw": 0,
+        "exemption": true
+      }
+    },
+    {
+      "id": "usd-over",
+      "input": {
+        "profile": "toy",
+        "confirmed": true,
+        "observationId": "00000000-0000-4000-8000-000000000001",
+        "classificationId": "00000000-0000-4000-8000-000000000002",
+        "route": "express",
+        "personalUse": true,
+        "currency": "USD",
+        "goods": "150.01",
+        "domestic": "0",
+        "international": "0",
+        "insurance": "0",
+        "additions": "0",
+        "shippingSeparated": true,
+        "fx": {
+          "jpyToKrw": "10",
+          "usdToKrw": "1000",
+          "validFrom": "2026-09-27",
+          "validTo": "2026-10-03",
+          "referenceDate": "2026-09-30"
+        },
+        "alcohol": {
+          "bottles": 1,
+          "mlPerBottle": 750,
+          "abv": 40
+        }
+      },
+      "expected": {
+        "status": "estimated_basic_scenario",
+        "totalTaxKrw": 28201,
+        "exemption": false
+      }
+    },
+    {
+      "id": "domestic-crosses",
+      "input": {
+        "profile": "toy",
+        "confirmed": true,
+        "observationId": "00000000-0000-4000-8000-000000000001",
+        "classificationId": "00000000-0000-4000-8000-000000000002",
+        "route": "express",
+        "personalUse": true,
+        "currency": "USD",
+        "goods": "149",
+        "domestic": "2",
+        "international": "0",
+        "insurance": "0",
+        "additions": "0",
+        "shippingSeparated": true,
+        "fx": {
+          "jpyToKrw": "10",
+          "usdToKrw": "1000",
+          "validFrom": "2026-09-27",
+          "validTo": "2026-10-03",
+          "referenceDate": "2026-09-30"
+        },
+        "alcohol": {
+          "bottles": 1,
+          "mlPerBottle": 750,
+          "abv": 40
+        }
+      },
+      "expected": {
+        "status": "estimated_basic_scenario",
+        "totalTaxKrw": 28388,
+        "exemption": false
+      }
+    },
+    {
+      "id": "freight-separated",
+      "input": {
+        "profile": "toy",
+        "confirmed": true,
+        "observationId": "00000000-0000-4000-8000-000000000001",
+        "classificationId": "00000000-0000-4000-8000-000000000002",
+        "route": "express",
+        "personalUse": true,
+        "currency": "USD",
+        "goods": "149",
+        "domestic": "0",
+        "international": "100",
+        "insurance": "0",
+        "additions": "0",
+        "shippingSeparated": true,
+        "fx": {
+          "jpyToKrw": "10",
+          "usdToKrw": "1000",
+          "validFrom": "2026-09-27",
+          "validTo": "2026-10-03",
+          "referenceDate": "2026-09-30"
+        },
+        "alcohol": {
+          "bottles": 1,
+          "mlPerBottle": 750,
+          "abv": 40
+        }
+      },
+      "expected": {
+        "status": "estimated_basic_scenario",
+        "totalTaxKrw": 0,
+        "exemption": true
+      }
+    },
+    {
+      "id": "freight-unseparated",
+      "input": {
+        "profile": "toy",
+        "confirmed": true,
+        "observationId": "00000000-0000-4000-8000-000000000001",
+        "classificationId": "00000000-0000-4000-8000-000000000002",
+        "route": "express",
+        "personalUse": true,
+        "currency": "USD",
+        "goods": "149",
+        "domestic": "0",
+        "international": "100",
+        "insurance": "0",
+        "additions": "0",
+        "shippingSeparated": false,
+        "fx": {
+          "jpyToKrw": "10",
+          "usdToKrw": "1000",
+          "validFrom": "2026-09-27",
+          "validTo": "2026-10-03",
+          "referenceDate": "2026-09-30"
+        },
+        "alcohol": {
+          "bottles": 1,
+          "mlPerBottle": 750,
+          "abv": 40
+        }
+      },
+      "expected": {
+        "status": "estimated_basic_scenario",
+        "totalTaxKrw": 46812,
+        "exemption": false
+      }
+    },
+    {
+      "id": "shoes-basic",
+      "input": {
+        "profile": "shoes",
+        "confirmed": true,
+        "observationId": "00000000-0000-4000-8000-000000000001",
+        "classificationId": "00000000-0000-4000-8000-000000000002",
+        "route": "express",
+        "personalUse": true,
+        "currency": "USD",
+        "goods": "200",
+        "domestic": "0",
+        "international": "0",
+        "insurance": "0",
+        "additions": "0",
+        "shippingSeparated": true,
+        "fx": {
+          "jpyToKrw": "10",
+          "usdToKrw": "1000",
+          "validFrom": "2026-09-27",
+          "validTo": "2026-10-03",
+          "referenceDate": "2026-09-30"
+        },
+        "alcohol": {
+          "bottles": 1,
+          "mlPerBottle": 750,
+          "abv": 40
+        }
+      },
+      "expected": {
+        "status": "estimated_basic_scenario",
+        "totalTaxKrw": 48600,
+        "exemption": false
+      }
+    },
+    {
+      "id": "shampoo-basic",
+      "input": {
+        "profile": "shampoo",
+        "confirmed": true,
+        "observationId": "00000000-0000-4000-8000-000000000001",
+        "classificationId": "00000000-0000-4000-8000-000000000002",
+        "route": "express",
+        "personalUse": true,
+        "currency": "USD",
+        "goods": "200",
+        "domestic": "0",
+        "international": "0",
+        "insurance": "0",
+        "additions": "0",
+        "shippingSeparated": true,
+        "fx": {
+          "jpyToKrw": "10",
+          "usdToKrw": "1000",
+          "validFrom": "2026-09-27",
+          "validTo": "2026-10-03",
+          "referenceDate": "2026-09-30"
+        },
+        "alcohol": {
+          "bottles": 1,
+          "mlPerBottle": 750,
+          "abv": 40
+        }
+      },
+      "expected": {
+        "status": "estimated_basic_scenario",
+        "totalTaxKrw": 31000,
+        "exemption": false
+      }
+    },
+    {
+      "id": "bedsheet-basic",
+      "input": {
+        "profile": "bedsheet",
+        "confirmed": true,
+        "observationId": "00000000-0000-4000-8000-000000000001",
+        "classificationId": "00000000-0000-4000-8000-000000000002",
+        "route": "express",
+        "personalUse": true,
+        "currency": "USD",
+        "goods": "200",
+        "domestic": "0",
+        "international": "0",
+        "insurance": "0",
+        "additions": "0",
+        "shippingSeparated": true,
+        "fx": {
+          "jpyToKrw": "10",
+          "usdToKrw": "1000",
+          "validFrom": "2026-09-27",
+          "validTo": "2026-10-03",
+          "referenceDate": "2026-09-30"
+        },
+        "alcohol": {
+          "bottles": 1,
+          "mlPerBottle": 750,
+          "abv": 40
+        }
+      },
+      "expected": {
+        "status": "estimated_basic_scenario",
+        "totalTaxKrw": 42000,
+        "exemption": false
+      }
+    },
+    {
+      "id": "camera-zero-duty",
+      "input": {
+        "profile": "digital_camera",
+        "confirmed": true,
+        "observationId": "00000000-0000-4000-8000-000000000001",
+        "classificationId": "00000000-0000-4000-8000-000000000002",
+        "route": "express",
+        "personalUse": true,
+        "currency": "USD",
+        "goods": "200",
+        "domestic": "0",
+        "international": "0",
+        "insurance": "0",
+        "additions": "0",
+        "shippingSeparated": true,
+        "fx": {
+          "jpyToKrw": "10",
+          "usdToKrw": "1000",
+          "validFrom": "2026-09-27",
+          "validTo": "2026-10-03",
+          "referenceDate": "2026-09-30"
+        },
+        "alcohol": {
+          "bottles": 1,
+          "mlPerBottle": 750,
+          "abv": 40
+        }
+      },
+      "expected": {
+        "status": "estimated_basic_scenario",
+        "totalTaxKrw": 20000,
+        "exemption": false
+      }
+    },
+    {
+      "id": "whisky-high",
+      "input": {
+        "profile": "whisky",
+        "confirmed": true,
+        "observationId": "00000000-0000-4000-8000-000000000001",
+        "classificationId": "00000000-0000-4000-8000-000000000002",
+        "route": "express",
+        "personalUse": true,
+        "currency": "USD",
+        "goods": "200",
+        "domestic": "0",
+        "international": "0",
+        "insurance": "0",
+        "additions": "0",
+        "shippingSeparated": true,
+        "fx": {
+          "jpyToKrw": "10",
+          "usdToKrw": "1000",
+          "validFrom": "2026-09-27",
+          "validTo": "2026-10-03",
+          "referenceDate": "2026-09-30"
+        },
+        "alcohol": {
+          "bottles": 1,
+          "mlPerBottle": 750,
+          "abv": 40
+        }
+      },
+      "expected": {
+        "status": "estimated_basic_scenario",
+        "totalTaxKrw": 353696,
+        "exemption": false
+      }
+    },
+    {
+      "id": "brandy-high",
+      "input": {
+        "profile": "brandy",
+        "confirmed": true,
+        "observationId": "00000000-0000-4000-8000-000000000001",
+        "classificationId": "00000000-0000-4000-8000-000000000002",
+        "route": "express",
+        "personalUse": true,
+        "currency": "USD",
+        "goods": "200",
+        "domestic": "0",
+        "international": "0",
+        "insurance": "0",
+        "additions": "0",
+        "shippingSeparated": true,
+        "fx": {
+          "jpyToKrw": "10",
+          "usdToKrw": "1000",
+          "validFrom": "2026-09-27",
+          "validTo": "2026-10-03",
+          "referenceDate": "2026-09-30"
+        },
+        "alcohol": {
+          "bottles": 1,
+          "mlPerBottle": 750,
+          "abv": 40
+        }
+      },
+      "expected": {
+        "status": "estimated_basic_scenario",
+        "totalTaxKrw": 353696,
+        "exemption": false
+      }
+    },
+    {
+      "id": "wine-low-freight",
+      "input": {
+        "profile": "wine",
+        "confirmed": true,
+        "observationId": "00000000-0000-4000-8000-000000000001",
+        "classificationId": "00000000-0000-4000-8000-000000000002",
+        "route": "express",
+        "personalUse": true,
+        "currency": "USD",
+        "goods": "100",
+        "domestic": "0",
+        "international": "20",
+        "insurance": "0",
+        "additions": "0",
+        "shippingSeparated": true,
+        "fx": {
+          "jpyToKrw": "10",
+          "usdToKrw": "1000",
+          "validFrom": "2026-09-27",
+          "validTo": "2026-10-03",
+          "referenceDate": "2026-09-30"
+        },
+        "alcohol": {
+          "bottles": 1,
+          "mlPerBottle": 750,
+          "abv": 40
+        }
+      },
+      "expected": {
+        "status": "estimated_basic_scenario",
+        "totalTaxKrw": 39600,
+        "exemption": true
+      }
+    },
+    {
+      "id": "wine-exact-with-freight",
+      "input": {
+        "profile": "wine",
+        "confirmed": true,
+        "observationId": "00000000-0000-4000-8000-000000000001",
+        "classificationId": "00000000-0000-4000-8000-000000000002",
+        "route": "express",
+        "personalUse": true,
+        "currency": "USD",
+        "goods": "150",
+        "domestic": "0",
+        "international": "50",
+        "insurance": "0",
+        "additions": "0",
+        "shippingSeparated": true,
+        "fx": {
+          "jpyToKrw": "10",
+          "usdToKrw": "1000",
+          "validFrom": "2026-09-27",
+          "validTo": "2026-10-03",
+          "referenceDate": "2026-09-30"
+        },
+        "alcohol": {
+          "bottles": 1,
+          "mlPerBottle": 750,
+          "abv": 40
+        }
+      },
+      "expected": {
+        "status": "estimated_basic_scenario",
+        "totalTaxKrw": 66000,
+        "exemption": true
+      }
+    },
+    {
+      "id": "wine-two-bottles",
+      "input": {
+        "profile": "wine",
+        "confirmed": true,
+        "observationId": "00000000-0000-4000-8000-000000000001",
+        "classificationId": "00000000-0000-4000-8000-000000000002",
+        "route": "express",
+        "personalUse": true,
+        "currency": "USD",
+        "goods": "100",
+        "domestic": "0",
+        "international": "0",
+        "insurance": "0",
+        "additions": "0",
+        "shippingSeparated": true,
+        "fx": {
+          "jpyToKrw": "10",
+          "usdToKrw": "1000",
+          "validFrom": "2026-09-27",
+          "validTo": "2026-10-03",
+          "referenceDate": "2026-09-30"
+        },
+        "alcohol": {
+          "bottles": 2,
+          "mlPerBottle": 750,
+          "abv": 14
+        }
+      },
+      "expected": {
+        "status": "estimated_basic_scenario",
+        "totalTaxKrw": 90190,
+        "exemption": false
+      }
+    },
+    {
+      "id": "wine-exact-litre",
+      "input": {
+        "profile": "wine",
+        "confirmed": true,
+        "observationId": "00000000-0000-4000-8000-000000000001",
+        "classificationId": "00000000-0000-4000-8000-000000000002",
+        "route": "express",
+        "personalUse": true,
+        "currency": "USD",
+        "goods": "100",
+        "domestic": "0",
+        "international": "0",
+        "insurance": "0",
+        "additions": "0",
+        "shippingSeparated": true,
+        "fx": {
+          "jpyToKrw": "10",
+          "usdToKrw": "1000",
+          "validFrom": "2026-09-27",
+          "validTo": "2026-10-03",
+          "referenceDate": "2026-09-30"
+        },
+        "alcohol": {
+          "bottles": 1,
+          "mlPerBottle": 1000,
+          "abv": 14
+        }
+      },
+      "expected": {
+        "status": "estimated_basic_scenario",
+        "totalTaxKrw": 33000,
+        "exemption": true
+      }
+    },
+    {
+      "id": "wine-over-litre",
+      "input": {
+        "profile": "wine",
+        "confirmed": true,
+        "observationId": "00000000-0000-4000-8000-000000000001",
+        "classificationId": "00000000-0000-4000-8000-000000000002",
+        "route": "express",
+        "personalUse": true,
+        "currency": "USD",
+        "goods": "100",
+        "domestic": "0",
+        "international": "0",
+        "insurance": "0",
+        "additions": "0",
+        "shippingSeparated": true,
+        "fx": {
+          "jpyToKrw": "10",
+          "usdToKrw": "1000",
+          "validFrom": "2026-09-27",
+          "validTo": "2026-10-03",
+          "referenceDate": "2026-09-30"
+        },
+        "alcohol": {
+          "bottles": 1,
+          "mlPerBottle": 1001,
+          "abv": 14
+        }
+      },
+      "expected": {
+        "status": "estimated_basic_scenario",
+        "totalTaxKrw": 90190,
+        "exemption": false
+      }
+    },
+    {
+      "id": "jpy-exact",
+      "input": {
+        "profile": "toy",
+        "confirmed": true,
+        "observationId": "00000000-0000-4000-8000-000000000001",
+        "classificationId": "00000000-0000-4000-8000-000000000002",
+        "route": "express",
+        "personalUse": true,
+        "currency": "JPY",
+        "goods": "15000",
+        "domestic": "0",
+        "international": "0",
+        "insurance": "0",
+        "additions": "0",
+        "shippingSeparated": true,
+        "fx": {
+          "jpyToKrw": "10",
+          "usdToKrw": "1000",
+          "validFrom": "2026-09-27",
+          "validTo": "2026-10-03",
+          "referenceDate": "2026-09-30"
+        },
+        "alcohol": {
+          "bottles": 1,
+          "mlPerBottle": 750,
+          "abv": 40
+        }
+      },
+      "expected": {
+        "status": "estimated_basic_scenario",
+        "totalTaxKrw": 0,
+        "exemption": true
+      }
+    },
+    {
+      "id": "jpy-over",
+      "input": {
+        "profile": "toy",
+        "confirmed": true,
+        "observationId": "00000000-0000-4000-8000-000000000001",
+        "classificationId": "00000000-0000-4000-8000-000000000002",
+        "route": "express",
+        "personalUse": true,
+        "currency": "JPY",
+        "goods": "15000.01",
+        "domestic": "0",
+        "international": "0",
+        "insurance": "0",
+        "additions": "0",
+        "shippingSeparated": true,
+        "fx": {
+          "jpyToKrw": "10",
+          "usdToKrw": "1000",
+          "validFrom": "2026-09-27",
+          "validTo": "2026-10-03",
+          "referenceDate": "2026-09-30"
+        },
+        "alcohol": {
+          "bottles": 1,
+          "mlPerBottle": 750,
+          "abv": 40
+        }
+      },
+      "expected": {
+        "status": "estimated_basic_scenario",
+        "totalTaxKrw": 28200,
+        "exemption": false
+      }
+    },
+    {
+      "id": "krw-exact",
+      "input": {
+        "profile": "toy",
+        "confirmed": true,
+        "observationId": "00000000-0000-4000-8000-000000000001",
+        "classificationId": "00000000-0000-4000-8000-000000000002",
+        "route": "express",
+        "personalUse": true,
+        "currency": "KRW",
+        "goods": "150000",
+        "domestic": "0",
+        "international": "0",
+        "insurance": "0",
+        "additions": "0",
+        "shippingSeparated": true,
+        "fx": {
+          "jpyToKrw": "10",
+          "usdToKrw": "1000",
+          "validFrom": "2026-09-27",
+          "validTo": "2026-10-03",
+          "referenceDate": "2026-09-30"
+        },
+        "alcohol": {
+          "bottles": 1,
+          "mlPerBottle": 750,
+          "abv": 40
+        }
+      },
+      "expected": {
+        "status": "estimated_basic_scenario",
+        "totalTaxKrw": 0,
+        "exemption": true
+      }
+    },
+    {
+      "id": "postal",
+      "input": {
+        "profile": "toy",
+        "confirmed": true,
+        "observationId": "00000000-0000-4000-8000-000000000001",
+        "classificationId": "00000000-0000-4000-8000-000000000002",
+        "route": "postal",
+        "personalUse": true,
+        "currency": "USD",
+        "goods": "200",
+        "domestic": "0",
+        "international": "0",
+        "insurance": "0",
+        "additions": "0",
+        "shippingSeparated": true,
+        "fx": {
+          "jpyToKrw": "10",
+          "usdToKrw": "1000",
+          "validFrom": "2026-09-27",
+          "validTo": "2026-10-03",
+          "referenceDate": "2026-09-30"
+        },
+        "alcohol": {
+          "bottles": 1,
+          "mlPerBottle": 750,
+          "abv": 40
+        }
+      },
+      "expected": {
+        "status": "needs_review",
+        "totalTaxKrw": null,
+        "exemption": null
+      }
+    },
+    {
+      "id": "book-low",
+      "input": {
+        "profile": "catalog_248",
+        "confirmed": true,
+        "observationId": "00000000-0000-4000-8000-000000000001",
+        "classificationId": "00000000-0000-4000-8000-000000000002",
+        "route": "express",
+        "personalUse": true,
+        "currency": "USD",
+        "goods": "10",
+        "domestic": "0",
+        "international": "0",
+        "insurance": "0",
+        "additions": "0",
+        "shippingSeparated": true,
+        "fx": {
+          "jpyToKrw": "10",
+          "usdToKrw": "1000",
+          "validFrom": "2026-09-27",
+          "validTo": "2026-10-03",
+          "referenceDate": "2026-09-30"
+        },
+        "alcohol": {
+          "bottles": 1,
+          "mlPerBottle": 750,
+          "abv": 40
+        }
+      },
+      "expected": {
+        "status": "needs_review",
+        "totalTaxKrw": null,
+        "exemption": null
+      }
+    },
+    {
+      "id": "camera-high",
+      "input": {
+        "profile": "digital_camera",
+        "confirmed": true,
+        "observationId": "00000000-0000-4000-8000-000000000001",
+        "classificationId": "00000000-0000-4000-8000-000000000002",
+        "route": "express",
+        "personalUse": true,
+        "currency": "USD",
+        "goods": "2000.01",
+        "domestic": "0",
+        "international": "0",
+        "insurance": "0",
+        "additions": "0",
+        "shippingSeparated": true,
+        "fx": {
+          "jpyToKrw": "10",
+          "usdToKrw": "1000",
+          "validFrom": "2026-09-27",
+          "validTo": "2026-10-03",
+          "referenceDate": "2026-09-30"
+        },
+        "alcohol": {
+          "bottles": 1,
+          "mlPerBottle": 750,
+          "abv": 40
+        }
+      },
+      "expected": {
+        "status": "needs_review",
+        "totalTaxKrw": null,
+        "exemption": null
+      }
+    },
+    {
+      "id": "missing-alcohol",
+      "input": {
+        "profile": "wine",
+        "confirmed": true,
+        "observationId": "00000000-0000-4000-8000-000000000001",
+        "classificationId": "00000000-0000-4000-8000-000000000002",
+        "route": "express",
+        "personalUse": true,
+        "currency": "USD",
+        "goods": "200",
+        "domestic": "0",
+        "international": "0",
+        "insurance": "0",
+        "additions": "0",
+        "shippingSeparated": true,
+        "fx": {
+          "jpyToKrw": "10",
+          "usdToKrw": "1000",
+          "validFrom": "2026-09-27",
+          "validTo": "2026-10-03",
+          "referenceDate": "2026-09-30"
+        },
+        "alcohol": null
+      },
+      "expected": {
+        "status": "needs_review",
+        "totalTaxKrw": null,
+        "exemption": null
+      }
+    },
+    {
+      "id": "low-abv",
+      "input": {
+        "profile": "wine",
+        "confirmed": true,
+        "observationId": "00000000-0000-4000-8000-000000000001",
+        "classificationId": "00000000-0000-4000-8000-000000000002",
+        "route": "express",
+        "personalUse": true,
+        "currency": "USD",
+        "goods": "200",
+        "domestic": "0",
+        "international": "0",
+        "insurance": "0",
+        "additions": "0",
+        "shippingSeparated": true,
+        "fx": {
+          "jpyToKrw": "10",
+          "usdToKrw": "1000",
+          "validFrom": "2026-09-27",
+          "validTo": "2026-10-03",
+          "referenceDate": "2026-09-30"
+        },
+        "alcohol": {
+          "bottles": 1,
+          "mlPerBottle": 750,
+          "abv": 8.5
+        }
+      },
+      "expected": {
+        "status": "needs_review",
+        "totalTaxKrw": null,
+        "exemption": null
+      }
+    },
+    {
+      "id": "zero-rate",
+      "input": {
+        "profile": "toy",
+        "confirmed": true,
+        "observationId": "00000000-0000-4000-8000-000000000001",
+        "classificationId": "00000000-0000-4000-8000-000000000002",
+        "route": "express",
+        "personalUse": true,
+        "currency": "USD",
+        "goods": "200",
+        "domestic": "0",
+        "international": "0",
+        "insurance": "0",
+        "additions": "0",
+        "shippingSeparated": true,
+        "fx": {
+          "jpyToKrw": "10",
+          "usdToKrw": "0",
+          "validFrom": "2026-09-27",
+          "validTo": "2026-10-03",
+          "referenceDate": "2026-09-30"
+        },
+        "alcohol": {
+          "bottles": 1,
+          "mlPerBottle": 750,
+          "abv": 40
+        }
+      },
+      "expected": {
+        "status": "needs_review",
+        "totalTaxKrw": null,
+        "exemption": null
+      }
+    },
+    {
+      "id": "stale-period",
+      "input": {
+        "profile": "toy",
+        "confirmed": true,
+        "observationId": "00000000-0000-4000-8000-000000000001",
+        "classificationId": "00000000-0000-4000-8000-000000000002",
+        "route": "express",
+        "personalUse": true,
+        "currency": "USD",
+        "goods": "200",
+        "domestic": "0",
+        "international": "0",
+        "insurance": "0",
+        "additions": "0",
+        "shippingSeparated": true,
+        "fx": {
+          "jpyToKrw": "10",
+          "usdToKrw": "1000",
+          "validFrom": "2026-09-27",
+          "validTo": "2026-10-03",
+          "referenceDate": "2026-10-04"
+        },
+        "alcohol": {
+          "bottles": 1,
+          "mlPerBottle": 750,
+          "abv": 40
+        }
+      },
+      "expected": {
+        "status": "needs_review",
+        "totalTaxKrw": null,
+        "exemption": null
+      }
+    },
+    {
+      "id": "negative-price",
+      "input": {
+        "profile": "toy",
+        "confirmed": true,
+        "observationId": "00000000-0000-4000-8000-000000000001",
+        "classificationId": "00000000-0000-4000-8000-000000000002",
+        "route": "express",
+        "personalUse": true,
+        "currency": "USD",
+        "goods": "-1",
+        "domestic": "0",
+        "international": "0",
+        "insurance": "0",
+        "additions": "0",
+        "shippingSeparated": true,
+        "fx": {
+          "jpyToKrw": "10",
+          "usdToKrw": "1000",
+          "validFrom": "2026-09-27",
+          "validTo": "2026-10-03",
+          "referenceDate": "2026-09-30"
+        },
+        "alcohol": {
+          "bottles": 1,
+          "mlPerBottle": 750,
+          "abv": 40
+        }
+      },
+      "expected": {
+        "invalid": true
+      }
+    },
+    {
+      "id": "invalid-date",
+      "input": {
+        "profile": "toy",
+        "confirmed": true,
+        "observationId": "00000000-0000-4000-8000-000000000001",
+        "classificationId": "00000000-0000-4000-8000-000000000002",
+        "route": "express",
+        "personalUse": true,
+        "currency": "USD",
+        "goods": "200",
+        "domestic": "0",
+        "international": "0",
+        "insurance": "0",
+        "additions": "0",
+        "shippingSeparated": true,
+        "fx": {
+          "jpyToKrw": "10",
+          "usdToKrw": "1000",
+          "validFrom": "2026-09-27",
+          "validTo": "2026-10-03",
+          "referenceDate": "2026-02-30"
+        },
+        "alcohol": {
+          "bottles": 1,
+          "mlPerBottle": 750,
+          "abv": 40
+        }
+      },
+      "expected": {
+        "invalid": true
+      }
+    },
+    {
+      "id": "unknown-profile",
+      "input": {
+        "profile": "unregistered",
+        "confirmed": true,
+        "observationId": "00000000-0000-4000-8000-000000000001",
+        "classificationId": "00000000-0000-4000-8000-000000000002",
+        "route": "express",
+        "personalUse": true,
+        "currency": "USD",
+        "goods": "200",
+        "domestic": "0",
+        "international": "0",
+        "insurance": "0",
+        "additions": "0",
+        "shippingSeparated": true,
+        "fx": {
+          "jpyToKrw": "10",
+          "usdToKrw": "1000",
+          "validFrom": "2026-09-27",
+          "validTo": "2026-10-03",
+          "referenceDate": "2026-09-30"
+        },
+        "alcohol": {
+          "bottles": 1,
+          "mlPerBottle": 750,
+          "abv": 40
+        }
+      },
+      "expected": {
+        "invalid": true
+      }
+    }
+  ]
+}

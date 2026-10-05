@@ -1,0 +1,78 @@
+name: product-catalog
+x-app: &app
+  image: catalog-app:${RELEASE_TAG:?release required}
+  build: ..
+  init: true
+  logging: {driver: json-file, options: {max-size: 10m, max-file: "3"}}
+services:
+  db:
+    image: postgres:17-bookworm
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: catalog
+      POSTGRES_USER: catalog
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?password required}
+    volumes: [catalog-data:/var/lib/postgresql/data]
+    healthcheck:
+      test: [CMD-SHELL, pg_isready -U catalog -d catalog]
+      interval: 5s
+      retries: 30
+    mem_limit: 384m
+  migrate:
+    <<: *app
+    command: [node, scripts/database/migrate-container.cjs]
+    environment:
+      DATABASE_URL: postgresql://catalog:${POSTGRES_PASSWORD}@db:5432/catalog
+    depends_on:
+      db: {condition: service_healthy}
+  api:
+    <<: *app
+    restart: unless-stopped
+    environment:
+      DATABASE_URL: postgresql://catalog:${POSTGRES_PASSWORD}@db:5432/catalog
+      HOST: 0.0.0.0
+      TRUST_PROXY: "true"
+      CATALOG_PUBLIC_ACCESS: "true"
+      LLM_ENABLED: ${LLM_ENABLED:-true}
+      EXECUTION_ENV: gcp
+      EXECUTION_REGION: asia-northeast3
+    depends_on:
+      migrate: {condition: service_completed_successfully}
+    mem_limit: 256m
+  worker:
+    <<: *app
+    restart: unless-stopped
+    command: [node, dist/worker.js]
+    environment:
+      DATABASE_URL: postgresql://catalog:${POSTGRES_PASSWORD}@db:5432/catalog
+      EXECUTION_ENV: gcp
+      EXECUTION_REGION: asia-northeast3
+      LLM_ENABLED: ${LLM_ENABLED:-true}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:?key required}
+      OPENAI_MODEL: ${OPENAI_MODEL:-gpt-6-luna}
+      OPENAI_DAILY_BUDGET_USD: ${OPENAI_DAILY_BUDGET_USD:-2}
+      OPENAI_BUDGET_UNLIMITED: ${OPENAI_BUDGET_UNLIMITED:-false}
+      RAKUTEN_APPLICATION_ID: ${RAKUTEN_APPLICATION_ID:-}
+      RAKUTEN_ACCESS_KEY: ${RAKUTEN_ACCESS_KEY:-}
+      CUSTOMS_API_KEY: ${CUSTOMS_API_KEY:-}
+    depends_on:
+      migrate: {condition: service_completed_successfully}
+    shm_size: 256mb
+    mem_limit: 1g
+    stop_grace_period: 60s
+  proxy:
+    image: caddy:2
+    environment:
+      CATALOG_DOMAIN: ${CATALOG_DOMAIN:?domain required}
+    restart: unless-stopped
+    ports: ["80:80", "443:443"]
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data
+      - caddy-config:/config
+    depends_on: [api]
+    mem_limit: 128m
+volumes:
+  catalog-data:
+  caddy-data:
+  caddy-config:

@@ -1,0 +1,506 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Product Catalog · 상품 분석</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script type="module" src="/app.js"></script>
+  </head>
+  <body>
+    <header>
+      <a href="/"
+        >Product Catalog<span class="logo-dot" aria-hidden="true"></span
+      ></a>
+      <div class="header-meta">
+        <div id="current-fx" class="header-fx" aria-live="polite">
+          <strong id="current-fx-values">환율 확인 중…</strong>
+          <a
+            id="current-fx-source"
+            href="https://unipass.customs.go.kr/clip/com/bsopcomn/baseinfo/otsd/COM0101049Q.do"
+            target="_blank"
+            rel="noopener noreferrer"
+            >관세청 과세환율 ↗</a
+          >
+          <span id="current-fx-period"></span>
+        </div>
+        <span id="service-state">상품 정보와 배송비를 한곳에서</span>
+      </div>
+    </header>
+    <main>
+      <section class="intro">
+        <h1>상품 링크 하나로, 도착까지의 비용을.</h1>
+        <p>
+          URL을 입력하면 상품 이미지·설명과 검색 자료를 바탕으로 배송과 관세를
+          자동 추정합니다.
+        </p>
+      </section>
+      <form id="lookup" class="lookup">
+        <label for="url">상품 링크</label>
+        <div class="input-row">
+          <input
+            id="url"
+            type="url"
+            required=""
+            placeholder="라쿠텐 또는 메루카리 상품 URL을 붙여넣으세요"
+            autocomplete="off"
+          /><button id="analyze" type="submit">분석 시작</button>
+        </div>
+        <div class="lookup-footer">
+          <span>라쿠텐 이치바·북스 / 메루카리 · 일본 → 한국</span>
+        </div>
+      </form>
+      <p id="status" role="status" aria-live="polite">
+        상품 링크를 입력하면 분석이 시작됩니다.
+      </p>
+      <section id="journey" hidden="" aria-label="분석 진행 상황">
+        <ol class="flow">
+          <li id="stage-0" data-state="waiting">
+            <span>01</span>
+            <div>상품 정보 확인<strong id="stage-status-0">대기</strong></div>
+          </li>
+          <li id="stage-1" data-state="waiting">
+            <span>02</span>
+            <div>배송 정보 추정<strong id="stage-status-1">대기</strong></div>
+          </li>
+          <li id="stage-2" data-state="waiting">
+            <span>03</span>
+            <div>관세 정보 추정<strong id="stage-status-2">대기</strong></div>
+          </li>
+        </ol>
+        <p id="journey-note" role="status" aria-live="polite"></p>
+      </section>
+      <section id="result" hidden="">
+        <div class="result-grid">
+          <section class="panel" id="product-summary">
+            <div class="section-heading">
+              <h2>상품 정보</h2>
+              <span id="source-kind"></span>
+            </div>
+            <div class="product">
+              <img id="image" alt="상품 이미지" referrerpolicy="no-referrer" />
+              <div>
+                <h3 id="title"></h3>
+                <p id="original-title" class="hint" hidden=""></p>
+                <p id="price" class="price"></p>
+                <p id="availability" class="hint"></p>
+                <p id="converted-price" class="hint"></p>
+              </div>
+            </div>
+            <p id="observed" class="hint"></p>
+            <div class="product-actions">
+              <a id="source" target="_blank" rel="noopener noreferrer"
+                >판매처 원문 보기 ↗</a
+              ><button id="refresh-product" class="secondary" type="button">
+                정보 새로고침
+              </button>
+            </div>
+            <p id="warnings" class="notice" hidden=""></p>
+          </section>
+          <section class="panel">
+            <h2>예상 배송</h2>
+            <p id="summary-package" class="summary-value">포장 정보 확인 중</p>
+            <p id="summary-shipping">배송비 추정 대기</p>
+            <p class="hint">포장재 포함 · 추정값은 실측이 아닙니다</p>
+          </section>
+          <section class="panel">
+            <h2>예상 세금</h2>
+            <p id="summary-tax" class="summary-value">추정 대기</p>
+            <p id="summary-category"></p>
+            <p id="summary-tax-note" class="hint">
+              기본세율 가정 · 품목 확인 필요
+            </p>
+          </section>
+        </div>
+        <section class="cost-summary">
+          <div>
+            <span>상품·배송·세금의 확인된 비용 합계</span
+            ><strong id="summary-total">추정 대기</strong>
+          </div>
+          <p id="summary-total-note">
+            미확인 비용은 0원으로 처리하지 않습니다.
+          </p>
+        </section>
+
+        <details class="panel" id="product-details">
+          <summary>01 상품 정보 상세</summary>
+          <h3>판매 정보와 원문</h3>
+          <dl id="facts"></dl>
+          <p id="description" class="description"></p>
+          <details id="timing" class="timing" hidden="">
+            <summary>전체 분석 실행 기록 <span id="run-mode"></span></summary>
+            <p id="run-time" class="hint"></p>
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>단계</th>
+                    <th>방식</th>
+                    <th>시도</th>
+                    <th>상태</th>
+                    <th>소요시간</th>
+                    <th>추정 비용</th>
+                  </tr>
+                </thead>
+                <tbody id="steps"></tbody>
+              </table>
+            </div>
+          </details>
+        </details>
+        <details class="panel" id="delivery-details">
+          <summary>02 배송 정보 상세</summary>
+          <h3>포장 추정</h3>
+
+          <p id="package-state" class="hint"></p>
+
+          <div id="ai-proposal" class="proposal" hidden="">
+            <div class="section-heading">
+              <h3>포장 추정 결과</h3>
+              <span class="badge">추정값 · 실측 아님</span>
+            </div>
+            <p id="ai-explanation"></p>
+            <dl id="ai-values" class="proposal-values"></dl>
+            <div id="ai-scenarios" class="hint"></div>
+            <p class="hint">
+              상품 자료와 포장 가정에 따른 범위입니다. 배송비에는 대표값과
+              시나리오별 추정치가 사용됩니다.
+            </p>
+            <details>
+              <summary>제품 추정값·근거·추가 확인사항</summary>
+              <ul id="ai-assumptions"></ul>
+              <div id="ai-sources" class="source-links"></div>
+            </details>
+          </div>
+
+          <div class="ai-tools">
+            <div>
+              <strong>추정 조건을 더 정확하게</strong>
+              <p>
+                판매자가 안내한 크기·무게나 구성품 정보가 있다면 추가해주세요.
+                기존 추정 결과와 비교해 다시 확인할 수 있습니다.
+              </p>
+            </div>
+
+            <details>
+              <summary>추정에 반영할 추가 정보 (선택)</summary>
+              <label for="ai-hint">판매자 안내·구성품·포장 관련 정보</label
+              ><textarea
+                id="ai-hint"
+                maxlength="2000"
+                rows="3"
+                placeholder="예: 판매자가 안내한 상자 크기와 무게를 붙여넣으세요."
+              ></textarea>
+              <p class="hint">
+                같은 조건은 저장된 결과를 재사용합니다. 새 정보가 있으면 입력 후
+                다시 추정하세요.
+              </p>
+            </details>
+            <button id="ai-package" type="button" class="secondary">
+              포장 정보 다시 추정
+            </button>
+            <p id="ai-status" role="status" aria-live="polite"></p>
+          </div>
+          <details class="manual-package">
+            <summary>포장 조건 직접 수정 (선택)</summary>
+            <p class="hint">
+              실측값이나 다른 포장 조건으로 비교할 때만 수정하세요.
+            </p>
+            <button id="apply-proposal" type="button" class="secondary">
+              추정값으로 수정 폼 채우기
+            </button>
+            <form id="package">
+              <div class="fields">
+                <label
+                  >포장 무게 <span>g</span
+                  ><input
+                    name="weightGrams"
+                    type="number"
+                    min="1"
+                    max="30000"
+                    step="any"
+                    required=""
+                    placeholder="250" /></label
+                ><label
+                  >가로 <span>cm</span
+                  ><input
+                    name="lengthCm"
+                    type="number"
+                    min="0.1"
+                    max="200"
+                    step="any"
+                    required=""
+                    placeholder="19" /></label
+                ><label
+                  >세로 <span>cm</span
+                  ><input
+                    name="widthCm"
+                    type="number"
+                    min="0.1"
+                    max="200"
+                    step="any"
+                    required=""
+                    placeholder="14" /></label
+                ><label
+                  >높이 <span>cm</span
+                  ><input
+                    name="heightCm"
+                    type="number"
+                    min="0.1"
+                    max="200"
+                    step="any"
+                    required=""
+                    placeholder="2"
+                /></label>
+              </div>
+              <label
+                >입력 기준<select name="basis">
+                  <option value="user_assumption">예상 포장 조건</option>
+                  <option value="user_measured">직접 측정한 포장</option>
+                </select></label
+              ><button type="submit" class="wide">
+                이 조건으로 배송비 계산
+              </button>
+            </form>
+            <p class="hint">
+              <span id="flow-product"></span> ·
+              <span id="flow-package"></span> ·
+              <span id="flow-quote"></span>
+            </p>
+            <p class="hint">
+              제품 자체가 아닌 포장재를 포함한 무게와 크기를 입력하세요.
+            </p>
+          </details>
+          <div class="section-heading">
+            <h2>배송대행 견적</h2>
+            <span>일본 → 한국</span>
+          </div>
+          <div id="quotes" class="quotes">
+            <p class="empty-state">
+              아래 자동 추정 결과에서 예상 비용을 확인할 수 있습니다. 포장
+              조건을 직접 적용해 계산한 배송대행 견적은 여기에 표시됩니다.
+            </p>
+          </div>
+          <p class="hint">
+            관세·부가세, 선택 보험과 미확인 추가비용은 포함하지 않습니다.
+          </p>
+        </details>
+
+        <details class="panel" id="customs-details">
+          <summary>03 관세 정보 상세</summary>
+          <section class="" id="customs-panel">
+            <div class="section-heading">
+              <h2>예상 관세·비용</h2>
+              <span>일본 → 한국 · 자가사용</span>
+            </div>
+            <div id="tax-auto-result"></div>
+            <p id="tax-auto-status" role="status" aria-live="polite"></p>
+            <button type="button" id="tax-auto-retry" class="secondary">
+              관세·비용 다시 확인
+            </button>
+            <details id="tax-advanced">
+              <summary>통관·비용 조건 직접 수정 (선택)</summary>
+              <p class="hint">
+                일본→한국 개인사용·단일 판매 구성 기준 자동 추정입니다.
+                분류·배송비·환율 등을 직접 수정하려면 아래 항목을 사용하세요.
+              </p>
+              <label for="tax-hint"
+                >분류에 필요한 추가 정보 (재질·용도·주류 종류)</label
+              >
+              <textarea id="tax-hint" maxlength="2000" rows="2"></textarea>
+              <button type="button" id="tax-analyze" class="secondary">
+                추가 정보로 품목 다시 추정
+              </button>
+              <p id="tax-status" role="status" aria-live="polite"></p>
+              <div id="tax-classification"></div>
+              <p id="tax-coverage" class="hint"></p>
+              <form id="tax-form">
+                <div class="fields">
+                  <label
+                    >후보 품목<select
+                      id="tax-profile"
+                      name="profile"
+                      required=""
+                    >
+                      <option value="">먼저 품목 추론</option>
+                    </select></label
+                  >
+                  <label
+                    >통관 경로<select name="route" required="">
+                      <option value="">경로 선택</option>
+                      <option value="express">특송 수입신고</option>
+                      <option value="postal_general">
+                        EMS·국제우편 일반수입신고 가정
+                      </option>
+                      <option value="postal">EMS·국제우편 (별도 검토)</option>
+                    </select></label
+                  >
+                  <label
+                    >비용 통화<select name="currency">
+                      <option>JPY</option>
+                      <option>USD</option>
+                      <option>KRW</option>
+                    </select></label
+                  >
+                  <label
+                    >전체 상품대금 (현지 세금 포함)<input
+                      name="goods"
+                      type="number"
+                      min="0"
+                      step="any"
+                      required=""
+                  /></label>
+                  <label
+                    >일본 내 배송·보험료<input
+                      name="domestic"
+                      type="number"
+                      min="0"
+                      step="any"
+                      required=""
+                  /></label>
+                  <label
+                    >국제운임<input
+                      name="international"
+                      type="number"
+                      min="0"
+                      step="any"
+                      required=""
+                  /></label>
+                  <label
+                    >국제 보험료 (없으면 0)<input
+                      name="insurance"
+                      type="number"
+                      min="0"
+                      step="any"
+                      required=""
+                  /></label>
+                  <label
+                    >기타 가산비용 (없으면 0)<input
+                      name="additions"
+                      type="number"
+                      min="0"
+                      step="any"
+                      required=""
+                  /></label>
+                </div>
+                <p id="tax-rate-preview" class="hint"></p>
+                <p class="hint">
+                  비용은 모두 위 통화로 입력합니다. 주류는 총 상품대금이며 병당
+                  가격이 아닙니다. 소비세를 이미 포함한 가격에 중복 가산하지
+                  마세요.
+                </p>
+                <label
+                  ><input name="personalUse" type="checkbox" required="" /> 개인
+                  자가사용 단일 품목·단일 탁송 조건입니다</label
+                >
+                <label
+                  ><input name="shippingSeparated" type="checkbox" />
+                  국제운임·보험료가 상품가격과 명백히 구분됩니다</label
+                >
+                <details open="">
+                  <summary>관세청 과세환율 · 참고 원화 환율과 별도</summary>
+                  <p class="hint">
+                    <a
+                      href="https://unipass.customs.go.kr/clip/com/bsopcomn/baseinfo/otsd/COM0101049Q.do"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >관세청 환율 확인 ↗</a
+                    >
+                    · 아래 값은 사용자 확인 입력으로 기록됩니다.
+                  </p>
+                  <div class="fields">
+                    <label
+                      >1 JPY당 원화<input
+                        name="jpyToKrw"
+                        type="number"
+                        min="0.000001"
+                        step="any"
+                        required=""
+                    /></label>
+                    <label
+                      >1 USD당 원화<input
+                        name="usdToKrw"
+                        type="number"
+                        min="0.000001"
+                        step="any"
+                        required=""
+                    /></label>
+                    <label
+                      >적용 시작일<input
+                        name="validFrom"
+                        type="date"
+                        required=""
+                    /></label>
+                    <label
+                      >적용 종료일<input name="validTo" type="date" required=""
+                    /></label>
+                    <label
+                      >계산 기준일<input
+                        name="referenceDate"
+                        type="date"
+                        required=""
+                    /></label>
+                  </div>
+                </details>
+                <details>
+                  <summary>주류인 경우 반드시 확인</summary>
+                  <div class="fields">
+                    <label
+                      >총 병수<input
+                        name="bottles"
+                        type="number"
+                        min="1"
+                        step="1"
+                    /></label>
+                    <label
+                      >병당 용량 (ml)<input
+                        name="mlPerBottle"
+                        type="number"
+                        min="1"
+                        step="any"
+                    /></label>
+                    <label
+                      >알코올 도수 (%)<input
+                        name="abv"
+                        type="number"
+                        min="0"
+                        max="100"
+                        step="any"
+                    /></label>
+                  </div>
+                  <p class="hint">
+                    와인·위스키·사케·브랜디의 동일 규격 단일 품목을 지원합니다.
+                    맥주·리큐르·저도주·혼합 세트는 별도 검토 대상입니다. 배송
+                    가능 여부는 계산 결과와 별개입니다.
+                  </p>
+                </details>
+                <label
+                  ><input id="tax-confirm" type="checkbox" required="" /> 품목
+                  후보와 기본세율 가정을 확인했습니다 (특혜·협정세율
+                  미적용)</label
+                >
+                <button id="tax-calculate" type="submit">예상 세금 계산</button>
+              </form>
+              <div id="tax-result"></div>
+            </details>
+          </section>
+        </details>
+      </section>
+
+      <section class="panel saved">
+        <div class="section-heading">
+          <h2>최근 분석</h2>
+          <button id="refresh-list" class="secondary" type="button">
+            목록 갱신
+          </button>
+        </div>
+        <ul id="listings">
+          <li class="hint">상품을 불러오고 있습니다.</li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      관측 시각·출처·추정 조건을 함께 확인하세요. 실제 결제 금액은 판매처와
+      배송대행 업체 기준입니다.
+    </footer>
+  </body>
+</html>

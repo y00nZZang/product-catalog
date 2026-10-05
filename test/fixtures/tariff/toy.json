@@ -1,0 +1,314 @@
+{
+  "paginationInfo": {
+    "currentPageNo": 1,
+    "totalRecordCount": 34
+  },
+  "trifHistLst": [
+    {
+      "hsSgn": "9503001100",
+      "korePrlstNm": "어린이용 세발자전거",
+      "trrt": "8",
+      "prutXamt": "",
+      "trrtTpcd": "A",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9503001200",
+      "korePrlstNm": "스쿠터",
+      "trrt": "8",
+      "prutXamt": "",
+      "trrtTpcd": "A",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9503001300",
+      "korePrlstNm": "페달차",
+      "trrt": "8",
+      "prutXamt": "",
+      "trrtTpcd": "A",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9503001800",
+      "korePrlstNm": "기타",
+      "trrt": "8",
+      "prutXamt": "",
+      "trrtTpcd": "A",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9503001900",
+      "korePrlstNm": "부분품과 부속품",
+      "trrt": "8",
+      "prutXamt": "",
+      "trrtTpcd": "A",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9503002110",
+      "korePrlstNm": "방직용 섬유재료로 만든 것",
+      "trrt": "8",
+      "prutXamt": "",
+      "trrtTpcd": "A",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9503002120",
+      "korePrlstNm": "고무로 만든 것",
+      "trrt": "8",
+      "prutXamt": "",
+      "trrtTpcd": "A",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9503002130",
+      "korePrlstNm": "플라스틱으로 만든 것",
+      "trrt": "8",
+      "prutXamt": "",
+      "trrtTpcd": "A",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9503002140",
+      "korePrlstNm": "도자제의 것",
+      "trrt": "8",
+      "prutXamt": "",
+      "trrtTpcd": "A",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9503002150",
+      "korePrlstNm": "유리로 만든 것",
+      "trrt": "8",
+      "prutXamt": "",
+      "trrtTpcd": "A",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9503002160",
+      "korePrlstNm": "나무로 만든 것",
+      "trrt": "8",
+      "prutXamt": "",
+      "trrtTpcd": "A",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9503002190",
+      "korePrlstNm": "기타",
+      "trrt": "8",
+      "prutXamt": "",
+      "trrtTpcd": "A",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9503002910",
+      "korePrlstNm": "인형용 의류와 부속품, 신발과 모자",
+      "trrt": "8",
+      "prutXamt": "",
+      "trrtTpcd": "A",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9503002990",
+      "korePrlstNm": "기타",
+      "trrt": "8",
+      "prutXamt": "",
+      "trrtTpcd": "A",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9503003110",
+      "korePrlstNm": "전기식 기차",
+      "trrt": "8",
+      "prutXamt": "",
+      "trrtTpcd": "A",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9503003190",
+      "korePrlstNm": "부속품",
+      "trrt": "8",
+      "prutXamt": "",
+      "trrtTpcd": "A",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9503003200",
+      "korePrlstNm": "축소모형의 조립용 키트(작동하는 것인지는 상관없으며, 제9503.00-31호의 것은 제외한다)",
+      "trrt": "8",
+      "prutXamt": "",
+      "trrtTpcd": "A",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9503003300",
+      "korePrlstNm": "그 밖의 조립세트와 조립식 완구",
+      "trrt": "8",
+      "prutXamt": "",
+      "trrtTpcd": "A",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9503003411",
+      "korePrlstNm": "방직용 섬유재료로 만든 것",
+      "trrt": "8",
+      "prutXamt": "",
+      "trrtTpcd": "A",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9503003419",
+      "korePrlstNm": "기타",
+      "trrt": "8",
+      "prutXamt": "",
+      "trrtTpcd": "A",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9503003491",
+      "korePrlstNm": "방직용 섬유재료로 만든 것",
+      "trrt": "8",
+      "prutXamt": "",
+      "trrtTpcd": "A",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9503003492",
+      "korePrlstNm": "고무로 만든 것",
+      "trrt": "8",
+      "prutXamt": "",
+      "trrtTpcd": "A",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9503003493",
+      "korePrlstNm": "플라스틱으로 만든 것",
+      "trrt": "8",
+      "prutXamt": "",
+      "trrtTpcd": "A",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9503003495",
+      "korePrlstNm": "도자제의 것",
+      "trrt": "8",
+      "prutXamt": "",
+      "trrtTpcd": "A",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9503003496",
+      "korePrlstNm": "유리로 만든 것",
+      "trrt": "8",
+      "prutXamt": "",
+      "trrtTpcd": "A",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9503003497",
+      "korePrlstNm": "나무로 만든 것",
+      "trrt": "8",
+      "prutXamt": "",
+      "trrtTpcd": "A",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9503003499",
+      "korePrlstNm": "기타",
+      "trrt": "8",
+      "prutXamt": "",
+      "trrtTpcd": "A",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9503003500",
+      "korePrlstNm": "완구용 악기류",
+      "trrt": "8",
+      "prutXamt": "",
+      "trrtTpcd": "A",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9503003600",
+      "korePrlstNm": "퍼즐",
+      "trrt": "8",
+      "prutXamt": "",
+      "trrtTpcd": "A",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9503003700",
+      "korePrlstNm": "그 밖의 완구(세트ㆍ아웃피트로 되어 있는 경우로 한정한다)",
+      "trrt": "8",
+      "prutXamt": "",
+      "trrtTpcd": "A",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9503003800",
+      "korePrlstNm": "그 밖의 완구와 모형(모터가 결합되어 있는 것으로 한정한다)",
+      "trrt": "8",
+      "prutXamt": "",
+      "trrtTpcd": "A",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9503003911",
+      "korePrlstNm": "풍선ㆍ완구용 공ㆍ연과 이와 유사한 것",
+      "trrt": "8",
+      "prutXamt": "",
+      "trrtTpcd": "A",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9503003919",
+      "korePrlstNm": "기타",
+      "trrt": "8",
+      "prutXamt": "",
+      "trrtTpcd": "A",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9503003990",
+      "korePrlstNm": "부분품과 부속품(제9503.00-3190호의 것은 제외한다)",
+      "trrt": "8",
+      "prutXamt": "",
+      "trrtTpcd": "A",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    }
+  ]
+}

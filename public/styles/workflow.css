@@ -1,0 +1,236 @@
+.intro {
+  padding: 32px 0 12px;
+}
+.intro h1 {
+  font-size: clamp(26px, 4vw, 40px);
+  letter-spacing: -1.4px;
+}
+.lookup {
+  background: white;
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+}
+.result-grid {
+  display: grid;
+  grid-template-columns: 1.25fr 1fr 1fr;
+  gap: 16px;
+}
+.result-grid > .panel {
+  min-width: 0;
+  margin: 0;
+  padding: 22px;
+}
+.result-grid .product {
+  grid-template-columns: 64px minmax(0, 1fr);
+  gap: 14px;
+}
+.result-grid .product img {
+  width: 64px;
+  height: 80px;
+  object-fit: contain;
+}
+.result-grid h3 {
+  font-size: 17px;
+  overflow-wrap: anywhere;
+}
+.summary-value {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.flow li {
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  padding: 16px;
+  background: white;
+}
+.flow li[data-state="running"] {
+  border-color: var(--accent);
+  background: #eaf5ef;
+}
+.flow li[data-state="done"],
+.flow li[data-state="cached"] {
+  color: var(--accent);
+}
+.flow li[data-state="partial"] {
+  background: #fff7e7;
+}
+.flow li[data-state="error"] {
+  background: #fff0ef;
+}
+#journey-note {
+  color: var(--muted);
+  font-size: 14px;
+  margin: 0 0 22px;
+}
+.cost-summary {
+  background: var(--ink);
+  color: white;
+  border-radius: 12px;
+  padding: 24px;
+  margin: 20px 0 28px;
+}
+.cost-summary > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.cost-summary strong {
+  font-size: 27px;
+}
+.cost-summary p {
+  font-size: 13px;
+  opacity: 0.85;
+  margin-bottom: 0;
+}
+#result > details {
+  margin-bottom: 12px;
+}
+#result > details > summary {
+  font-weight: 600;
+  cursor: pointer;
+}
+#result > details[open] > summary {
+  margin-bottom: 24px;
+}
+#customs-panel {
+  padding: 0;
+}
+footer #auth {
+  margin-top: 16px;
+  max-width: 440px;
+}
+@media (max-width: 900px) {
+  .result-grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 600px) {
+  .flow {
+    grid-template-columns: 1fr;
+  }
+  .flow li {
+    padding: 12px;
+  }
+  .lookup {
+    padding: 16px;
+  }
+  .summary-value {
+    font-size: 20px;
+  }
+}
+.flow {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.flow li {
+  min-width: 0;
+}
+.result-grid .product:has(img[hidden]) {
+  grid-template-columns: minmax(0, 1fr);
+}
+@media (max-width: 600px) {
+  .intro {
+    padding-top: 8px;
+  }
+  .flow {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+  .flow li > div {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    gap: 8px;
+  }
+}
+.header-meta {
+  margin-left: auto;
+  text-align: right;
+  min-width: 0;
+}
+.header-fx {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  gap: 2px;
+}
+.header-fx strong {
+  font-size: 14px;
+  font-variant-numeric: tabular-nums;
+}
+header .header-fx a {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--accent);
+}
+.header-fx span,
+.header-meta #service-state {
+  color: var(--muted);
+  font-size: 12px;
+}
+@media (max-width: 600px) {
+  header {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .header-meta {
+    flex-basis: 100%;
+  }
+  .header-meta #service-state {
+    display: none;
+  }
+  .header-fx strong {
+    font-size: 13px;
+  }
+}
+/* Automatic results lead; optional correction tools are visually secondary. */
+.intro {
+  padding-top: 16px;
+}
+.lookup {
+  box-shadow: 0 4px 20px #1b302e05;
+}
+.result-grid > .panel {
+  border-top: 3px solid #b6d2c4;
+}
+.result-grid .section-heading {
+  align-items: flex-start;
+}
+#result > details > summary {
+  padding: 4px 0;
+}
+#delivery-details .ai-tools {
+  margin-top: 28px;
+  border-top: 1px solid var(--line);
+  padding-top: 20px;
+}
+.edit-heading {
+  margin-top: 28px;
+}
+#delivery-details .proposal {
+  margin-top: 16px;
+}
+#service-state {
+  font-size: 12px;
+}
+@media (max-width: 600px) {
+  .intro {
+    padding-top: 8px;
+  }
+}
+.manual-package {
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+}
+.manual-package > summary {
+  font-weight: 600;
+}
+.manual-package #apply-proposal {
+  margin: 8px 0 16px;
+}

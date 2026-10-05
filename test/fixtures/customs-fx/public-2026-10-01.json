@@ -1,0 +1,15 @@
+{
+  "count": 2,
+  "items": [
+    {
+      "currCd": "JPY",
+      "aplyBgnDt": "20260927",
+      "weekFxrtIm": "8.7484"
+    },
+    {
+      "currCd": "USD",
+      "aplyBgnDt": "20260927",
+      "weekFxrtIm": "1376.03"
+    }
+  ]
+}

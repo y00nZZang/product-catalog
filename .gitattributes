@@ -1,0 +1,2 @@
+# Captured HTML preserves source whitespace for parser regression evidence.
+/test/fixtures/**/*.html whitespace=-blank-at-eol,-space-before-tab

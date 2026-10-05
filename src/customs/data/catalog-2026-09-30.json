@@ -1,0 +1,1379 @@
+{
+  "checkedAt": "2026-09-30",
+  "source": "https://www.customs.go.kr/kcs/ad/tax/BuyTaxCalculation.do",
+  "scriptSource": "https://www.customs.go.kr/js/common/buyTax.js",
+  "htmlSha256": "1ac33278668904efc4eecce0642ae3cd814680565af9c8ce97b147ce67b22c48",
+  "scriptSha256": "8b512a6d59f6d6e8361f734679e7c9b8f02adbf02bb5216daa439b3021831340",
+  "items": [
+    {
+      "officialItem": 1,
+      "label": "볶은커피",
+      "group": "식품/의약품",
+      "duty": 8.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 2,
+      "label": "인스턴트커피",
+      "group": "식품/의약품",
+      "duty": 8.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 3,
+      "label": "인스턴트 커피믹스",
+      "group": "식품/의약품",
+      "duty": 8.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 4,
+      "label": "녹차",
+      "group": "식품/의약품",
+      "duty": 40.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 5,
+      "label": "홍차",
+      "group": "식품/의약품",
+      "duty": 40.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 6,
+      "label": "조제차 티백",
+      "group": "식품/의약품",
+      "duty": 40.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 7,
+      "label": "기타차",
+      "group": "식품/의약품",
+      "duty": 40.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 8,
+      "label": "버진올리브유",
+      "group": "식품/의약품",
+      "duty": 5.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 109,
+      "label": "혼합양념소스",
+      "group": "식품/의약품",
+      "duty": 8.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 110,
+      "label": "케첩",
+      "group": "식품/의약품",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 28,
+      "label": "로열젤리, 벌꿀조제품",
+      "group": "식품/의약품",
+      "duty": 8.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 17,
+      "label": "캔디류",
+      "group": "식품/의약품",
+      "duty": 8.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 18,
+      "label": "코코아 가루(무가당)",
+      "group": "식품/의약품",
+      "duty": 5.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 19,
+      "label": "코코아 가루(가당)",
+      "group": "식품/의약품",
+      "duty": 8.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 20,
+      "label": "초콜릿과 초콜릿과자",
+      "group": "식품/의약품",
+      "duty": 8.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 116,
+      "label": "비스킷,쿠키,크레커",
+      "group": "식품/의약품",
+      "duty": 5.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 117,
+      "label": "콘 플레이크",
+      "group": "식품/의약품",
+      "duty": 5.4,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 118,
+      "label": "오트밀",
+      "group": "식품/의약품",
+      "duty": 8.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 119,
+      "label": "인조꿀",
+      "group": "식품/의약품",
+      "duty": 20.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 120,
+      "label": "시럽",
+      "group": "식품/의약품",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 121,
+      "label": "잼, 과일젤리",
+      "group": "식품/의약품",
+      "duty": 30.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 123,
+      "label": "피넛버터",
+      "group": "식품/의약품",
+      "duty": 50.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 124,
+      "label": "씨리얼",
+      "group": "식품/의약품",
+      "duty": 5.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 125,
+      "label": "라면, 파스타면",
+      "group": "식품/의약품",
+      "duty": 5.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 29,
+      "label": "와인",
+      "group": "식품/의약품",
+      "duty": 30.0,
+      "liquor": 30,
+      "education": 10,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 30,
+      "label": "위스키",
+      "group": "식품/의약품",
+      "duty": 30.0,
+      "liquor": 72,
+      "education": 30,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 128,
+      "label": "사케",
+      "group": "식품/의약품",
+      "duty": 30.0,
+      "liquor": 30,
+      "education": 10,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 129,
+      "label": "브랜디",
+      "group": "식품/의약품",
+      "duty": 30.0,
+      "liquor": 72,
+      "education": 30,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 23,
+      "label": "건강기능식품",
+      "group": "식품/의약품",
+      "duty": 8.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 25,
+      "label": "오메가-3 제품",
+      "group": "식품/의약품",
+      "duty": 8.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 26,
+      "label": "클로렐라,스피루리나 제품",
+      "group": "식품/의약품",
+      "duty": 8.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 133,
+      "label": "단백질보충제",
+      "group": "식품/의약품",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 134,
+      "label": "반창고, 거즈",
+      "group": "식품/의약품",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 13,
+      "label": "조제분유",
+      "group": "유아/장난감",
+      "duty": 36.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 11,
+      "label": "육류이유식",
+      "group": "유아/장난감",
+      "duty": 18.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 12,
+      "label": "채소이유식",
+      "group": "유아/장난감",
+      "duty": 18.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 14,
+      "label": "일회용기저귀",
+      "group": "유아/장난감",
+      "duty": 8.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 9,
+      "label": "유아용화장품",
+      "group": "유아/장난감",
+      "duty": 8.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 140,
+      "label": "유아용의류",
+      "group": "유아/장난감",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 141,
+      "label": "유아용냅킨",
+      "group": "유아/장난감",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 15,
+      "label": "유모차, 부분품",
+      "group": "유아/장난감",
+      "duty": 5.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 16,
+      "label": "유아용 보행기",
+      "group": "유아/장난감",
+      "duty": 8.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 46,
+      "label": "완구(장난감)",
+      "group": "유아/장난감",
+      "duty": 8.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 145,
+      "label": "피규어",
+      "group": "유아/장난감",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 146,
+      "label": "블록, 보드게임, 퍼즐",
+      "group": "유아/장난감",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 148,
+      "label": "RC카",
+      "group": "유아/장난감",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 149,
+      "label": "카시트",
+      "group": "화장실/미용/생활/욕실",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 34,
+      "label": "기초화장용제품",
+      "group": "화장실/미용/생활/욕실",
+      "duty": 8.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 151,
+      "label": "선크림",
+      "group": "화장실/미용/생활/욕실",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 152,
+      "label": "마스크팩",
+      "group": "화장실/미용/생활/욕실",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 33,
+      "label": "페이스파우더",
+      "group": "화장실/미용/생활/욕실",
+      "duty": 8.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 35,
+      "label": "메이크업용 제품",
+      "group": "화장실/미용/생활/욕실",
+      "duty": 8.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 155,
+      "label": "화장용티슈",
+      "group": "화장실/미용/생활/욕실",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 32,
+      "label": "입술화장용제품",
+      "group": "화장실/미용/생활/욕실",
+      "duty": 8.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 31,
+      "label": "향수",
+      "group": "화장실/미용/생활/욕실",
+      "duty": 8.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 158,
+      "label": "클렌저",
+      "group": "화장실/미용/생활/욕실",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 10,
+      "label": "목욕제품",
+      "group": "화장실/미용/생활/욕실",
+      "duty": 8.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 159,
+      "label": "네일제품",
+      "group": "화장실/미용/생활/욕실",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 160,
+      "label": "핸드크림",
+      "group": "화장실/미용/생활/욕실",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 36,
+      "label": "샴푸,린스,헤어제품",
+      "group": "화장실/미용/생활/욕실",
+      "duty": 5.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 163,
+      "label": "치약, 칫솔, 치실",
+      "group": "화장실/미용/생활/욕실",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 164,
+      "label": "데오도란트",
+      "group": "화장실/미용/생활/욕실",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 165,
+      "label": "점안액",
+      "group": "화장실/미용/생활/욕실",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 166,
+      "label": "콘택트렌즈",
+      "group": "화장실/미용/생활/욕실",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 167,
+      "label": "비누",
+      "group": "화장실/미용/생활/욕실",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 168,
+      "label": "세탁세제, 주방세제",
+      "group": "화장실/미용/생활/욕실",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 169,
+      "label": "수건",
+      "group": "화장실/미용/생활/욕실",
+      "duty": 13.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 39,
+      "label": "의류, 속옷",
+      "group": "의류/패션잡화",
+      "duty": 13.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 40,
+      "label": "신발",
+      "group": "의류/패션잡화",
+      "duty": 13.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 173,
+      "label": "양말, 스타킹, 레깅스",
+      "group": "의류/패션잡화",
+      "duty": 13.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 175,
+      "label": "넥타이",
+      "group": "의류/패션잡화",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 176,
+      "label": "스카프, 머플러",
+      "group": "의류/패션잡화",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 177,
+      "label": "모자",
+      "group": "의류/패션잡화",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 178,
+      "label": "우산",
+      "group": "의류/패션잡화",
+      "duty": 13.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 179,
+      "label": "장갑",
+      "group": "의류/패션잡화",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 180,
+      "label": "벨트",
+      "group": "의류/패션잡화",
+      "duty": 13.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 181,
+      "label": "목걸이, 팔찌, 귀걸이",
+      "group": "의류/패션잡화",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 182,
+      "label": "안경, 선글라스",
+      "group": "의류/패션잡화",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 44,
+      "label": "고급손목시계",
+      "group": "의류/패션잡화",
+      "duty": 8.0,
+      "liquor": 0,
+      "education": 30,
+      "excise": 20,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 45,
+      "label": "일반손목시계",
+      "group": "의류/패션잡화",
+      "duty": 8.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 185,
+      "label": "시계밴드",
+      "group": "의류/패션잡화",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 186,
+      "label": "캐리어",
+      "group": "의류/패션잡화",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 37,
+      "label": "고급핸드백",
+      "group": "의류/패션잡화",
+      "duty": 8.0,
+      "liquor": 0,
+      "education": 30,
+      "excise": 20,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 38,
+      "label": "일반핸드백",
+      "group": "의류/패션잡화",
+      "duty": 8.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 189,
+      "label": "지갑, 카드지갑",
+      "group": "의류/패션잡화",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 190,
+      "label": "핸드폰케이스",
+      "group": "의류/패션잡화",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 191,
+      "label": "스포츠의류",
+      "group": "레저/스포츠",
+      "duty": 13.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 192,
+      "label": "스포츠신발",
+      "group": "레저/스포츠",
+      "duty": 13.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 193,
+      "label": "글러브, 스포츠장갑",
+      "group": "레저/스포츠",
+      "duty": 13.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 194,
+      "label": "수영복",
+      "group": "레저/스포츠",
+      "duty": 13.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 195,
+      "label": "수영고글",
+      "group": "레저/스포츠",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 196,
+      "label": "골프용품",
+      "group": "레저/스포츠",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 197,
+      "label": "낚시용품",
+      "group": "레저/스포츠",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 198,
+      "label": "공",
+      "group": "레저/스포츠",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 199,
+      "label": "자전거, 자전거 용품",
+      "group": "레저/스포츠",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 200,
+      "label": "라켓",
+      "group": "레저/스포츠",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 201,
+      "label": "스키, 보드용품",
+      "group": "레저/스포츠",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 202,
+      "label": "텐트",
+      "group": "레저/스포츠",
+      "duty": 13.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 203,
+      "label": "가구",
+      "group": "가구/인테리어/침구",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 208,
+      "label": "매트리스",
+      "group": "가구/인테리어/침구",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 209,
+      "label": "침대시트, 커버",
+      "group": "가구/인테리어/침구",
+      "duty": 10.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 210,
+      "label": "이불",
+      "group": "가구/인테리어/침구",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 211,
+      "label": "침낭",
+      "group": "가구/인테리어/침구",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 212,
+      "label": "커튼",
+      "group": "가구/인테리어/침구",
+      "duty": 13.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 213,
+      "label": "베개, 쿠션",
+      "group": "가구/인테리어/침구",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 216,
+      "label": "테이블매트",
+      "group": "가구/인테리어/침구",
+      "duty": 13.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 217,
+      "label": "조명",
+      "group": "가구/인테리어/침구",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 218,
+      "label": "식기, 주방용품",
+      "group": "주방",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 221,
+      "label": "포크, 나이프",
+      "group": "주방",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 222,
+      "label": "텀블러",
+      "group": "주방",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 223,
+      "label": "컴퓨터, 관련 부품",
+      "group": "컴퓨터/가전/영상/음향",
+      "duty": 8.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 41,
+      "label": "노트북",
+      "group": "컴퓨터/가전/영상/음향",
+      "duty": 8.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 226,
+      "label": "모니터",
+      "group": "컴퓨터/가전/영상/음향",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 227,
+      "label": "키보드",
+      "group": "컴퓨터/가전/영상/음향",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 228,
+      "label": "마우스",
+      "group": "컴퓨터/가전/영상/음향",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 229,
+      "label": "프린터",
+      "group": "컴퓨터/가전/영상/음향",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 230,
+      "label": "스캐너",
+      "group": "컴퓨터/가전/영상/음향",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 231,
+      "label": "스마트폰",
+      "group": "컴퓨터/가전/영상/음향",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 232,
+      "label": "스마트워치",
+      "group": "컴퓨터/가전/영상/음향",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 233,
+      "label": "보조배터리",
+      "group": "컴퓨터/가전/영상/음향",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 43,
+      "label": "디지털TV",
+      "group": "컴퓨터/가전/영상/음량",
+      "duty": 8.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 235,
+      "label": "디지털카메라",
+      "group": "컴퓨터/가전/영상/음향",
+      "duty": 0.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 236,
+      "label": "카메라부분품",
+      "group": "컴퓨터/가전/영상/음향",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 237,
+      "label": "캠코더",
+      "group": "컴퓨터/가전/영상/음향",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 238,
+      "label": "진공청소기",
+      "group": "컴퓨터/가전/영상/음향",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 239,
+      "label": "가습기",
+      "group": "컴퓨터/가전/영상/음향",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 240,
+      "label": "전자담배",
+      "group": "컴퓨터/가전/영상/음향",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 241,
+      "label": "헤어드라이어",
+      "group": "컴퓨터/가전/영상/음향",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 242,
+      "label": "전기면도기",
+      "group": "컴퓨터/가전/영상/음향",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 243,
+      "label": "미용기기",
+      "group": "컴퓨터/가전/영상/음향",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 244,
+      "label": "오디오",
+      "group": "컴퓨터/가전/영상/음향",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 245,
+      "label": "헤드셋, 이어폰",
+      "group": "컴퓨터/가전/영상/음향",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 246,
+      "label": "스피커",
+      "group": "컴퓨터/가전/영상/음향",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 247,
+      "label": "마이크",
+      "group": "컴퓨터/가전/영상/음향",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    },
+    {
+      "officialItem": 248,
+      "label": "서적, 잡지류",
+      "group": "도서",
+      "duty": 0.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 249,
+      "label": "공 CD, DVD",
+      "group": "도서",
+      "duty": 0.0,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "explicit_basic_branch"
+    },
+    {
+      "officialItem": 250,
+      "label": "CD, DVD 음반",
+      "group": "도서",
+      "duty": 8,
+      "liquor": 0,
+      "education": 0,
+      "excise": 0,
+      "rateEvidence": "calculator_enumerated_item_default"
+    }
+  ]
+}

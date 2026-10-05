@@ -1,0 +1,48 @@
+{
+  "kind": "agent_reviewed_public_subset",
+  "samples": [
+    {
+      "url": "https://books.rakuten.co.jp/rb/18584086/",
+      "htmlPath": "test/fixtures/public/rakuten-books-18584086.html",
+      "expected": {
+        "title": "MGA MAGICAL 10 YEARS ANNIVERSARY LIVE 〜FJORD〜 ON SCREEN（通常盤）【Blu-ray】",
+        "price": 5672,
+        "currency": "JPY",
+        "availability": "unknown"
+      }
+    },
+    {
+      "url": "https://jp.mercari.com/item/m96268518460",
+      "htmlPath": "test/fixtures/public/mercari-m96268518460.html",
+      "expected": {
+        "title": "ちいかわ うさぎだらけくじ Ｂ賞 ぬいぐるみ クッション",
+        "price": 4500,
+        "currency": "JPY",
+        "availability": "in_stock",
+        "condition": "新品、未使用新品で購入し、一度も使用していない"
+      }
+    },
+    {
+      "url": "https://jp.mercari.com/item/m17005831505",
+      "htmlPath": "test/fixtures/public/mercari-m17005831505.html",
+      "expected": {
+        "title": "Mrs. Doubtfire Blu-ray",
+        "price": 2000,
+        "currency": "JPY",
+        "availability": "in_stock",
+        "condition": "目立った傷や汚れなし細かな使用感・傷・汚れはあるが、目立たない"
+      }
+    },
+    {
+      "url": "https://jp.mercari.com/item/m12350001475",
+      "htmlPath": "test/fixtures/public/mercari-m12350001475.html",
+      "expected": {
+        "title": "ミセス Blu-ray NOAH no HAKOBUNE & Atlantis",
+        "price": 20599,
+        "currency": "JPY",
+        "availability": "sold_out",
+        "condition": "未使用に近い数回使用し、あまり使用感がない"
+      }
+    }
+  ]
+}

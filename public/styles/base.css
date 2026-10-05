@@ -1,0 +1,25 @@
+/* Shared theme, box sizing and typography. */
+:root {
+  color-scheme: light;
+  --ink: #1b302e;
+  --muted: #687873;
+  --line: #dce4df;
+  --accent: #196a53;
+  --bg: #f5f7f4;
+}
+* {
+  box-sizing: border-box;
+}
+[hidden] {
+  display: none !important;
+}
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font:
+    15px/1.6 -apple-system,
+    BlinkMacSystemFont,
+    "Apple SD Gothic Neo",
+    sans-serif;
+}

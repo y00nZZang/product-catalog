@@ -1,0 +1,323 @@
+{
+  "paginationInfo": {
+    "currentPageNo": 1,
+    "totalRecordCount": 35
+  },
+  "trifHistLst": [
+    {
+      "hsSgn": "9504400000",
+      "korePrlstNm": "오락용 카드",
+      "trrt": "8",
+      "prutXamt": "",
+      "trrtTpcd": "A",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9504400000",
+      "korePrlstNm": "오락용 카드",
+      "trrt": "0",
+      "prutXamt": "",
+      "trrtTpcd": "C",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9504400000",
+      "korePrlstNm": "오락용 카드",
+      "trrt": "0",
+      "prutXamt": "",
+      "trrtTpcd": "R",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9504400000",
+      "korePrlstNm": "오락용 카드",
+      "trrt": "0",
+      "prutXamt": "",
+      "trrtTpcd": "U",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9504400000",
+      "korePrlstNm": "오락용 카드",
+      "trrt": "0",
+      "prutXamt": "",
+      "trrtTpcd": "FAE1",
+      "hsSgnAplyStrtDt": "20260501",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9504400000",
+      "korePrlstNm": "오락용 카드",
+      "trrt": "0",
+      "prutXamt": "",
+      "trrtTpcd": "FAS1",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9504400000",
+      "korePrlstNm": "오락용 카드",
+      "trrt": "0",
+      "prutXamt": "",
+      "trrtTpcd": "FAU1",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9504400000",
+      "korePrlstNm": "오락용 카드",
+      "trrt": "0",
+      "prutXamt": "",
+      "trrtTpcd": "FCA1",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9504400000",
+      "korePrlstNm": "오락용 카드",
+      "trrt": "0",
+      "prutXamt": "",
+      "trrtTpcd": "FCECR1",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9504400000",
+      "korePrlstNm": "오락용 카드",
+      "trrt": "0",
+      "prutXamt": "",
+      "trrtTpcd": "FCEHN1",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9504400000",
+      "korePrlstNm": "오락용 카드",
+      "trrt": "0",
+      "prutXamt": "",
+      "trrtTpcd": "FCENI1",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9504400000",
+      "korePrlstNm": "오락용 카드",
+      "trrt": "0",
+      "prutXamt": "",
+      "trrtTpcd": "FCEPA1",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9504400000",
+      "korePrlstNm": "오락용 카드",
+      "trrt": "0",
+      "prutXamt": "",
+      "trrtTpcd": "FCESV1",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9504400000",
+      "korePrlstNm": "오락용 카드",
+      "trrt": "0",
+      "prutXamt": "",
+      "trrtTpcd": "FCL1",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9504400000",
+      "korePrlstNm": "오락용 카드",
+      "trrt": "0",
+      "prutXamt": "",
+      "trrtTpcd": "FCN1",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9504400000",
+      "korePrlstNm": "오락용 카드",
+      "trrt": "0",
+      "prutXamt": "",
+      "trrtTpcd": "FCO1",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9504400000",
+      "korePrlstNm": "오락용 카드",
+      "trrt": "0",
+      "prutXamt": "",
+      "trrtTpcd": "FEF1",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9504400000",
+      "korePrlstNm": "오락용 카드",
+      "trrt": "0",
+      "prutXamt": "",
+      "trrtTpcd": "FEU1",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20260630"
+    },
+    {
+      "hsSgn": "9504400000",
+      "korePrlstNm": "오락용 카드",
+      "trrt": "0",
+      "prutXamt": "",
+      "trrtTpcd": "FGB1",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20260630"
+    },
+    {
+      "hsSgn": "9504400000",
+      "korePrlstNm": "오락용 카드",
+      "trrt": "0",
+      "prutXamt": "",
+      "trrtTpcd": "FID1",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9504400000",
+      "korePrlstNm": "오락용 카드",
+      "trrt": "0",
+      "prutXamt": "",
+      "trrtTpcd": "FIL1",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9504400000",
+      "korePrlstNm": "오락용 카드",
+      "trrt": "0",
+      "prutXamt": "",
+      "trrtTpcd": "FIN1",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9504400000",
+      "korePrlstNm": "오락용 카드",
+      "trrt": "0",
+      "prutXamt": "",
+      "trrtTpcd": "FKH1",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9504400000",
+      "korePrlstNm": "오락용 카드",
+      "trrt": "0",
+      "prutXamt": "",
+      "trrtTpcd": "FNZ1",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9504400000",
+      "korePrlstNm": "오락용 카드",
+      "trrt": "0",
+      "prutXamt": "",
+      "trrtTpcd": "FPE1",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9504400000",
+      "korePrlstNm": "오락용 카드",
+      "trrt": "0",
+      "prutXamt": "",
+      "trrtTpcd": "FPH1",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9504400000",
+      "korePrlstNm": "오락용 카드",
+      "trrt": "0",
+      "prutXamt": "",
+      "trrtTpcd": "FRCAS1",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9504400000",
+      "korePrlstNm": "오락용 카드",
+      "trrt": "0",
+      "prutXamt": "",
+      "trrtTpcd": "FRCAU1",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9504400000",
+      "korePrlstNm": "오락용 카드",
+      "trrt": "0",
+      "prutXamt": "",
+      "trrtTpcd": "FRCCN1",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9504400000",
+      "korePrlstNm": "오락용 카드",
+      "trrt": "0",
+      "prutXamt": "",
+      "trrtTpcd": "FRCJP1",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9504400000",
+      "korePrlstNm": "오락용 카드",
+      "trrt": "0",
+      "prutXamt": "",
+      "trrtTpcd": "FRCNZ1",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9504400000",
+      "korePrlstNm": "오락용 카드",
+      "trrt": "0",
+      "prutXamt": "",
+      "trrtTpcd": "FSG1",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9504400000",
+      "korePrlstNm": "오락용 카드",
+      "trrt": "0",
+      "prutXamt": "",
+      "trrtTpcd": "FTR1",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9504400000",
+      "korePrlstNm": "오락용 카드",
+      "trrt": "0",
+      "prutXamt": "",
+      "trrtTpcd": "FUS1",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    },
+    {
+      "hsSgn": "9504400000",
+      "korePrlstNm": "오락용 카드",
+      "trrt": "0",
+      "prutXamt": "",
+      "trrtTpcd": "FVN1",
+      "hsSgnAplyStrtDt": "20260101",
+      "hsSgnAplyEndDt": "20261231"
+    }
+  ]
+}
