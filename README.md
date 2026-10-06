@@ -4,6 +4,12 @@
 
 [라이브 데모](https://catalog.janghan.dev/) · [통합 포트폴리오 PDF](portfolio/crossborder-portfolio.pdf) · [편집용 PPTX](portfolio/crossborder-portfolio.pptx) · [검증과 한계](docs/verification.md) · [코드 구조](docs/architecture.md) · [구매대행 에이전트](https://github.com/y00nZZang/crossborder-purchase-agent)
 
+## Jev 비교 실험
+
+관세 후보 선택에서 Jev와 GPT-6 Luna를 같은 계층 분류 방식으로 비교했습니다. HF94개 표본에서는 중앙 처리시간6.4배, 메루카리30개에서는5.7배 빨랐고 추정 비용도 낮았습니다. 메루카리의 독립 상위 모델 HS6 일치율은84%였으나, HF 정답 정확도는Jev29.8%·Luna38.3%였습니다. 조건별 품질 차이와 보류를 함께 보고합니다. 운영 서비스 도입 결과가 아닙니다.
+
+[실험 설명·한계](docs/jev-experiment-2026-10-06.md) · [코드·실행 안내](notebooks/README.md) · [결과 노트북](notebooks/two-datasets-results-2026-10-06.ipynb)
+
 ## 핵심 구현
 
 - 라쿠텐 이치바·북스 공식 API, 공개 HTML, 필요 시 브라우저 수집. 접근 차단을 우회하지 않습니다.

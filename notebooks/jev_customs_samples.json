@@ -1,0 +1,9 @@
+{
+  "notes": "Synthetic examples with provisional author labels, not customs rulings or reviewed ground truth. Candidate shortlists are deliberately supplied for fixed-choice tests; this measures selection, not retrieval coverage.",
+  "samples": [
+    {"id":"playing-cards-ja","kind":"synthetic","reviewed":false,"product":{"title":"ポケモンカードゲーム 対戦用カード 60枚","description":"トレーディングカードゲームの対戦に使う紙製カード。アンティークではありません。"},"candidate_codes":["950440","491199","490199"],"expected_choices":["950440"]},
+    {"id":"printed-book-en","kind":"synthetic","reviewed":false,"product":{"title":"Printed hardcover novel","description":"A complete printed prose novel, bound in hardcover. Not a dictionary, children's picture book or loose sheets."},"candidate_codes":["490199","491199","950440"],"expected_choices":["490199"]},
+    {"id":"whisky-ja","kind":"synthetic","reviewed":false,"product":{"title":"シングルモルトウイスキー 700ml","description":"穀物から蒸留して熟成したウイスキー。アルコール度数43%。"},"candidate_codes":["220830","220820","220890"],"expected_choices":["220830"]},
+    {"id":"missing-function-ko","kind":"synthetic","reviewed":false,"product":{"title":"한정판 상품","description":"재질, 구성, 기능 정보가 제공되지 않았습니다."},"candidate_codes":["950440","491199","490199"],"expected_choices":["needs_information"]}
+  ]
+}

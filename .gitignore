@@ -10,3 +10,7 @@ __pycache__/
 *.sqlite*
 *.log
 .DS_Store
+
+.venv/
+
+.ipynb_checkpoints/
