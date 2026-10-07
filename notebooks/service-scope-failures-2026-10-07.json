@@ -1,0 +1,2039 @@
+{
+  "scope": "Fresh93 only; failure includes abstention; expert reference is not Korean official ruling",
+  "unique_failed_cases": 62,
+  "cases": [
+    {
+      "id": "hscodecomp-0022",
+      "product": {
+        "title": "AMD Ryzen 7 5700X 3.4GHz 8-Core 16-Thread R7 5700X Processor 65W 7NM L3=32M DDR4 Socket AM4 No Fan",
+        "description": "{\"Origin\": \"Mainland China\", \"Socket Type\": \"AM4\", \"Unlocked\": \"No\", \"Package size - length (cm)\": \"10\", \"Default TDP / TDP\": \"65\", \"GPU-built\": \"No\", \"Processor Type\": \"AMD Ryzen 5000 Series-R7\", \"Hign-concerned Chemical\": \"None\", \"AMD Model\": \"AMD Ryzen 7 5700X\", \"each pack\": \"1\", \"Usage Scenario\": \"Office\", \"Package size - height (cm)\": \"5\", \"Measurement unit\": \"100000015\", \"Number OF Therads\": \"16\", \"L2 Cache Capacity\": \"4\", \"Brand Name\": \"AMD\", \"PCIe VERSION\": \"PCIe 4.0\", \"Type\": \"Octa Core\", \"Support Chipset Models\": \"AMD Others\", \"Support Memory Type\": \"DDR4\", \"Package size - width (cm)\": \"10\", \"Cooling system\": \"No\", \"Package weight\": \"0.200\", \"Chip Process\": \"7nanometers\", \"Package\": \"Yes\", \"Support Memory Channels\": \"2\", \"Application\": \"Desktop\", \"MAX BOOST CLOCK\": \"4.6\", \"Sold in\": \"sell_by_piece\", \"L3 Cache Capacity\": \"32\"}",
+        "category": "Computer & Office > Computer Components > CPUs"
+      },
+      "reference_hs6": "854231",
+      "reference_description": "Electronic integrated circuits; processors and controllers, whether or not combined with memories, converters, logic circuits, amplifiers, clock and timing circuits, or other circuits",
+      "providers": {
+        "jev": {
+          "hs6": "854231",
+          "status": "candidate",
+          "correct": true,
+          "path": [
+            "85",
+            "8542",
+            "854231"
+          ],
+          "predicted_description": "Electronic integrated circuits; processors and controllers, whether or not combined with memories, converters, logic circuits, amplifiers, clock and timing circuits, or other circuits"
+        },
+        "llm": {
+          "hs6": null,
+          "status": "none_of_above",
+          "correct": false,
+          "path": [
+            "84"
+          ],
+          "predicted_description": null
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0033",
+      "product": {
+        "title": "Portable Lipstick Shaped Women Electric Epilator Eyebrow Trimmer Painless Effective Facial Hair Removal Shaver Small Epilator",
+        "description": "{\"Brand Name\": \"other\", \"Origin\": \"Mainland China\", \"Power Type\": \"Rechargeable\", \"each pack\": \"1\", \"Measurement unit\": \"100000015\", \"Use\": \"BODY,Bikini\", \"Package weight\": \"null\", \"Epilator Type\": \"Photoepilators\", \"Item Type\": \"Epilator\", \"Sold in\": \"sell_by_piece\", \"Hign-concerned Chemical\": \"None\"}",
+        "category": "Home Appliances > Personal Care Appliances > Epilator"
+      },
+      "reference_hs6": "851030",
+      "reference_description": "Hair-removing appliances; with self-contained electric motor",
+      "providers": {
+        "jev": {
+          "hs6": "851030",
+          "status": "candidate",
+          "correct": true,
+          "path": [
+            "85",
+            "8510",
+            "851030"
+          ],
+          "predicted_description": "Hair-removing appliances; with self-contained electric motor"
+        },
+        "llm": {
+          "hs6": null,
+          "status": "needs_information",
+          "correct": false,
+          "path": [
+            "85"
+          ],
+          "predicted_description": null
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0056",
+      "product": {
+        "title": "Top Quality Gold Silver Color Pave AAA+ Zircon Fish Bones S925 Silver Post Studs Earrings for Women Brincos Fashion Jewelry",
+        "description": "{\"Origin\": \"Mainland China\", \"Shape\\\\pattern\": \"Animal\", \"Measurement unit\": \"100000013\", \"Package size - length (cm)\": \"18\", \"Size\": \"1.3*3.1cm\", \"Fine or Fashion\": \"Fashion\", \"Back Finding\": \"Push-back\", \"Material\": \"cubic zirconia\", \"CN\": \"Zhejiang\", \"Gender\": \"Women\", \"Item Type\": \"Earrings\", \"Model Number\": \"2087492\", \"Hign-concerned Chemical\": \"None\", \"Metals Type\": \"Copper\", \"Brand Name\": \"NoEnName_Null\", \"each pack\": \"1\", \"Package size - width (cm)\": \"15\", \"Package weight\": \"0.020\", \"Style\": \"TRENDY\", \"Earring Type\": \"Stud Earrings\", \"Package size - height (cm)\": \"10\", \"Sold in\": \"sell_by_piece\"}",
+        "category": "Jewelry & Accessories > Fashion Jewelry > Earrings > Stud Earrings"
+      },
+      "reference_hs6": "711620",
+      "reference_description": "Stones; precious or semi-precious stones (natural, synthetic or reconstructed) articles of",
+      "providers": {
+        "jev": {
+          "hs6": "711711",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "71",
+            "7117",
+            "711711"
+          ],
+          "predicted_description": "Jewellery; imitation, cuff links and studs, of base metal, whether or not plated with precious metal"
+        },
+        "llm": {
+          "hs6": "711711",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "71",
+            "7117",
+            "711711"
+          ],
+          "predicted_description": "Jewellery; imitation, cuff links and studs, of base metal, whether or not plated with precious metal"
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0076",
+      "product": {
+        "title": "Vintage Rivet Black Crossbody Bag Women PU Leather Messenger Bag Cool Skull Shoulder Bag Designer Flap Handbag Bolso",
+        "description": "{\"Origin\": \"Mainland China\", \"Shape\": \"Satchels\", \"Measurement unit\": \"100000015\", \"Occasion\": \"Versatile\", \"Lining Material\": \"POLYESTER\", \"Interior\": \"Interior Slot Pocket,Interior Zipper Pocket\", \"Gender\": \"Women\", \"CN\": \"Guangdong\", \"Hardness\": \"SOFT\", \"Exterior\": \"Solid Bag\", \"Handbags Type\": \"Shoulder Bags\", \"Hign-concerned Chemical\": \"None\", \"Decoration\": \"Rivet\", \"Brand Name\": \"Yogodlns\", \"Place Of Origin\": \"GUANG DONG Province,HE BEI  Province\", \"each pack\": \"1\", \"Number of Handles/Straps\": \"Single\", \"Pattern Type\": \"Solid\", \"Style\": \"Fashion\", \"Closure Type\": \"Zipper\", \"Sold in\": \"sell_by_piece\", \"Types of bags\": \"Shoulder & Crossbody Bags\", \"Main Material\": \"PU\"}",
+        "category": "Luggage & Bags > Women's Handbags > Shoulder Bags"
+      },
+      "reference_hs6": "420222",
+      "reference_description": "Cases and containers; handbags (whether or not with shoulder strap and including those without handle), with outer surface of sheeting of plastics or of textile materials",
+      "providers": {
+        "jev": {
+          "hs6": "420221",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "42",
+            "4202",
+            "420221"
+          ],
+          "predicted_description": "Cases and containers; handbags (whether or not with shoulder strap and including those without handle), with outer surface of leather or of composition leather"
+        },
+        "llm": {
+          "hs6": "420222",
+          "status": "candidate",
+          "correct": true,
+          "path": [
+            "42",
+            "4202",
+            "420222"
+          ],
+          "predicted_description": "Cases and containers; handbags (whether or not with shoulder strap and including those without handle), with outer surface of sheeting of plastics or of textile materials"
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0078",
+      "product": {
+        "title": "Glitter Orange Diamonds Prom Dress 2024 Beads Crystals Rhinestones Sequin Gown Birthday Party Wedding Reception Customized",
+        "description": "{\"Waistline\": \"Natural\", \"Origin\": \"Mainland China\", \"Neckline\": \"O-Neck\", \"Occasion\": \"Prom\", \"Package size - length (cm)\": \"30\", \"Fashion Element\": \"ILLUSION\", \"Silhouette\": \"Trumpet / Mermaid\", \"Fabric Type\": \"Tulle\", \"Hign-concerned Chemical\": \"None\", \"each pack\": \"1\", \"Age-targeted\": \"All Age\", \"Actual Images\": \"Yes\", \"Style\": \"others\", \"is_customized\": \"Yes\", \"Sleeve Length(cm)\": \"Sleeveless\", \"Package size - height (cm)\": \"20\", \"Built-in Bra\": \"Yes\", \"Measurement unit\": \"100000015\", \"Sleeve Style\": \"Sleeveless\", \"Material\": \"Acetate\", \"Item Type\": \"Prom Dresses\", \"Craft of Weaving\": \"Non-Woven\", \"CN\": \"Jiangsu\", \"Decoration\": \"Beading,Crystal\", \"Brand Name\": \"NoEnName_Null\", \"Package size - width (cm)\": \"30\", \"Dresses Length\": \"Floor-Length\", \"Pattern Type\": \"others\", \"Package weight\": \"2.500\", \"Train\": \"Sweep Train\", \"Sold in\": \"sell_by_piece\"}",
+        "category": "Weddings & Events > Special Occasion Dresses > Prom Dresses"
+      },
+      "reference_hs6": "620444",
+      "reference_description": "Dresses; women's or girls', of artificial fibres (not knitted or crocheted)",
+      "providers": {
+        "jev": {
+          "hs6": null,
+          "status": "needs_information",
+          "correct": false,
+          "path": [
+            "62",
+            "6204"
+          ],
+          "predicted_description": null
+        },
+        "llm": {
+          "hs6": null,
+          "status": "needs_information",
+          "correct": false,
+          "path": [
+            "62",
+            "6204"
+          ],
+          "predicted_description": null
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0108",
+      "product": {
+        "title": "Fashion Summer Korean Luxury Clothing Boyfriend Blue Ripped Casual Denim Knee-length Distressed Designer Solid Jeans for Men",
+        "description": "{\"Origin\": \"Mainland China\", \"Package size - length (cm)\": \"10\", \"Jeans Style\": \"STRAIGHT\", \"Fabric Type\": \"Softener\", \"Gender\": \"Men\", \"Hign-concerned Chemical\": \"None\", \"Designer\": \"Distressed\", \"Place Of Origin\": \"China (mainland)\", \"Applicable Scene\": \"CASUAL\", \"ripped\": \"Solid Jeans for Men\", \"Waist Type\": \"MID\", \"each pack\": \"1\", \"Boyfriend\": \"Korean Luxury Clothing\", \"Wash\": \"medium锛18-24inch锛\", \"Applicable Season\": \"Summer\", \"Style\": \"Casual\", \"Package size - height (cm)\": \"5\", \"Country Preference\": \"Asia\", \"Measurement unit\": \"100000015\", \"Material\": \"Cotton\", \"Craft of Weaving\": \"Knit\", \"Item Type\": \"JEANS\", \"CN\": \"Guangdong\", \"Special Size\": \"Standard Size\", \"Model Number\": \"36598\", \"Decoration\": \"None\", \"Brand Name\": \"NoEnName_Null\", \"Thickness\": \"Midweight\", \"Package size - width (cm)\": \"10\", \"Fit Type\": \"Regular\", \"Length\": \"knee length\", \"Pattern Type\": \"Solid\", \"Package weight\": \"0.450\", \"Closure Type\": \"Zipper Fly\", \"Sold in\": \"sell_by_piece\"}",
+        "category": "Men's Clothing > Jeans锛_ew锛 > Jeans"
+      },
+      "reference_hs6": "610342",
+      "reference_description": "Trousers, bib and brace overalls, breeches and shorts; men's or boys', of cotton, knitted or crocheted",
+      "providers": {
+        "jev": {
+          "hs6": "620342",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "62",
+            "6203",
+            "620342"
+          ],
+          "predicted_description": "Trousers, bib and brace overalls, breeches and shorts; men's or boys', of cotton (not knitted or crocheted)"
+        },
+        "llm": {
+          "hs6": null,
+          "status": "needs_information",
+          "correct": false,
+          "path": [
+            "62"
+          ],
+          "predicted_description": null
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0111",
+      "product": {
+        "title": "European and American Hip Hop Y2k Men's and Women's Graphic Cotton T-shirt Harajuku Retro Fashion Men's Top",
+        "description": "{\"Men Clothing\": \"men t shirts\", \"Origin\": \"Mainland China\", \"hellsta\": \"Unisex\", \"Fabric Type\": \"Broadcloth\", \"Hign-concerned Chemical\": \"None\", \"Special Features\": \"Breathable\", \"Applicable Scene\": \"Shopping\", \"Place Of Origin\": \"China (mainland)\", \"each pack\": \"1\", \"Applicable Season\": \"Four Seasons\", \"Style\": \"Casual\", \"Sleeve Length(cm)\": \"short锛4-16inch锛\", \"Collar\": \"O-Neck\", \"Measurement unit\": \"100000015\", \"Tops Type\": \"TEES\", \"Material\": \"Cotton\", \"Item Type\": \"tops\", \"Craft of Weaving\": \"Non-Woven\", \"CN\": \"Anhui\", \"Brand Name\": \"NoEnName_Null\", \"Product Care Instructions\": \"Machine Wash\", \"Package weight\": \"null\", \"Pattern Type\": \"Solid\", \"t shirt\": \"Oversized T Shirt Men\", \"Closure Type\": \"Pull On\", \"Sold in\": \"sell_by_piece\"}",
+        "category": "Men's Clothing > Tops & Tees > T-Shirts"
+      },
+      "reference_hs6": "621132",
+      "reference_description": "Track suits and other garments n.e.c.; men's or boys', of cotton (not knitted or crocheted)",
+      "providers": {
+        "jev": {
+          "hs6": "620520",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "62",
+            "6205",
+            "620520"
+          ],
+          "predicted_description": "Shirts; men's or boys', of cotton (not knitted or crocheted)"
+        },
+        "llm": {
+          "hs6": null,
+          "status": "needs_information",
+          "correct": false,
+          "path": [
+            "61"
+          ],
+          "predicted_description": null
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0129",
+      "product": {
+        "title": "Doll Hat for Dollhouse Miniature for 17cm Labubu Color Match Hat Kawaii Cute Doll Accessories Kids Girls Toys",
+        "description": "{\"Origin\": \"Mainland China\", \"Measurement unit\": \"100000015\", \"Form\": \"1/3\", \"Package size - length (cm)\": \"20\", \"Dimensions\": \"Suitable for 17cm doll\", \"Material\": \"Cloth\", \"Gender\": \"Unisex\", \"Mfg Series Number\": \"Lifestyle\", \"CN\": \"Guangdong\", \"Item Type\": \"Doll Accessories\", \"Model Number\": \"467149\", \"Recommend Age\": \"0-3Y,14+y,3-6Y,6-12Y\", \"Hign-concerned Chemical\": \"None\", \"Certification\": \"CE\", \"Brand Name\": \"NoEnName_Null\", \"Type\": \"Accessories\", \"each pack\": \"1\", \"Package size - width (cm)\": \"15\", \"Package weight\": \"0.030\", \"Package size - height (cm)\": \"5\", \"Sold in\": \"sell_by_piece\", \"BJD/SD Attribute\": \"Hat\"}",
+        "category": "Toys & Hobbies > Dolls & Accessories > Dolls Accessories"
+      },
+      "reference_hs6": "950300",
+      "reference_description": "Tricycles, scooters, pedal cars and similar wheeled toys; dolls' carriages; dolls; other toys; reduced-size (scale) models and similar recreational models, working or not; puzzles of all kinds",
+      "providers": {
+        "jev": {
+          "hs6": "650500",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "65",
+            "6505",
+            "650500"
+          ],
+          "predicted_description": "Hats and other headgear; knitted or crocheted, or made up from lace, felt or other textile fabric, in the piece (but not in strips), whether or not lined or trimmed; hair-nets of any material, whether or not lined or trimmed"
+        },
+        "llm": {
+          "hs6": "950300",
+          "status": "candidate",
+          "correct": true,
+          "path": [
+            "95",
+            "9503",
+            "950300"
+          ],
+          "predicted_description": "Tricycles, scooters, pedal cars and similar wheeled toys; dolls' carriages; dolls; other toys; reduced-size (scale) models and similar recreational models, working or not; puzzles of all kinds"
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0136",
+      "product": {
+        "title": "1PCS Oldham Coupling T8*8 Nut 18mm Coupler Compatible with T8*8 Screw For Ender 3 Pro/ V2 CR10 3d printer Parts",
+        "description": "{\"Origin\": \"Mainland China\", \"Brand Name\": \"Creativity\", \"each pack\": \"1\", \"Measurement unit\": \"100000015\", \"Package size - width (cm)\": \"10\", \"Package size - length (cm)\": \"15\", \"Package weight\": \"0.020\", \"Item Type\": \"Flexible Shaft Coupler\", \"Package size - height (cm)\": \"5\", \"Sold in\": \"sell_by_piece\", \"Hign-concerned Chemical\": \"None\"}",
+        "category": "Computer & Office > 3D Printing & Additive Manufacturing > 3D Printer Parts & Accessories"
+      },
+      "reference_hs6": "741533",
+      "reference_description": "Copper; screws, bolts and nuts, threaded",
+      "providers": {
+        "jev": {
+          "hs6": "848360",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "84",
+            "8483",
+            "848360"
+          ],
+          "predicted_description": "Clutches and shaft couplings (including universal joints)"
+        },
+        "llm": {
+          "hs6": "848360",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "84",
+            "8483",
+            "848360"
+          ],
+          "predicted_description": "Clutches and shaft couplings (including universal joints)"
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0148",
+      "product": {
+        "title": "Soft Solid Color Lace Mesh Tulle Fabric For Handmade DIY Background Decor Veils Gown Various Skirts Wedding Dress Cloth Y011",
+        "description": "{\"Origin\": \"Mainland China\", \"Occasion\": \"Wedding Decoration,skirt, Party,Other\", \"Package size - length (cm)\": \"30\", \"Set Type\": \"No\", \"Feature\": \"Eco-Friendly,Mesh Tulle Fabric For Handmade DIY Background Decor Veils Gown Various Skirts\", \"Name\": \"Lace Mesh Fabric\", \"each pack\": \"1\", \"Number\": \"Y011\", \"Item size\": \"100*160cm\", \"Style\": \"plain\", \"Type of Wholesale\": \"No\", \"is_customized\": \"No\", \"Width\": \"160cm\", \"Package size - height (cm)\": \"10\", \"Measurement unit\": \"100000010\", \"Color\": \"As shown\", \"Knitted Type\": \"Other\", \"Material\": \"100% Polyester\", \"CN\": \"Guangdong\", \"Suede Fabric Type\": \"other\", \"Brand Name\": \"LANLINYING\", \"Type\": \"Mesh Fabric\", \"Package size - width (cm)\": \"20\", \"Technics\": \"Woven\", \"Product Type\": \"Other Fabric\", \"Nonwoven Technics\": \"other\", \"Pattern Type\": \"Dyed\", \"Package weight\": \"0.030\", \"Sold in\": \"sell_by_piece\"}",
+        "category": "Home & Garden > Arts,Crafts & Sewing > DIY Apparel Sewing Supplies > Fabric"
+      },
+      "reference_hs6": "580410",
+      "reference_description": "Tulles and other net fabrics; excluding woven, knitted or crocheted fabrics, (other than fabrics of headings 60.02 to 60.06)",
+      "providers": {
+        "jev": {
+          "hs6": "580410",
+          "status": "candidate",
+          "correct": true,
+          "path": [
+            "58",
+            "5804",
+            "580410"
+          ],
+          "predicted_description": "Tulles and other net fabrics; excluding woven, knitted or crocheted fabrics, (other than fabrics of headings 60.02 to 60.06)"
+        },
+        "llm": {
+          "hs6": null,
+          "status": "needs_information",
+          "correct": false,
+          "path": [
+            "54",
+            "5407"
+          ],
+          "predicted_description": null
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0158",
+      "product": {
+        "title": "Women Medieval Renaissance Lolita Pants Elastic Shorts Pumpkin Shorts Summer Girl Pumpkin Bubble Bloomer Safety Under Pants",
+        "description": "{\"Origin\": \"Mainland China\", \"Measurement unit\": \"100000015\", \"Package size - length (cm)\": \"30\", \"Color\": \"white Black\", \"Source Type\": \"Original\", \"Characters\": \"Medieval\", \"Material\": \"POLYESTER\", \"Gender\": \"Women\", \"Craft of Weaving\": \"Tat\", \"CN\": \"Fujian\", \"Item Type\": \"Bottoms\", \"Model Number\": \"medieval pant\", \"Hign-concerned Chemical\": \"None\", \"Components\": \"pants\", \"Brand Name\": \"NoEnName_Null\", \"Special Use\": \"costumes\", \"each pack\": \"1\", \"Package size - width (cm)\": \"20\", \"Package weight\": \"0.300\", \"Package size - height (cm)\": \"3\", \"Sold in\": \"sell_by_piece\", \"Source Countries\": \"CHINA\"}",
+        "category": "Novelty & Special Use > Cosplay Accessories > Cosplay Costumes锛_eactivate锛"
+      },
+      "reference_hs6": "620463",
+      "reference_description": "Trousers, bib and brace overalls, breeches and shorts; women's or girls', of synthetic fibres (not knitted or crocheted)",
+      "providers": {
+        "jev": {
+          "hs6": "620463",
+          "status": "candidate",
+          "correct": true,
+          "path": [
+            "62",
+            "6204",
+            "620463"
+          ],
+          "predicted_description": "Trousers, bib and brace overalls, breeches and shorts; women's or girls', of synthetic fibres (not knitted or crocheted)"
+        },
+        "llm": {
+          "hs6": null,
+          "status": "needs_information",
+          "correct": false,
+          "path": [
+            "61"
+          ],
+          "predicted_description": null
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0159",
+      "product": {
+        "title": "Girls Band Cry Nina Iseri Hina Premium Cosplay Kit - Diamond Dust Band T-Shirt Outfit with Casual Togenashi Costumized Outfit",
+        "description": "{\"Origin\": \"Mainland China\", \"Measurement unit\": \"100000015\", \"Package size - length (cm)\": \"20\", \"Characters\": \"Goddess\", \"Source Type\": \"GAME\", \"Material\": \"POLYESTER\", \"Item Type\": \"sets\", \"Gender\": \"Unisex\", \"Craft of Weaving\": \"Non-Woven\", \"CN\": \"Hubei\", \"Hign-concerned Chemical\": \"None\", \"Components\": \"suits\", \"Brand Name\": \"NoEnName_Null\", \"each pack\": \"1\", \"Package size - width (cm)\": \"20\", \"Package weight\": \"0.300\", \"Package size - height (cm)\": \"2\", \"Sold in\": \"sell_by_piece\"}",
+        "category": "Novelty & Special Use > Cosplay Accessories > Cosplay Costumes锛_eactivate锛"
+      },
+      "reference_hs6": "621143",
+      "reference_description": "Track suits and other garments n.e.c.; women's or girls', of man-made fibres (not knitted or crocheted)",
+      "providers": {
+        "jev": {
+          "hs6": "621010",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "62",
+            "6210",
+            "621010"
+          ],
+          "predicted_description": "Garments; of felt or non-wovens (not knitted or crocheted)"
+        },
+        "llm": {
+          "hs6": null,
+          "status": "none_of_above",
+          "correct": false,
+          "path": [
+            "61"
+          ],
+          "predicted_description": null
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0179",
+      "product": {
+        "title": "Fenge Dual Monitor Stand, Monitor Stands Riser for 2 monitors, 42.5 Inch Wood Desk Shelf with Storage Organizer and Cable",
+        "description": "{\"Origin\": \"US(Origin)\", \"Brand Name\": \"NoEnName_Null\", \"Installation Method\": \"Assembly\", \"each pack\": \"1\", \"Package size - width (cm)\": \"23\", \"Measurement unit\": \"100000015\", \"Package size - length (cm)\": \"25\", \"Package weight\": \"0.900\", \"Package size - height (cm)\": \"21\", \"Sold in\": \"sell_by_piece\", \"Hign-concerned Chemical\": \"None\"}",
+        "category": "Furniture > Outdoor Furniture > Garden Furniture Sets"
+      },
+      "reference_hs6": "442199",
+      "reference_description": "Wood; not of bamboo, articles n.e.c. in heading no. 4414 to 4420 (excluding clothes hangers)",
+      "providers": {
+        "jev": {
+          "hs6": null,
+          "status": "needs_information",
+          "correct": false,
+          "path": [
+            "44"
+          ],
+          "predicted_description": null
+        },
+        "llm": {
+          "hs6": "940330",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "94",
+            "9403",
+            "940330"
+          ],
+          "predicted_description": "Furniture; wooden, for office use"
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0204",
+      "product": {
+        "title": "Elegent Shiny Pearls Feathers Formal Evening Dress One Shoulder Sexy Women Prom Dresses Mermaid Party Gowns With Long Shawl",
+        "description": "{\"Waistline\": \"Natural\", \"Origin\": \"Mainland China\", \"Neckline\": \"O-Neck\", \"Occasion\": \"Prom\", \"Package size - length (cm)\": \"30\", \"Silhouette\": \"A-LINE\", \"Fabric Type\": \"Chiffon\", \"Hign-concerned Chemical\": \"None\", \"each pack\": \"1\", \"Age-targeted\": \"All Age\", \"Actual Images\": \"Yes\", \"Style\": \"Simple\", \"is_customized\": \"Yes\", \"Sleeve Length(cm)\": \"Sleeveless\", \"Package size - height (cm)\": \"19\", \"Built-in Bra\": \"Yes\", \"Measurement unit\": \"100000015\", \"Sleeve Style\": \"Cap Sleeve\", \"Material\": \"Wool\", \"Item Type\": \"Prom Dresses\", \"Craft of Weaving\": \"Non-Woven\", \"CN\": \"Jiangsu\", \"Brand Name\": \"Oisslec\", \"Package size - width (cm)\": \"20\", \"Dresses Length\": \"Floor-Length\", \"Pattern Type\": \"Floral\", \"Package weight\": \"1.000\", \"Train\": \"None\", \"Sold in\": \"sell_by_piece\"}",
+        "category": "Weddings & Events > Special Occasion Dresses > Prom Dresses"
+      },
+      "reference_hs6": "620441",
+      "reference_description": "Dresses; women's or girls', of wool or fine animal hair (not knitted or crocheted)",
+      "providers": {
+        "jev": {
+          "hs6": null,
+          "status": "needs_information",
+          "correct": false,
+          "path": [
+            "62",
+            "6204"
+          ],
+          "predicted_description": null
+        },
+        "llm": {
+          "hs6": null,
+          "status": "needs_information",
+          "correct": false,
+          "path": [],
+          "predicted_description": null
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0260",
+      "product": {
+        "title": "KSRA 2024 New Trend Gold Color Inlay Round Shape Zircon Exquisite Rings For Women Evening Party Jewelry",
+        "description": "{\"Origin\": \"Mainland China\", \"Shape\\\\pattern\": \"Geometric,Geometric\", \"Occasion\": \"Gift Party Traveling Daily use Anniversary Concert,party\", \"Size\": \"See picture for details\", \"Package size - length (cm)\": \"15\", \"Fine or Fashion\": \"Fashion\", \"Gender\": \"Unisex Women's Men's,Women\", \"Hign-concerned Chemical\": \"None\", \"Design\": \"Snake Skin Earrings/Big Earrings\", \"Function\": \"Fashion Decoration,fitness tracker\", \"Rings Type\": \"Cocktail Ring\", \"Free express\": \"Order>$150 free ship with UPS DHL EMS FEDEX ARAMEX...\", \"Setting Type\": \"Tension Setting\", \"Style\": \"Classic Trendy Casual Fashion,Cute/Romantic\", \"is_customized\": \"Yes\", \"Season\": \"Spring Autumn Summer Winter\", \"Package size - height (cm)\": \"8\", \"Customized Type\": \"Inlaid Jewel\", \"Material\": \"Stainless Steel,cubic zirconia\", \"Item Type\": \"Customized Rings\", \"Model Number\": \"RJ48956\", \"LOT_NUM\": \"1\", \"Metals Type\": \"Copper\", \"PRODUCT_UNIT\": \"100000015\", \"Brand Name\": \"NoEnName_Null\", \"PACKAGE_TYPE\": \"sell_by_piece\", \"Colors\": \"See picture\", \"Package size - width (cm)\": \"12\", \"Package weight\": \"0.009\", \"Gift For\": \"Girl Friend Wife Mom Sisters Wedding Souvenir\", \"Compatibility\": \"Android\"}",
+        "category": "Jewelry & Accessories > Customized Jewelry > Customized Rings"
+      },
+      "reference_hs6": "711620",
+      "reference_description": "Stones; precious or semi-precious stones (natural, synthetic or reconstructed) articles of",
+      "providers": {
+        "jev": {
+          "hs6": "711719",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "71",
+            "7117",
+            "711719"
+          ],
+          "predicted_description": "Jewellery; imitation, (excluding cuff links and studs), of base metal, whether or not plated with precious metal"
+        },
+        "llm": {
+          "hs6": "711719",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "71",
+            "7117",
+            "711719"
+          ],
+          "predicted_description": "Jewellery; imitation, (excluding cuff links and studs), of base metal, whether or not plated with precious metal"
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0266",
+      "product": {
+        "title": "New Fashion Red Strawberry Crystal Bead Necklace Unique Woman Jewelry Daily Trend Accessories High-Quality Original Design",
+        "description": "{\"Origin\": \"Mainland China\", \"Measurement unit\": \"100000015\", \"Package size - length (cm)\": \"20\", \"Material\": \"Metal\", \"Gender\": \"Women\", \"CN\": \"Jiangsu\", \"Feature\": \"Decorate_\", \"Brand Name\": \"NoEnName_Null\", \"Place Of Origin\": \"China (mainland)\", \"Department Name\": \"Adult\", \"each pack\": \"1\", \"Package size - width (cm)\": \"13\", \"Package weight\": \"0.060\", \"Style\": \"Fashion\", \"Package size - height (cm)\": \"3\", \"Sold in\": \"sell_by_piece\"}",
+        "category": "Apparel Accessories > New Headwear > Hair Accessories"
+      },
+      "reference_hs6": "711620",
+      "reference_description": "Stones; precious or semi-precious stones (natural, synthetic or reconstructed) articles of",
+      "providers": {
+        "jev": {
+          "hs6": "711719",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "71",
+            "7117",
+            "711719"
+          ],
+          "predicted_description": "Jewellery; imitation, (excluding cuff links and studs), of base metal, whether or not plated with precious metal"
+        },
+        "llm": {
+          "hs6": null,
+          "status": "needs_information",
+          "correct": false,
+          "path": [
+            "71",
+            "7117"
+          ],
+          "predicted_description": null
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0267",
+      "product": {
+        "title": "Dainty Female Purple Square Round Zircon Stone Hoop Earrings Cute Gold Color Girlfriend Gifts Wedding Jewelry For Women",
+        "description": "{\"Origin\": \"Mainland China\", \"Shape\\\\pattern\": \"Square\", \"Measurement unit\": \"100000013\", \"Gifts For\": \"Son & Daughter,Father & Mother,Lover,Boyfriend & Girlfriend\", \"Occasion\": \"Anniversary/Engagement/Wedding/Party/Gift/Holiday\", \"Package size - length (cm)\": \"14\", \"Fine or Fashion\": \"Fashion\", \"Material\": \"cubic zirconia\", \"CN\": \"Zhejiang\", \"Gender\": \"Women\", \"Item Type\": \"Earrings\", \"Model Number\": \"E00419-GPP\", \"Metals Type\": \"None\", \"Hign-concerned Chemical\": \"None\", \"Brand Name\": \"NoEnName_Null\", \"each pack\": \"1\", \"Package size - width (cm)\": \"10\", \"Package weight\": \"0.020\", \"Style\": \"TRENDY\", \"Earring Type\": \"hoop earrings\", \"Gifts\": \"New Year,Valentine's Day,Easter,Mother's Day,Christmas Day Gifts\", \"Gift For\": \"Boy & Girl,Men & Women,Male & Female\", \"Is_customized\": \"Yes\", \"Package size - height (cm)\": \"4\", \"Sold in\": \"sell_by_piece\"}",
+        "category": "Jewelry & Accessories > Fashion Jewelry > Earrings > Hoop Earrings"
+      },
+      "reference_hs6": "711620",
+      "reference_description": "Stones; precious or semi-precious stones (natural, synthetic or reconstructed) articles of",
+      "providers": {
+        "jev": {
+          "hs6": null,
+          "status": "needs_information",
+          "correct": false,
+          "path": [
+            "71",
+            "7117"
+          ],
+          "predicted_description": null
+        },
+        "llm": {
+          "hs6": null,
+          "status": "needs_information",
+          "correct": false,
+          "path": [
+            "71",
+            "7117"
+          ],
+          "predicted_description": null
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0271",
+      "product": {
+        "title": "Smart Pen Set Smart Notebook OCR Digital Pen Sync Pen 3 for Student Designer Business Man Record Notes Voices Bluetooth Wireless",
+        "description": "{\"Origin\": \"Mainland China\", \"Measurement unit\": \"100000017\", \"Package Dimensions\": \"10.91 x 8.82 x 2.64 inches\", \"Feature 1\": \"smart pen\", \"Package size - length (cm)\": \"20\", \"Feature 3\": \"pen\", \"Feature 2\": \"newyes smart pen\", \"Feature 5\": \"Smart Notebook\", \"Material\": \"Aluminum\", \"Feature 4\": \"SyncPen3 Set\", \"Model Number\": \"Sync Pen 3\", \"Feature 6\": \"OCR Digital Pen\", \"Hign-concerned Chemical\": \"None\", \"Are Batteries Included\": \"Yes\", \"Brand Name\": \"NeWYeS\", \"each pack\": \"1\", \"Package size - width (cm)\": \"30\", \"Number of Batteries\": \"1 CR2 batteries required. (included)\", \"Batteries Required?\": \"Yes\", \"Package weight\": \"1.200\", \"Package size - height (cm)\": \"10\", \"Sold in\": \"sell_by_piece\", \"Item Weight\": \"2.18 pounds\"}",
+        "category": "Office & School Supplies > Notebooks & Writing Pads > Smart Notebooks"
+      },
+      "reference_hs6": "854370",
+      "reference_description": "Electrical machines and apparatus; having individual functions, not specified or included elsewhere in this chapter, n.e.c. in heading no. 8543",
+      "providers": {
+        "jev": {
+          "hs6": "852290",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "85",
+            "8522",
+            "852290"
+          ],
+          "predicted_description": "Sound or video recording or reproducing apparatus; parts and accessories thereof, other than pick-up cartridges"
+        },
+        "llm": {
+          "hs6": null,
+          "status": "none_of_above",
+          "correct": false,
+          "path": [
+            "85",
+            "8517"
+          ],
+          "predicted_description": null
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0280",
+      "product": {
+        "title": "AK45 HiFi Digital Amplifier Max Power 300Wx2 Channel 2.0 Bluetooth 5.0 Surround Sound AMP LCD Display Speaker for Home Car",
+        "description": "{\"Origin\": \"Mainland China\", \"Measurement unit\": \"100000015\", \"Feature 1\": \"LCD Display Home Theater Amplifier\", \"Package size - length (cm)\": \"26\", \"Feature 3\": \"Audio Stereo amplificador\", \"Feature 2\": \"bluetooth Home Power Amplifier\", \"Maximum Power Per Channel\": \"40W\", \"Feature 5\": \"HiFi Digital Amplifier\", \"Feature 4\": \"FM USB SD 3Mic\", \"Feature 7\": \"for Home Car\", \"Model Number\": \"/\", \"Feature 6\": \"Channel 2.0 Bluetooth Surround Sound AMP Speaker\", \"Hign-concerned Chemical\": \"None\", \"Certification\": \"CE\", \"Feature 9\": \"2.0 Channel Bluetooth 5.0 Surround Sound FM USB MI\", \"Channels\": \"2 (2.0)\", \"Feature 8\": \"Home Power Amplifiers\", \"Brand Name\": \"CUGUU\", \"each pack\": \"1\", \"Package size - width (cm)\": \"23\", \"Package weight\": \"1.010\", \"Package\": \"Yes\", \"Feature 10\": \"Remote Control Mini HIFI Digital Amplifier\", \"Package size - height (cm)\": \"10\", \"Sold in\": \"sell_by_piece\"}",
+        "category": "Consumer Electronics > Home Audio & Video > Home Theater Amplifiers"
+      },
+      "reference_hs6": "854370",
+      "reference_description": "Electrical machines and apparatus; having individual functions, not specified or included elsewhere in this chapter, n.e.c. in heading no. 8543",
+      "providers": {
+        "jev": {
+          "hs6": "851840",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "85",
+            "8518",
+            "851840"
+          ],
+          "predicted_description": "Amplifiers; audio-frequency electric"
+        },
+        "llm": {
+          "hs6": "851840",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "85",
+            "8518",
+            "851840"
+          ],
+          "predicted_description": "Amplifiers; audio-frequency electric"
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0281",
+      "product": {
+        "title": "GHXAMP 20mm Mini Speaker 4Ohm 2W Multimedia Internal Magnetic Speaker Unit Cmposite Film Repair Small Audio Parts 630Hz-20KHz",
+        "description": "{\"Origin\": \"Mainland China\", \"Frequency Range\": \"Other\", \"Category\": \"Speakers\", \"Waterproof\": \"No\", \"Power Source\": \"None,None\", \"Package size - length (cm)\": \"10\", \"Sound Mode\": \"other\", \"Feature\": \"None\", \"Speaker Type\": \"Portable\", \"Hign-concerned Chemical\": \"None\", \"Channels\": \"1\", \"each pack\": \"2\", \"Playback Function\": \"CD,DVD,FLAC,Other,Radio,mp3\", \"Battery\": \"No\", \"Mid-range material\": \"other\", \"PMPO\": \"2W\", \"Package size - height (cm)\": \"10\", \"Built-in Microphone\": \"No\", \"Communication\": \"Audio Line\", \"Intelligent Personal Assistant\": \"None\", \"Measurement unit\": \"100000015\", \"Display Screen\": \"No,No\", \"Remote Control\": \"No\", \"Use\": \"Home\", \"Cabinet Material\": \"Wood\", \"Support APP\": \"No\", \"Woofer/Widerange material\": \"other\", \"Support Memory Card\": \"No\", \"Certification\": \"None\", \"Input Power(W)\": \"<25 W\", \"Brand Name\": \"GHXAMP\", \"Package size - width (cm)\": \"10\", \"Audio Crossover\": \"Full-Range\", \"Inbox adaptor\": \"No\", \"Package weight\": \"0.030\", \"Sensivity\": \"83\", \"Number of Loudspeaker Enclosure\": \"1\", \"Support Apt-x\": \"No\", \"Voice Control\": \"No\", \"Impedance\": \"4 Ohm\", \"Output Voltage\": \"2W\", \"Sold in\": \"sell_by_lot\", \"Input/Output\": \"other\", \"Total Harmonic Distortion\": \"5\"}",
+        "category": "Consumer Electronics > Portable Audio & Video > Speakers"
+      },
+      "reference_hs6": "851821",
+      "reference_description": "Loudspeakers; single, mounted in their enclosures",
+      "providers": {
+        "jev": {
+          "hs6": "851829",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "85",
+            "8518",
+            "851829"
+          ],
+          "predicted_description": "Loudspeakers; not mounted in their enclosures"
+        },
+        "llm": {
+          "hs6": "851829",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "85",
+            "8518",
+            "851829"
+          ],
+          "predicted_description": "Loudspeakers; not mounted in their enclosures"
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0282",
+      "product": {
+        "title": "SIXWGH Smart Home Wireless 433mhz Light Switch House Improvement Self-Power Remote Controller Push Button Wall Switch Set",
+        "description": "{\"Origin\": \"Mainland China\", \"Package size - length (cm)\": \"15\", \"Wireless distance\": \"150 meters\", \"Hign-concerned Chemical\": \"None\", \"each pack\": \"1\", \"Features2\": \"No need battery\", \"Features1\": \"Waterproof\", \"Receiver size\": \"65*42*25mm\", \"Features\": \"self-powered without battery\", \"Is Smart Device\": \"No\", \"Package size - height (cm)\": \"10\", \"Measurement unit\": \"100000017\", \"Warranty\": \"1 year\", \"Transmitter size\": \"86*86*19mm\", \"Switch Type\": \"Push Button Switch\", \"Wireless frequency\": \"433 MHz\", \"Material\": \"Plastic\", \"Item Type\": \"SWITCHES\", \"Model Number\": \"WHD05\", \"Certification\": \"CE,FCC,FCC,ROHS,RoHS,ce\", \"Brand Name\": \"sixwgh\", \"Package size - width (cm)\": \"12\", \"Package weight\": \"0.150\", \"Current\": \"10A\", \"Sold in\": \"sell_by_piece\", \"Controller Operating Voltage\": \"AC 85V-240V 60HZ/50HZ\"}",
+        "category": "Home Improvement > Electrical Equipment & Supplies > Switch,Sockets and Accessories > Switches"
+      },
+      "reference_hs6": "853650",
+      "reference_description": "Electrical apparatus; switches n.e.c. in heading no. 8536, for a voltage not exceeding 1000 volts",
+      "providers": {
+        "jev": {
+          "hs6": "853650",
+          "status": "candidate",
+          "correct": true,
+          "path": [
+            "85",
+            "8536",
+            "853650"
+          ],
+          "predicted_description": "Electrical apparatus; switches n.e.c. in heading no. 8536, for a voltage not exceeding 1000 volts"
+        },
+        "llm": {
+          "hs6": "852692",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "85",
+            "8526",
+            "852692"
+          ],
+          "predicted_description": "Radio remote control apparatus"
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0292",
+      "product": {
+        "title": "4Pcs Coarse Replacement Refill Roller Head For Electric Pedicure Foot File Tools",
+        "description": "{\"Brand Name\": \"NoEnName_Null\", \"Origin\": \"Mainland China\", \"Type\": \"Other\", \"each pack\": \"1\", \"Measurement unit\": \"100000015\", \"Sold in\": \"sell_by_piece\"}",
+        "category": "Tools > Tool Parts"
+      },
+      "reference_hs6": "850990",
+      "reference_description": "Electro-mechanical domestic appliances; parts for the appliances of heading no. 8509",
+      "providers": {
+        "jev": {
+          "hs6": null,
+          "status": "needs_information",
+          "correct": false,
+          "path": [],
+          "predicted_description": null
+        },
+        "llm": {
+          "hs6": null,
+          "status": "none_of_above",
+          "correct": false,
+          "path": [
+            "84",
+            "8466"
+          ],
+          "predicted_description": null
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0297",
+      "product": {
+        "title": "icafilas Reusable Coffee Capsule for Nespresso Machine with Stainless Filter Mesh Refillable Espresso Pod Kitchen Tamper",
+        "description": "{\"Origin\": \"Mainland China\", \"Measurement unit\": \"100000015\", \"Pod\": \"Refillable Espresso Pod\", \"Package size - length (cm)\": \"30\", \"Product\": \"Coffee filter pod\", \"Material\": \"Stainless Steel\", \"CN\": \"Guangdong\", \"Maker\": \"for Nespresso Coffee machine\", \"capacity\": \"About  3-4g coffee power\", \"Brand Name\": \"RECAFIMIL\", \"each pack\": \"1\", \"other name\": \"Reusable coffee capsule\", \"Package size - width (cm)\": \"10\", \"Package weight\": \"0.200\", \"Filter Type\": \"Reusable Filters\", \"work with\": \"icafilas\", \"Package size - height (cm)\": \"10\", \"Sold in\": \"sell_by_piece\"}",
+        "category": "Home & Garden > Kitchen,Dining & Bar > Coffeeware > Coffee Filters/Dripper"
+      },
+      "reference_hs6": "850990",
+      "reference_description": "Electro-mechanical domestic appliances; parts for the appliances of heading no. 8509",
+      "providers": {
+        "jev": {
+          "hs6": "732393",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "73",
+            "7323",
+            "732393"
+          ],
+          "predicted_description": "Steel, stainless; table, kitchen and other household articles and parts thereof"
+        },
+        "llm": {
+          "hs6": "732393",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "73",
+            "7323",
+            "732393"
+          ],
+          "predicted_description": "Steel, stainless; table, kitchen and other household articles and parts thereof"
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0298",
+      "product": {
+        "title": "Bathroom Mirror LED Strip Light LED Switch Touch Sensor 12v LED Dimmer Switch LED Controller For Bedroom Mirrors Interior Decor",
+        "description": "{\"Origin\": \"Mainland China\", \"Power Consumption (W/m)\": \"2.88W/m,3.84W/m,4W/m,5.76W/m,7.36W/m,8.64W/m\", \"Measurement unit\": \"100000015\", \"Waterproof\": \"No\", \"Occasion\": \"LIVING ROOM,LIVING ROOM\", \"Power Source\": \"DC\", \"Item Type\": \"Strip\", \"Power Generation\": \"Touch\", \"Model Number\": \"LED Controller\", \"Hign-concerned Chemical\": \"None\", \"Certification\": \"CE,RoHs,ce\", \"Brand Name\": \"Lcamaw\", \"each pack\": \"1\", \"Is Batteries Included\": \"No\", \"Average Life (hrs)\": \"50000\", \"Voltage\": \"12 V\", \"Is Smart Device\": \"No\", \"Strip type\": \"SMD\", \"Sold in\": \"sell_by_piece\", \"Luminous Flux\": \"<60\"}",
+        "category": "Lights & Lighting > LED Lighting > LED Strip"
+      },
+      "reference_hs6": "853650",
+      "reference_description": "Electrical apparatus; switches n.e.c. in heading no. 8536, for a voltage not exceeding 1000 volts",
+      "providers": {
+        "jev": {
+          "hs6": "940542",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "94",
+            "9405",
+            "940542"
+          ],
+          "predicted_description": "Luminaires and light fittings; electric, designed for use solely with light-emitting diode (LED) light sources"
+        },
+        "llm": {
+          "hs6": null,
+          "status": "needs_information",
+          "correct": false,
+          "path": [
+            "94",
+            "9405"
+          ],
+          "predicted_description": null
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0329",
+      "product": {
+        "title": "Women sexy lingerie pu leather sexy costumes temptation dessous fetish erotic costume sex clothes pole dance apparel",
+        "description": "{\"Origin\": \"Mainland China\", \"Measurement unit\": \"100000015\", \"Package size - length (cm)\": \"1\", \"Material\": \"Microfiber,POLYESTER\", \"Item Type\": \"baby dolls\", \"Gender\": \"Women\", \"Craft of Weaving\": \"Tat\", \"Fabric Type\": \"Satin\", \"CN\": \"Guangdong\", \"Model Number\": \"We58222\", \"Hign-concerned Chemical\": \"None\", \"Decoration\": \"None\", \"Brand Name\": \"NoEnName_Null\", \"Special Use\": \"Exotic Apparel\", \"each pack\": \"1\", \"Package size - width (cm)\": \"10\", \"Obscene Picture\": \"No\", \"Pattern Type\": \"Solid\", \"Package weight\": \"0.040\", \"Sexually Suggestive\": \"No\", \"Package size - height (cm)\": \"20\", \"Sold in\": \"sell_by_piece\"}",
+        "category": "Novelty & Special Use > Exotic Apparel > Babydolls & Chemises"
+      },
+      "reference_hs6": "392620",
+      "reference_description": "Plastics; articles of apparel and clothing accessories (including gloves, mittens and mitts)",
+      "providers": {
+        "jev": {
+          "hs6": "620892",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "62",
+            "6208",
+            "620892"
+          ],
+          "predicted_description": "Singlets and other vests, briefs, panties, negligees, bathrobes, dressing gowns etc.; women's or girls', of man-made fibres (not knitted or crocheted), excluding incontinence or other sanitary garments or garment liners of heading no. 96.19"
+        },
+        "llm": {
+          "hs6": null,
+          "status": "needs_information",
+          "correct": false,
+          "path": [
+            "61"
+          ],
+          "predicted_description": null
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0333",
+      "product": {
+        "title": "1 set Mouse Skate Mouse Feet for razer Basilisk Ultimate Mouse Glides Curve Edge",
+        "description": "{\"Origin\": \"Mainland China\", \"Package size - length (cm)\": \"12\", \"Quantity\": \"1 Set,1 Set\", \"Material\": \"PTFE,PTFE,PTFE\", \"LOT_NUM\": \"1\", \"Hign-concerned Chemical\": \"None\", \"PRODUCT_UNIT\": \"100000015\", \"Brand Name\": \"OPEN-SMART\", \"Thickness\": \"0.6mm,0.6mm\", \"PACKAGE_TYPE\": \"sell_by_piece\", \"Package size - width (cm)\": \"8\", \"Package weight\": \"0.007\", \"Package\": \"Yes\", \"Package size - height (cm)\": \"1\"}",
+        "category": "Computer & Office > Computer Peripherals > Mice & Keyboards > Mouse Pads"
+      },
+      "reference_hs6": "391990",
+      "reference_description": "Plastics; plates, sheets, film, foil, tape, strip, other flat shapes thereof, self-adhesive, other than in rolls of a width not exceeding 20cm",
+      "providers": {
+        "jev": {
+          "hs6": "392690",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "39",
+            "3926",
+            "392690"
+          ],
+          "predicted_description": "Plastics; other articles n.e.c. in chapter 39"
+        },
+        "llm": {
+          "hs6": "392690",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "39",
+            "3926",
+            "392690"
+          ],
+          "predicted_description": "Plastics; other articles n.e.c. in chapter 39"
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0358",
+      "product": {
+        "title": "ANBERNIC RG 40XXV 64 Bit Linux Retro Handheld Game Console 4.0'' IPS Screen Supports 5G WiFi Bluetooth HD-Support Output RG40XXV",
+        "description": "{\"Charging Interface Type\": \"Type-C\", \"Origin\": \"Mainland China\", \"Category\": \"Handheld Game Players\", \"Bluetooth-compatible\": \"Yes\", \"Package size - length (cm)\": \"20.00\", \"Hign-concerned Chemical\": \"None\", \"each pack\": \"1\", \"Games Type\": \"Retro Game\", \"Display Size\": \"4.0\\\"\", \"Operating System\": \"Linux\", \"External Controller Interface\": \"Type-C\", \"Package size - height (cm)\": \"5.00\", \"Supporting Language\": \"Brazilian Portuguese,English,French,German,Japanese,Korean,Russian,Simplified Chinese,Spanish\", \"Recommended age\": \"Over 5 years old\", \"Expandable storage\": \"maximum 512GB\", \"Screen Resolution\": \"640x480\", \"Measurement unit\": \"100000015\", \"Color Display\": \"Yes\", \"Games included\": \"5000+\", \"Anbernic Model\": \"RG40XX V\", \"Material\": \"Plastic\", \"Touch Screen\": \"No\", \"Certification\": \"CE\", \"Brand Name\": \"Anbernic\", \"Package size - width (cm)\": \"15.00\", \"Package weight\": \"0.5\", \"HDMI\": \"MINI HDMI\", \"Package\": \"Yes\", \"Screen Type\": \"IPS\", \"WIFI\": \"No\", \"Sold in\": \"sell_by_piece\", \"Input/Output\": \"HDMI\", \"Battery Capacity[mAh]\": \"3200\"}",
+        "category": "Consumer Electronics > Games & Accessories > Handheld Game Players"
+      },
+      "reference_hs6": "950490",
+      "reference_description": "Games; articles for funfair, table or parlour games, including pintables, special tables for casino games, automatic bowling alley equipment, n.e.c. in heading 9504",
+      "providers": {
+        "jev": {
+          "hs6": "851981",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "85",
+            "8519",
+            "851981"
+          ],
+          "predicted_description": "Sound recording or reproducing apparatus; using magnetic, optical or semiconductor media, n.e.c. in item no 8519.20, 8519.30 or 8519.50"
+        },
+        "llm": {
+          "hs6": "950450",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "95",
+            "9504",
+            "950450"
+          ],
+          "predicted_description": "Games; video game consoles and machines, other than those of subheading 9504.30"
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0369",
+      "product": {
+        "title": "High Quality  2.5m Red Dual Line Parafoil Kite  WithFlying Tools Power Braid Sailing Kitesurf Rainbow Sports Beach",
+        "description": "{\"Origin\": \"Mainland China\", \"Warning\": \"Don't fly in storm\", \"Shape\": \"Long\", \"Measurement unit\": \"100000015\", \"color\": \"figure\", \"Package size - length (cm)\": \"30\", \"Material\": \"Nylon\", \"Item Type\": \"set\", \"Gender\": \"Unisex\", \"Model Number\": \"2015101505\", \"Recommend Age\": \"6-12Y\", \"Certification\": \"CE\", \"Brand Name\": \"HENGDA KITE\", \"each pack\": \"1\", \"Package size - width (cm)\": \"25\", \"Kites Accessory Type\": \"Kite Handle & Line\", \"Package weight\": \"0.460\", \"is_customized\": \"Yes\", \"Package size - height (cm)\": \"10\", \"Sold in\": \"sell_by_piece\"}",
+        "category": "Toys & Hobbies > Outdoor Fun & Sports > Kites & Accessories"
+      },
+      "reference_hs6": "950629",
+      "reference_description": "Water sport equipment; water-skis, surf-boards and other water-sport equipment, excluding sailboards",
+      "providers": {
+        "jev": {
+          "hs6": "950699",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "95",
+            "9506",
+            "950699"
+          ],
+          "predicted_description": "Equipment for outdoor games and recreation n.e.c. in heading no. 9506"
+        },
+        "llm": {
+          "hs6": "950300",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "95",
+            "9503",
+            "950300"
+          ],
+          "predicted_description": "Tricycles, scooters, pedal cars and similar wheeled toys; dolls' carriages; dolls; other toys; reduced-size (scale) models and similar recreational models, working or not; puzzles of all kinds"
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0382",
+      "product": {
+        "title": "High Light 3.5 inch 640*480HD IPS Retro Pixel Backlight LCD Display Kit For SEGA Game Gear GG Console 720P TV HDMI Output",
+        "description": "{\"Origin\": \"Mainland China\", \"Measurement unit\": \"100000015\", \"With USB\": \"NO\", \"Accessories Type\": \"Chip/Modchip\", \"Package size - length (cm)\": \"10\", \"Electric\": \"No\", \"Compatible Brand/Model\": \"Nintendo\", \"Model Number\": \"For SEGA Game Gear GG\", \"Hign-concerned Chemical\": \"None\", \"Brand Name\": \"HISPEEDIDO\", \"each pack\": \"1\", \"Package size - width (cm)\": \"10\", \"Package weight\": \"0.150\", \"is_customized\": \"NO\", \"Compatible Nintendo Model\": \"Nintendo Switch\", \"Package size - height (cm)\": \"5\", \"Sold in\": \"sell_by_piece\"}",
+        "category": "Consumer Electronics > Games & Accessories > Accessories"
+      },
+      "reference_hs6": "950490",
+      "reference_description": "Games; articles for funfair, table or parlour games, including pintables, special tables for casino games, automatic bowling alley equipment, n.e.c. in heading 9504",
+      "providers": {
+        "jev": {
+          "hs6": "852491",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "85",
+            "8524",
+            "852491"
+          ],
+          "predicted_description": "Flat panel display modules, whether or not incorporating touch-sensitive screens; of liquid crystals, with drivers or control circuits"
+        },
+        "llm": {
+          "hs6": "852491",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "85",
+            "8524",
+            "852491"
+          ],
+          "predicted_description": "Flat panel display modules, whether or not incorporating touch-sensitive screens; of liquid crystals, with drivers or control circuits"
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0386",
+      "product": {
+        "title": "Gamepad Back Paddles for PS4 Strike Pack Controller Extra Buttons for PS4 Turbo Back Button Backkey Extender",
+        "description": "{\"Brand Name\": \"NoEnName_Null\", \"Origin\": \"Mainland China\", \"Type\": \"Veneer\", \"each pack\": \"1\", \"Measurement unit\": \"100000015\", \"Package size - width (cm)\": \"10\", \"Package size - length (cm)\": \"12\", \"Package weight\": \"0.052\", \"Model Number\": \"Controller\", \"Package size - height (cm)\": \"5\", \"Sold in\": \"sell_by_piece\", \"Hign-concerned Chemical\": \"None\"}",
+        "category": "Furniture > Furniture Accessories"
+      },
+      "reference_hs6": "950450",
+      "reference_description": "Games; video game consoles and machines, other than those of subheading 9504.30",
+      "providers": {
+        "jev": {
+          "hs6": null,
+          "status": "needs_information",
+          "correct": false,
+          "path": [
+            "95",
+            "9504"
+          ],
+          "predicted_description": null
+        },
+        "llm": {
+          "hs6": "950450",
+          "status": "candidate",
+          "correct": true,
+          "path": [
+            "95",
+            "9504",
+            "950450"
+          ],
+          "predicted_description": "Games; video game consoles and machines, other than those of subheading 9504.30"
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0388",
+      "product": {
+        "title": "Sports Dance Shoes Adult Children Performance Tap Dance Shoes Soft Sole Natural Leather Shoes Step Sneakers Dance Shoes",
+        "description": "{\"Origin\": \"Mainland China\", \"Package size - length (cm)\": \"33\", \"Gender\": \"Women\", \"Heel Height\": \"Low (3/4\\\" to 1 1/2\\\")\", \"Hign-concerned Chemical\": \"None\", \"Decorations\": \"light\", \"Department Name\": \"Adult\", \"each pack\": \"1\", \"Heel Type\": \"Square heel\", \"Outsole Material\": \"soft sole\", \"is_customized\": \"Yes\", \"Package size - height (cm)\": \"8\", \"Measurement unit\": \"100000013\", \"Lining Material\": \"Synthetic\", \"CN\": \"Zhejiang\", \"Brand Name\": \"ruimo\", \"Fit\": \"True to Size\", \"Upper fixing method\": \"sticking\", \"Upper coverage\": \"Not above ankle\", \"Package size - width (cm)\": \"17\", \"Package weight\": \"0.600\", \"Level Of Practice\": \"Advanced\", \"Shoe Width\": \"Medium(B,M)\", \"Closure Type\": \"Lace-Up\", \"Upper Material\": \"Genuine Leather\", \"Athletic Shoe Type\": \"Dance Shoes\", \"Insole Material\": \"Bonded Leather\", \"Sold in\": \"sell_by_piece\", \"Dance Shoe Type\": \"Tap Shoes\"}",
+        "category": "Sports Shoes,Clothing&Accessories > Dance > Dance Shoes"
+      },
+      "reference_hs6": "640399",
+      "reference_description": "Footwear; n.e.c. in heading no. 6403, (not covering the ankle), outer soles of rubber, plastics or composition leather, uppers of leather",
+      "providers": {
+        "jev": {
+          "hs6": "640359",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "64",
+            "6403",
+            "640359"
+          ],
+          "predicted_description": "Footwear; n.e.c. in heading no. 6403, (not covering the ankle), outer soles and uppers of leather"
+        },
+        "llm": {
+          "hs6": null,
+          "status": "needs_information",
+          "correct": false,
+          "path": [
+            "64"
+          ],
+          "predicted_description": null
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0392",
+      "product": {
+        "title": "Nike Air Max Plus TN Women Pink Running Shoes Mesh Breathable Lightweight Non Slip Leisure Fashion Nike Shoes Women",
+        "description": "{\"Origin\": \"Mainland China\", \"Package size - length (cm)\": \"30\", \"Gender\": \"Unisex\", \"Feature\": \"Balance,Breathable\", \"Hign-concerned Chemical\": \"None\", \"Sports Type\": \"Air Max\", \"Function\": \"Cushioning\", \"Department Name\": \"Women\", \"each pack\": \"1\", \"With or install Professional accessories \": \"None\", \"Whether with metal toe cap\": \"No\", \"Outsole Material\": \"EVA\", \"Package size - height (cm)\": \"10\", \"Measurement unit\": \"100000013\", \"For Distance\": \"Primary(<5km)\", \"Material\": \"POLYESTER\", \"CN\": \"Guangdong\", \"Model Number\": \"Nike Air Max Plus TN\", \"Brand Name\": \"Nike\", \"Fit\": \"Fits true to size, take your normal size\", \"Upper fixing method\": \"sticking\", \"Upper coverage\": \"Not above ankle\", \"Applicable Place\": \"Hard Court\", \"Upper Height\": \"low\", \"Package size - width (cm)\": \"20\", \"Package weight\": \"1.000\", \"Level Of Practice\": \"Beginner\", \"Whether waterproof\": \"No\", \"Shoe Width\": \"Medium(B,M)\", \"Athletic Shoe Type\": \"Running Shoes\", \"Upper Material\": \"Mesh\", \"Closure Type\": \"Lace-up\", \"Sold in\": \"sell_by_piece\"}",
+        "category": "Sports Shoes,Clothing&Accessories > Sneakers > Running Shoes"
+      },
+      "reference_hs6": "640419",
+      "reference_description": "Footwear; (other than sportswear), with outer soles of rubber or plastics and uppers of textile materials",
+      "providers": {
+        "jev": {
+          "hs6": "640411",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "64",
+            "6404",
+            "640411"
+          ],
+          "predicted_description": "Sports footwear; tennis shoes, basketball shoes, gym shoes, training shoes and the like, with outer soles of rubber or plastics and uppers of textile materials"
+        },
+        "llm": {
+          "hs6": "640411",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "64",
+            "6404",
+            "640411"
+          ],
+          "predicted_description": "Sports footwear; tennis shoes, basketball shoes, gym shoes, training shoes and the like, with outer soles of rubber or plastics and uppers of textile materials"
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0394",
+      "product": {
+        "title": "GEL Silicone Insoles for Shoes Orthotic Arch Support Insole Soft Shoe Inserts Sport Anti-slip Template For Man Women Shoe Sole",
+        "description": "{\"Origin\": \"Mainland China\", \"Material\": \"Silicone\", \"Gender\": \"Men\", \"Item Type\": \"Insoles\", \"CN\": \"Guangdong\", \"Model Number\": \"Silicone Insoles\", \"LOT_NUM\": \"1\", \"Feature\": \"Anti-Slippery,Arch Support,Breathable,Deodorization,Hard-Wearing,Height Increasing,Light Weight,Shock-Absorbant,Sweat-Absorbant,Thermal,quick-drying\", \"Insole Height\": \"1cm-3cm\", \"Hign-concerned Chemical\": \"None\", \"PRODUCT_UNIT\": \"100000013\", \"Brand Name\": \"wvk\", \"PACKAGE_TYPE\": \"sell_by_piece\", \"Pattern Type\": \"Solid\", \"Shoe Width\": \"Medium(B,M)\"}",
+        "category": "Shoes > Shoe Accessories > Insoles"
+      },
+      "reference_hs6": "640690",
+      "reference_description": "Footwear; parts, n.e.c. in heading 6406",
+      "providers": {
+        "jev": {
+          "hs6": "640620",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "64",
+            "6406",
+            "640620"
+          ],
+          "predicted_description": "Footwear; parts, outer soles and heels, of rubber or plastics"
+        },
+        "llm": {
+          "hs6": "640690",
+          "status": "candidate",
+          "correct": true,
+          "path": [
+            "64",
+            "6406",
+            "640690"
+          ],
+          "predicted_description": "Footwear; parts, n.e.c. in heading 6406"
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0395",
+      "product": {
+        "title": "Aneikeh Sexy Women Pointed Toe Vintage Ankle Boots Thin Low Heel Warm Knight Boots Fashion Slip On Party Wedding Shoes Woman",
+        "description": "{\"Origin\": \"Mainland China\", \"shoes woman 2025 trend\": \"Chaussures femmes\", \"Toe Shape\": \"Pointed toe\", \"Bottine Femme Talon\": \"Women's Mid-Calf Boots\", \"Boots For Women\": \"heels boots\", \"Package size - length (cm)\": \"35\", \"Platform Height\": \"0-3cm\", \"Fashion Element\": \"Sewing\", \"Gender\": \"Women\", \"Heel Height\": \"Med (3cm-5cm)\", \"Hign-concerned Chemical\": \"None\", \"With Platforms\": \"Yes\", \"Department Name\": \"Adult\", \"each pack\": \"1\", \"High-heeled Women's Boots\": \"Botines Mujer 2025\", \"With or install Professional accessories \": \"Others (fill in by yourself)\", \"Whether with metal toe cap\": \"No\", \"Heel Type\": \"Thin Heels\", \"botas largas mujer\": \"Pointed Toe Boots\", \"Style\": \"Street Style\", \"Outsole Material\": \"Rubber\", \"Shaft Material\": \"Flock\", \"Season\": \"Spring/Autumn\", \"Package size - height (cm)\": \"16\", \"Boot Type\": \"basic\", \"Botas femininas\": \"Thin Heels Boots\", \"Measurement unit\": \"100000013\", \"low heel cowboy boots women\": \"pointed cowboy boots\", \"Lining Material\": \"PU\", \"is_handmade\": \"Yes\", \"Bottines Femme\": \"High Heels Boots Women\", \"CN\": \"Guangdong\", \"Item Type\": \"BOOTS\", \"Model Number\": \"A35\", \"Fit\": \"Fits true to size, take your normal size\", \"Brand Name\": \"Aneikeh\", \"Upper fixing method\": \"Others (fill in by yourself)\", \"Upper coverage\": \"Above the ankle but not to the knee\", \"Boot Height\": \"ANKLE\", \"botas femininas tendencia 2025\": \"Botas De Mujer\", \"Package size - width (cm)\": \"25\", \"Pattern Type\": \"Solid\", \"Package weight\": \"0.700\", \"Whether waterproof\": \"Yes\", \"Closure Type\": \"Slip-On,Slip-On\", \"Insole Material\": \"PU\", \"Upper Material\": \"Flock\", \"Sold in\": \"sell_by_piece\"}",
+        "category": "Shoes > Women's Shoes > Women's Boots锛_ew锛 > Women's Boots锛_o Not Post in This Category锛(Obsolete)"
+      },
+      "reference_hs6": "640419",
+      "reference_description": "Footwear; (other than sportswear), with outer soles of rubber or plastics and uppers of textile materials",
+      "providers": {
+        "jev": {
+          "hs6": "640419",
+          "status": "candidate",
+          "correct": true,
+          "path": [
+            "64",
+            "6404",
+            "640419"
+          ],
+          "predicted_description": "Footwear; (other than sportswear), with outer soles of rubber or plastics and uppers of textile materials"
+        },
+        "llm": {
+          "hs6": null,
+          "status": "needs_information",
+          "correct": false,
+          "path": [
+            "64"
+          ],
+          "predicted_description": null
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0400",
+      "product": {
+        "title": "Fashion Girls Boots Children's Long Boots Soft Knee-High Boots Kids Princess Shoes Autumn Winter Warm Toddler Girls Botas D908",
+        "description": "{\"Origin\": \"Mainland China\", \"Toe Shape\": \"round toe\", \"Age Range\": \"4-6Y\", \"Package size - length (cm)\": \"10\", \"Fashion Element\": \"Platform\", \"Gender\": \"girls\", \"Feature\": \"Breathable\", \"Hign-concerned Chemical\": \"None\", \"Department Name\": \"Children\", \"each pack\": \"1\", \"Whether with metal toe cap\": \"No\", \"Heel Type\": \"Square heel\", \"Outsole Material\": \"Rubber\", \"Season\": \"Winter\", \"Package size - height (cm)\": \"10\", \"Boot Type\": \"Fashion Boots\", \"Measurement unit\": \"100000013\", \"Lining Material\": \"Cotton\", \"CN\": \"Zhejiang\", \"Fit\": \"True to Size\", \"Brand Name\": \"NoEnName_Null\", \"Upper fixing method\": \"sticking\", \"Upper coverage\": \"Not above ankle\", \"Boot Height\": \"Knee-High\", \"Package size - width (cm)\": \"10\", \"Package weight\": \"0.400\", \"Whether waterproof\": \"No\", \"Closure Type\": \"ZIP\", \"Upper Material\": \"Leather\", \"Sold in\": \"sell_by_piece\"}",
+        "category": "Mother & Kids > Children's Shoes > Boots > Fashion Boots"
+      },
+      "reference_hs6": "640391",
+      "reference_description": "Footwear; n.e.c. in heading no. 6403, covering the ankle, outer soles of rubber, plastics or composition leather, uppers of leather",
+      "providers": {
+        "jev": {
+          "hs6": "640391",
+          "status": "candidate",
+          "correct": true,
+          "path": [
+            "64",
+            "6403",
+            "640391"
+          ],
+          "predicted_description": "Footwear; n.e.c. in heading no. 6403, covering the ankle, outer soles of rubber, plastics or composition leather, uppers of leather"
+        },
+        "llm": {
+          "hs6": null,
+          "status": "needs_information",
+          "correct": false,
+          "path": [
+            "64",
+            "6403"
+          ],
+          "predicted_description": null
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0419",
+      "product": {
+        "title": "Black Panther Marvel Baseball Jersey: A Fashionable and Comfortable Option for Dedicated Supporters of the Wakandan King",
+        "description": "{\"Origin\": \"Mainland China\", \"whether full opening\": \"Yes\", \"Measurement unit\": \"100000015\", \"Material\": \"POLYESTER\", \"Craft of Weaving\": \"Tat\", \"Item Type\": \"SHIRTS\", \"Gender\": \"Men\", \"CN\": \"Anhui\", \"Hign-concerned Chemical\": \"None\", \"Brand Name\": \"MINISO\", \"Applicable Scene\": \"Daily\", \"each pack\": \"1\", \"Shirts Type\": \"Casual Shirts\", \"Applicable Season\": \"Spring And Summer\", \"Style\": \"Casual\", \"Sleeve Length(cm)\": \"Half\", \"Closure Type\": \"None\", \"Sold in\": \"sell_by_piece\"}",
+        "category": "Men's Clothing > Shirts"
+      },
+      "reference_hs6": "621133",
+      "reference_description": "Track suits and other garments n.e.c.; men's or boys', of man-made fibres (not knitted or crocheted)",
+      "providers": {
+        "jev": {
+          "hs6": "620530",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "62",
+            "6205",
+            "620530"
+          ],
+          "predicted_description": "Shirts; men's or boys', of man-made fibres (not knitted or crocheted)"
+        },
+        "llm": {
+          "hs6": "610520",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "61",
+            "6105",
+            "610520"
+          ],
+          "predicted_description": "Shirts; men's or boys', of man-made fibres, knitted or crocheted"
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0424",
+      "product": {
+        "title": "Kids Pajamas Sets Fireman Sleepwear Boys Policeman Police Cosplay Pijamas Halloween Pyjamas Children Long Sleeve Tops+Pants 2pcs",
+        "description": "{\"Origin\": \"Mainland China\", \"Age Range\": \"4-6Y\", \"Size\": \"3-10 Years Old\", \"Package size - length (cm)\": \"15\", \"Gender\": \"Unisex\", \"Fabric Type\": \"JERSEY\", \"Hign-concerned Chemical\": \"None\", \"Department Name\": \"Children\", \"each pack\": \"1\", \"Style\": \"Daily\", \"Sleeve Length(cm)\": \"Full\", \"Season\": \"all seasons\", \"Package size - height (cm)\": \"3\", \"Collar\": \"round neck\", \"Measurement unit\": \"100000015\", \"Sleeve Style\": \"Regular\", \"Material\": \"Cotton,Spandex\", \"Craft of Weaving\": \"Tat\", \"Item Type\": \"PAJAMAS\", \"CN\": \"Guangdong\", \"Model Number\": \"SA-3377\", \"Fit\": \"True to Size\", \"Brand Name\": \"Goku\", \"Package size - width (cm)\": \"13\", \"Pattern Type\": \"Print\", \"Package weight\": \"0.200\", \"Sold in\": \"sell_by_piece\"}",
+        "category": "Mother & Kids > Children's Clothing > Sleepwear & Robe > Pajama Sets"
+      },
+      "reference_hs6": "620821",
+      "reference_description": "Nightdresses and pyjamas; women's or girls', of cotton (not knitted or crocheted)",
+      "providers": {
+        "jev": {
+          "hs6": "610721",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "61",
+            "6107",
+            "610721"
+          ],
+          "predicted_description": "Nightshirts and pyjamas; men's or boys', of cotton, knitted or crocheted"
+        },
+        "llm": {
+          "hs6": null,
+          "status": "none_of_above",
+          "correct": false,
+          "path": [
+            "61",
+            "6108"
+          ],
+          "predicted_description": null
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0427",
+      "product": {
+        "title": "Folomi Sexy Strapless Bra Push Up Lingerie Seamless Wireless Invisible Bras Half Cup Brassiere Women Dress Wedding Lingerie",
+        "description": "{\"occasion\": \"wedding,party\", \"Origin\": \"Mainland China\", \"Package size - length (cm)\": \"30\", \"for\": \"women,female,ladies,girls\", \"sexy lingerie\": \"wireless bras seamless bras big sie bras wireless bra\", \"Gender\": \"Women\", \"women bras\": \"sexy bras strapless bra push up bra lingerie for ladies\", \"each pack\": \"1\", \"Obscene Picture\": \"No\", \"Cup Shape\": \"Half Cup(1/2 Cup)\", \"Style\": \"Sexy\", \"Sexually Suggestive\": \"No\", \"Support Type\": \"Wire Free\", \"Package size - height (cm)\": \"15\", \"Measurement unit\": \"100000015\", \"Strap Type\": \"Strapless\", \"Bra Style\": \"Plunge,push up\", \"Material\": \"Nylon,Spandex\", \"CN\": \"Guangdong\", \"Item Type\": \"BRAS\", \"Model Number\": \"QQT\", \"Decoration\": \"None\", \"Brand Name\": \"NoEnName_Null\", \"Package size - width (cm)\": \"20\", \"Pattern Type\": \"Solid\", \"Package weight\": \"0.100\", \"Closure Type\": \"Back Closure,Front Closure,Three Hook-and-eye,Tow Hook-and-eye\", \"Sold in\": \"sell_by_piece\"}",
+        "category": "Underwear > Women's Intimates > Bras"
+      },
+      "reference_hs6": "621210",
+      "reference_description": "Brassieres; whether or not knitted or crocheted",
+      "providers": {
+        "jev": {
+          "hs6": "621210",
+          "status": "candidate",
+          "correct": true,
+          "path": [
+            "62",
+            "6212",
+            "621210"
+          ],
+          "predicted_description": "Brassieres; whether or not knitted or crocheted"
+        },
+        "llm": {
+          "hs6": null,
+          "status": "none_of_above",
+          "correct": false,
+          "path": [
+            "61"
+          ],
+          "predicted_description": null
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0428",
+      "product": {
+        "title": "WWII WW2 GERMAN SOLDIERS M36 EM WOOL FIELD Reenactment Military UNIFORM",
+        "description": "{\"Brand Name\": \"NoEnName_Null\", \"Origin\": \"Mainland China\", \"each pack\": \"1\", \"Package size - width (cm)\": \"20\", \"Measurement unit\": \"100000015\", \"Package size - length (cm)\": \"30\", \"Package weight\": \"1.000\", \"Material\": \"Cotton\", \"Gender\": \"Men\", \"Fabric Type\": \"CANVAS\", \"Item Type\": \"Accessories\", \"Package size - height (cm)\": \"5\", \"Sold in\": \"sell_by_piece\"}",
+        "category": "Novelty & Special Use > Work Wear & Uniforms > Military"
+      },
+      "reference_hs6": "620332",
+      "reference_description": "Jackets and blazers; men's or boys', of cotton (not knitted or crocheted)",
+      "providers": {
+        "jev": {
+          "hs6": null,
+          "status": "needs_information",
+          "correct": false,
+          "path": [
+            "62",
+            "6203"
+          ],
+          "predicted_description": null
+        },
+        "llm": {
+          "hs6": null,
+          "status": "needs_information",
+          "correct": false,
+          "path": [],
+          "predicted_description": null
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0432",
+      "product": {
+        "title": "2025 New Spring Women Solid Seamless Suit Sets Long Sleeve Crop Tops High Waist Leggings Gym Workout Clothes 2 Piece Tracksuit",
+        "description": "{\"Origin\": \"Mainland China\", \"Package size - length (cm)\": \"2\", \"Elasticity\": \"Slight Strech\", \"Fabric Type\": \"Broadcloth\", \"Hign-concerned Chemical\": \"None\", \"each pack\": \"1\", \"Style\": \"Casual\", \"Sleeve Length(cm)\": \"Full\", \"Season\": \"Spring/Summer\", \"Package size - height (cm)\": \"2\", \"Collar\": \"O-Neck\", \"Age\": \"Junior\", \"Measurement unit\": \"100000015\", \"Sleeve Style\": \"Regular\", \"Material\": \"POLYESTER\", \"CN\": \"Zhejiang\", \"Craft of Weaving\": \"Tat\", \"Pant Closure Type\": \"Elastic Waist\", \"Decoration\": \"None\", \"Brand Name\": \"NoEnName_Null\", \"Clothing Length\": \"Short锛4 - 16 Inch锛\", \"Package size - width (cm)\": \"2\", \"Fit Type\": \"Slim\", \"Pattern Type\": \"Solid\", \"Package weight\": \"0.360\", \"Closure Type\": \"Pullover\", \"Sold in\": \"sell_by_piece\"}",
+        "category": "Women's Clothing > Matching Sets > Short Sets"
+      },
+      "reference_hs6": "621142",
+      "reference_description": "Track suits and other garments n.e.c.; women's or girls', of cotton (not knitted or crocheted)",
+      "providers": {
+        "jev": {
+          "hs6": "621143",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "62",
+            "6211",
+            "621143"
+          ],
+          "predicted_description": "Track suits and other garments n.e.c.; women's or girls', of man-made fibres (not knitted or crocheted)"
+        },
+        "llm": {
+          "hs6": null,
+          "status": "needs_information",
+          "correct": false,
+          "path": [
+            "61"
+          ],
+          "predicted_description": null
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0435",
+      "product": {
+        "title": "Combhasaki Women Y2K Elegant Fairycore Floral Lace Trim Patchwork Camis Sleeveless Deep V-Neck Bow Decor Slim Fit Crop Vest Tops",
+        "description": "{\"Origin\": \"Mainland China\", \"Package size - length (cm)\": \"2\", \"Elasticity\": \"Slight Strech\", \"Gender\": \"Women\", \"Fabric Type\": \"Broadcloth\", \"Hign-concerned Chemical\": \"None\", \"Place Of Origin\": \"China (mainland)\", \"each pack\": \"1\", \"Style\": \"Y2k\", \"Season\": \"Summer\", \"Package size - height (cm)\": \"2\", \"Age\": \"Junior\", \"Measurement unit\": \"100000015\", \"Tops Type\": \"CAMIS\", \"Material\": \"Spandex\", \"Item Type\": \"tops\", \"Craft of Weaving\": \"Tat\", \"CN\": \"Guangdong\", \"Model Number\": \"Women Vest\", \"Decoration\": \"Lace\", \"Brand Name\": \"Combhasaki\", \"Clothing Length\": \"short锛4-16inch锛\", \"Package size - width (cm)\": \"2\", \"Pattern Type\": \"Patchwork\", \"Package weight\": \"0.126\", \"Sold in\": \"sell_by_piece\", \"Release Date\": \"Winter 2024\"}",
+        "category": "Women's Clothing > Tops & Tees > Tanks & Camis"
+      },
+      "reference_hs6": "621143",
+      "reference_description": "Track suits and other garments n.e.c.; women's or girls', of man-made fibres (not knitted or crocheted)",
+      "providers": {
+        "jev": {
+          "hs6": null,
+          "status": "needs_information",
+          "correct": false,
+          "path": [
+            "62",
+            "6208"
+          ],
+          "predicted_description": null
+        },
+        "llm": {
+          "hs6": null,
+          "status": "needs_information",
+          "correct": false,
+          "path": [
+            "61"
+          ],
+          "predicted_description": null
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0466",
+      "product": {
+        "title": "One Press Cevapcici Maker Burger Hot Dog Meat Sausage Kroketten Handmade Kitchen Easy Cooking Gadget",
+        "description": "{\"Origin\": \"Mainland China\", \"Meat & Poultry Tools Type\": \"Hamburger Makers\", \"Measurement unit\": \"100000015\", \"Package size - length (cm)\": \"1\", \"Material\": \"Plastic\", \"Model Number\": \"NEW\", \"Feature\": \"Eco-Friendly\", \"Brand Name\": \"NoEnName_Null\", \"Type\": \"Meat & Poultry Tools\", \"each pack\": \"1\", \"Package size - width (cm)\": \"1\", \"Plastic Type\": \"PC\", \"Package weight\": \"0.160\", \"Package size - height (cm)\": \"1\", \"Sold in\": \"sell_by_piece\"}",
+        "category": "Home & Garden > Kitchen,Dining & Bar > Kitchen Tools & Gadgets > Meat & Poultry Tools"
+      },
+      "reference_hs6": "820551",
+      "reference_description": "Tools, hand; household tools",
+      "providers": {
+        "jev": {
+          "hs6": "392410",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "39",
+            "3924",
+            "392410"
+          ],
+          "predicted_description": "Plastics; tableware and kitchenware"
+        },
+        "llm": {
+          "hs6": "392410",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "39",
+            "3924",
+            "392410"
+          ],
+          "predicted_description": "Plastics; tableware and kitchenware"
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0478",
+      "product": {
+        "title": "Small Power Mini Plastic Fan Blade 4/6 Leaves For Hairdryer Motor",
+        "description": "{\"Origin\": \"Mainland China\", \"Measurement unit\": \"100000015\", \"4 leaves\": \"5.7x2cm/2.24x0.78inch\", \"4 leaves:\": \"5.7x2cm/2.24x0.78inch, Hole inner diameter: 2mm\", \"Package size - length (cm)\": \"10\", \"6 leaves:\": \"5.1x1.3cm/2.01x0.51inch, Hole inner diameter: 1.9mm\", \"6 leaves\": \"5.1x1.3cm/2.01x0.51inch\", \"Material\": \"Plastic\", \"Model Number\": \"R9CD1AA700834-4\", \"Hign-concerned Chemical\": \"None\", \"Brand Name\": \"NoEnName_Null\", \"Type\": \"4 leaves, 6 leaves,Fan Parts\", \"each pack\": \"1\", \"Package size - width (cm)\": \"10\", \"Package weight\": \"0.041\", \"type:\": \"send randomly if it's no Remarks with the order\", \"Package size - height (cm)\": \"10\", \"Sold in\": \"sell_by_piece\"}",
+        "category": "Home Appliances > Household Appliances > Fan Parts"
+      },
+      "reference_hs6": "841490",
+      "reference_description": "Pumps and compressors; parts, of air or vacuum pumps, air or other gas compressors and fans, ventilating or recycling hoods incorporating a fan",
+      "providers": {
+        "jev": {
+          "hs6": "392690",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "39",
+            "3926",
+            "392690"
+          ],
+          "predicted_description": "Plastics; other articles n.e.c. in chapter 39"
+        },
+        "llm": {
+          "hs6": "841490",
+          "status": "candidate",
+          "correct": true,
+          "path": [
+            "84",
+            "8414",
+            "841490"
+          ],
+          "predicted_description": "Pumps and compressors; parts, of air or vacuum pumps, air or other gas compressors and fans, ventilating or recycling hoods incorporating a fan"
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0488",
+      "product": {
+        "title": "1PCS 4.5MM-8.7MM Replacement steel Watch Crown Repair Parts For TAG Heuer watch Movement Spare Parts Accessories",
+        "description": "{\"Origin\": \"Mainland China\", \"Brand Name\": \"HJWZ\", \"Type\": \"Watches for Parts\", \"each pack\": \"1\", \"Package size - width (cm)\": \"5\", \"Measurement unit\": \"100000015\", \"Recommended Uses For Product\": \"Accessories replacement\", \"Package size - length (cm)\": \"5\", \"Package weight\": \"0.015\", \"Item Type\": \"Repair Tools & Kits\", \"Package size - height (cm)\": \"5\", \"Sold in\": \"sell_by_piece\", \"Hign-concerned Chemical\": \"None\"}",
+        "category": "Watches > Watches Accessories > Repair Tools & Kits"
+      },
+      "reference_hs6": "911490",
+      "reference_description": "Clock or watch parts; other than springs (including hair-springs), dials, plates, and bridges",
+      "providers": {
+        "jev": {
+          "hs6": "911190",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "91",
+            "9111",
+            "911190"
+          ],
+          "predicted_description": "Watch cases and parts thereof"
+        },
+        "llm": {
+          "hs6": "911490",
+          "status": "candidate",
+          "correct": true,
+          "path": [
+            "91",
+            "9114",
+            "911490"
+          ],
+          "predicted_description": "Clock or watch parts; other than springs (including hair-springs), dials, plates, and bridges"
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0500",
+      "product": {
+        "title": "Wedding Party Customize Nama Date Women Men Bathrobe Kimono Dressing Gown Bride Groom Bridesmaid Robe",
+        "description": "{\"Origin\": \"Mainland China\", \"Measurement unit\": \"100000015\", \"Package size - length (cm)\": \"20\", \"Material\": \"Cotton\", \"CN\": \"Zhejiang\", \"Gender\": \"Women\", \"Item Type\": \"ROBES\", \"Fabric Type\": \"Knitted\", \"Craft of Weaving\": \"Knit\", \"Model Number\": \"12124\", \"Material Composition\": \"Polyester\", \"Hign-concerned Chemical\": \"None\", \"Brand Name\": \"Coruning\", \"each pack\": \"1\", \"Package size - width (cm)\": \"15\", \"Obscene Picture\": \"No\", \"Dresses Length\": \"Ankle-Length\", \"Pattern Type\": \"Solid\", \"Package weight\": \"0.500\", \"Style\": \"basics\", \"Sexually Suggestive\": \"No\", \"Sleeve Length(cm)\": \"Full\", \"Season\": \"Autumn\", \"Package size - height (cm)\": \"5\", \"Sold in\": \"sell_by_piece\"}",
+        "category": "Underwear > Women's Sleep & Lounge > Robes"
+      },
+      "reference_hs6": "610891",
+      "reference_description": "Negligees, bathrobes, dressing gowns and similar articles; women's or girls', of cotton, knitted or crocheted",
+      "providers": {
+        "jev": {
+          "hs6": null,
+          "status": "needs_information",
+          "correct": false,
+          "path": [
+            "61",
+            "6108"
+          ],
+          "predicted_description": null
+        },
+        "llm": {
+          "hs6": null,
+          "status": "needs_information",
+          "correct": false,
+          "path": [
+            "61",
+            "6108"
+          ],
+          "predicted_description": null
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0504",
+      "product": {
+        "title": "Shascullfites Melody Long White Elastic Waist Latex Trousers Faux Leather Pants Women's Stretch Skinny Ladies Pants",
+        "description": "{\"Origin\": \"Mainland China\", \"Size\": \"XXS to XXXL\", \"Package size - length (cm)\": \"25\", \"Elasticity\": \"Medium Strecth\", \"Gender\": \"Women,Women / Ladies / Female\", \"Fabric Type\": \"PU\", \"Hign-concerned Chemical\": \"None\", \"Pant Style\": \"pencil pants\", \"Function\": \"Push Up Pants\", \"Place Of Origin\": \"China (mainland)\", \"Waist Type\": \"MID\", \"each pack\": \"1\", \"Adventage\": \"Super Stretch, High Elastic\", \"Style\": \"Sexy & Club\", \"Front Style\": \"Flat\", \"Season\": \"Autumn/Winter,Spring/Autumn/Winter\", \"Package size - height (cm)\": \"5\", \"Age\": \"Middle Age\", \"Drop shipping\": \"Drop Ship Agent Welcome\", \"Measurement unit\": \"100000015\", \"other name 2\": \"fleece lined leggings\", \"other name 1\": \"leather leggings\", \"other name 4\": \"skinny leather pants\", \"other name 3\": \"leather pants for women\", \"Material\": \"Faux Leather\", \"Craft of Weaving\": \"Knit\", \"CN\": \"Guangdong\", \"Model Number\": \"9MWSWL243\", \"Decoration\": \"None\", \"Brand Name\": \"NON-ANIMAL\", \"Package size - width (cm)\": \"15\", \"Fit Type\": \"Slim\", \"Length\": \"full length\", \"other name 10\": \"faux leather pants women\", \"Wholesaler\": \"Wholesale Has Big Discount\", \"other name 6\": \"butt lifting leggings\", \"Pattern Type\": \"Solid\", \"Package weight\": \"0.450\", \"other name 5\": \"push up leggings\", \"Collection\": \"Meloddy Leather Pants\", \"other name 8\": \"long trousers\", \"other name 7\": \"wet look pants\", \"Closure Type\": \"Button Fly\", \"other name 9\": \"white trousers\", \"Sold in\": \"sell_by_piece\", \"Release Date\": \"Winter 2025\"}",
+        "category": "Women's Clothing > Pants & Capris"
+      },
+      "reference_hs6": "611300",
+      "reference_description": "Garments made up of knitted or crocheted fabrics of heading no. 5903, 5906 and 5907",
+      "providers": {
+        "jev": {
+          "hs6": "610463",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "61",
+            "6104",
+            "610463"
+          ],
+          "predicted_description": "Trousers, bib and brace overalls, breeches and shorts; women's or girls', of synthetic fibres, knitted or crocheted"
+        },
+        "llm": {
+          "hs6": null,
+          "status": "needs_information",
+          "correct": false,
+          "path": [
+            "61"
+          ],
+          "predicted_description": null
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0516",
+      "product": {
+        "title": "WESTAL Genuine Leather Laptop Backpack Men's Computer Bag 14 Inch Notebook Executive Business Large Capacity Shoolbag For Boy",
+        "description": "{\"Origin\": \"Mainland China\", \"Backpacks Type\": \"Softback\", \"Measurement unit\": \"100000015\", \"Carrying System\": \"Arcuate Shoulder Strap\", \"Lining Material\": \"POLYESTER\", \"Interior\": \"Cell Phone Pocket,Computer Interlayer,Interior Compartment,Interior Slot Pocket,Interior Zipper Pocket\", \"Gender\": \"Men\", \"CN\": \"Guangdong\", \"Item Type\": \"Backpacks\", \"Handle/Strap Type\": \"soft handle\", \"Model Number\": \"9196\", \"Exterior\": \"None\", \"Decoration\": \"None\", \"Brand Name\": \"WESTAL\", \"Place Of Origin\": \"China (mainland)\", \"each pack\": \"1\", \"Technics\": \"Embossing\", \"Capacity\": \"Below 20 Litre\", \"Rain Cover\": \"No\", \"Pattern Type\": \"Solid\", \"Style\": \"Fashion\", \"Closure Type\": \"Zipper\", \"Sold in\": \"sell_by_piece\", \"Main Material\": \"Cowhide\"}",
+        "category": "Luggage & Bags > Backpacks"
+      },
+      "reference_hs6": "420291",
+      "reference_description": "Cases and containers; n.e.c. in heading 4202, with outer surface of leather or of composition leather",
+      "providers": {
+        "jev": {
+          "hs6": "420211",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "42",
+            "4202",
+            "420211"
+          ],
+          "predicted_description": "Cases and containers; trunks, suit-cases, vanity-cases, executive-cases, brief-cases, school satchels and similar containers, with outer surface of leather or of composition leather"
+        },
+        "llm": {
+          "hs6": "420291",
+          "status": "candidate",
+          "correct": true,
+          "path": [
+            "42",
+            "4202",
+            "420291"
+          ],
+          "predicted_description": "Cases and containers; n.e.c. in heading 4202, with outer surface of leather or of composition leather"
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0528",
+      "product": {
+        "title": "Fashion RFID Blocking Women Genuine Leather Credit Card Holder 24 Card Case Pasport Cover Coin Pocket Organizer Wallet For Men",
+        "description": "{\"Origin\": \"Mainland China\", \"Shape\": \"Box\", \"Package size - length (cm)\": \"16\", \"Gender\": \"Unisex\", \"Item Length\": \"13\", \"Material Composition\": \"Cowhide leather\", \"Feature\": \"Anti RFID\", \"Function\": \"RFID Card Protection\", \"each pack\": \"1\", \"Capacity\": \"24 Card Slots\", \"Style\": \"Casual\", \"Package size - height (cm)\": \"4\", \"Item Width\": \"10.5\", \"Measurement unit\": \"100000015\", \"Use\": \"Credit Card\", \"CN\": \"Guangdong\", \"Item Type\": \"Card & ID Holders\", \"Genuine Leather Type\": \"Cow Leather\", \"Model Number\": \"CL-6660\", \"Brand Name\": \"NoEnName_Null\", \"Package size - width (cm)\": \"15\", \"Pattern Type\": \"Solid\", \"Package weight\": \"0.210\", \"Closure Type\": \"Zipper\", \"Sold in\": \"sell_by_piece\", \"Main Material\": \"Genuine Leather\", \"Item Weight\": \"190\"}",
+        "category": "Luggage & Bags > Wallets & Holders > Card & ID Holders"
+      },
+      "reference_hs6": "420231",
+      "reference_description": "Cases and containers; of a kind normally carried in the pocket or in the handbag, with outer surface of leather or of composition leather",
+      "providers": {
+        "jev": {
+          "hs6": "420500",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "42",
+            "4205",
+            "420500"
+          ],
+          "predicted_description": "Leather articles; n.e.c. in chapter 42, of leather or composition leather"
+        },
+        "llm": {
+          "hs6": "420231",
+          "status": "candidate",
+          "correct": true,
+          "path": [
+            "42",
+            "4202",
+            "420231"
+          ],
+          "predicted_description": "Cases and containers; of a kind normally carried in the pocket or in the handbag, with outer surface of leather or of composition leather"
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0530",
+      "product": {
+        "title": "Genshin Impact Card Star Candle Chapter Thousands of Roses Bring The Dawn of The Collection of Cards Classic Luxury Card",
+        "description": "{\"Origin\": \"Mainland China\", \"Warning\": \"Away Fire,Away fire\", \"Measurement unit\": \"100000015\", \"Package size - length (cm)\": \"15\", \"Recommend Age\": \"12+y,18+,7-12Y\", \"Hign-concerned Chemical\": \"None\", \"Certification\": \"CCC,China certified (3C)\", \"Brand Name\": \"Bandai\", \"each pack\": \"1\", \"Package size - width (cm)\": \"15\", \"Package weight\": \"0.350\", \"Theme\": \"Fantasy & Sci-Fi,Occupations,Sports\", \"Collection card\": \"Flash Cards\", \"Original\": \"100%NEW\", \"Package size - height (cm)\": \"10\", \"Sold in\": \"sell_by_piece\"}",
+        "category": "Toys & Hobbies > Hobby & Collectibles > Game Collection Cards"
+      },
+      "reference_hs6": "491191",
+      "reference_description": "Printed matter; pictures, designs and photographs, n.e.c. in item no. 4911.10",
+      "providers": {
+        "jev": {
+          "hs6": null,
+          "status": "needs_information",
+          "correct": false,
+          "path": [
+            "95"
+          ],
+          "predicted_description": null
+        },
+        "llm": {
+          "hs6": "491191",
+          "status": "candidate",
+          "correct": true,
+          "path": [
+            "49",
+            "4911",
+            "491191"
+          ],
+          "predicted_description": "Printed matter; pictures, designs and photographs, n.e.c. in item no. 4911.10"
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0558",
+      "product": {
+        "title": "Winter Masks Hiking Scarf Thermal Fleece Neck Warm Gaiter Sport Face Bandana Snowboard Ski Cycling Moto Ear Cover Half Tube Mask",
+        "description": "{\"Origin\": \"Mainland China\", \"Measurement unit\": \"100000015\", \"Feature 1\": \"Warmer,Thermal,Windproof,Dustproof, High elastic,Comfortable\", \"Size\": \"40*22CM\", \"Package size - length (cm)\": \"10\", \"Color\": \"Black, Gray, Mustard green,Coral pink\", \"Feature 3\": \"No odor, No fading,Skin-friendly\", \"Feature 2\": \"Breathable,UV protection,Soft,Smooth,Lightweight\", \"Material\": \"POLYESTER,Spandex\", \"Gender\": \"Unisex,Women,Man, Female,Male\", \"Craft of Weaving\": \"Knit\", \"CN\": \"Guangdong\", \"Model Number\": \"8FB-A11\", \"Hign-concerned Chemical\": \"None\", \"Weight\": \"55g\", \"Brand Name\": \"GUMAO\", \"Fit\": \"Cycling, Running, Hiking, Climbing,Snowcross...\", \"each pack\": \"1\", \"Package size - width (cm)\": \"10\", \"Pattern Type\": \"Solid\", \"Package weight\": \"0.080\", \"Style\": \"Sports\", \"Season\": \"Spring,Autumn,Winter\", \"Package size - height (cm)\": \"10\", \"Sold in\": \"sell_by_piece\"}",
+        "category": "Sports & Entertainment > Camping & Hiking > Hiking Scarves"
+      },
+      "reference_hs6": "630790",
+      "reference_description": "Textiles; made up articles (including dress patterns), n.e.c. in chapter 63, n.e.c. in heading no. 6307",
+      "providers": {
+        "jev": {
+          "hs6": "611710",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "61",
+            "6117",
+            "611710"
+          ],
+          "predicted_description": "Shawls, scarves, mufflers, mantillas, veils and the like; knitted or crocheted"
+        },
+        "llm": {
+          "hs6": "611710",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "61",
+            "6117",
+            "611710"
+          ],
+          "predicted_description": "Shawls, scarves, mufflers, mantillas, veils and the like; knitted or crocheted"
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0568",
+      "product": {
+        "title": "10pcs Ballet Shoes Bow Nail Charms Accessories New Pearl Bow 3D Metal Tie Nail Art Accessories",
+        "description": "{\"Brand Name\": \"NoEnName_Null\", \"Origin\": \"Mainland China\", \"each pack\": \"10\", \"Measurement unit\": \"100000015\", \"Package size - width (cm)\": \"1\", \"Number of Pieces\": \"One Unit\", \"Package size - length (cm)\": \"1\", \"Package weight\": \"0.030\", \"Quantity\": \"10pcs\", \"Material\": \"alloy\", \"Package size - height (cm)\": \"1\", \"Sold in\": \"sell_by_lot\", \"Hign-concerned Chemical\": \"None\"}",
+        "category": "Beauty & Health > Nail Art & Tools > Nail Art > Rhinestones & Decorations"
+      },
+      "reference_hs6": "830629",
+      "reference_description": "Statuettes and other ornaments; of base metal other than plated with precious metal",
+      "providers": {
+        "jev": {
+          "hs6": "711719",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "71",
+            "7117",
+            "711719"
+          ],
+          "predicted_description": "Jewellery; imitation, (excluding cuff links and studs), of base metal, whether or not plated with precious metal"
+        },
+        "llm": {
+          "hs6": "711719",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "71",
+            "7117",
+            "711719"
+          ],
+          "predicted_description": "Jewellery; imitation, (excluding cuff links and studs), of base metal, whether or not plated with precious metal"
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0572",
+      "product": {
+        "title": "LED Nigh tlight 7 Colors Soft Cute Cat Night Light Kitty Lamp Birthday Gift Kids Baby Toddler Teen Silicone Kawaii Nursery",
+        "description": "{\"Origin\": \"Mainland China\", \"attribute 14\": \"Bedroom Night Light\", \"Light source\": \"LED\", \"attribute 12\": \"Bedroom silicone lamp\", \"attribute 11\": \"Animal silicone lamp\", \"Shape\": \"Animal\", \"Power Source\": \"DRY BATTERY\", \"Size\": \"9*8.9*10.2cm\", \"Wattage\": \"0-5W\", \"Is Batteries Required\": \"Yes\", \"Light Source\": \"LED bulbs\", \"Hign-concerned Chemical\": \"None\", \"attribute 15\": \"Decorative lamp\", \"Is Bulbs Included\": \"No\", \"each pack\": \"1\", \"Voltage\": \"4.5V\", \"Is Smart Device\": \"No\", \"Usage\": \"HOLIDAY\", \"Measurement unit\": \"100000015\", \"attribute 3\": \"ambinet light\", \"attribute 2\": \"kids gift\", \"attribute 1\": \"Night light\", \"Factory spot goods\": \"support retail and wholesale\", \"Item Type\": \"Night Lights\", \"Power Generation\": \"Switch\", \"Model Number\": \"Animal silicone night light\", \"Battery Type\": \"AAA\", \"Certification\": \"ROHS,UL,ce\", \"Brand Name\": \"NoEnName_Null\", \"attribute 9\": \"Silicone lamp\", \"Type\": \"Night Light\", \"attribute 8\": \"Touch sensor silicone lamp\", \"Body Material\": \"ABS\", \"Is Batteries Included\": \"No\", \"attribute 7\": \"LED Night Light\", \"attribute 6\": \"Kawaii LED Night Light\", \"attribute 5\": \"Girlfriend gift\", \"attribute 4\": \"Atmosphere lamp\", \"Sold in\": \"sell_by_piece\", \"Luminous Flux\": \"249-2000\"}",
+        "category": "Lights & Lighting > Night Lights"
+      },
+      "reference_hs6": "940521",
+      "reference_description": "Luminaires and light fittings; electric, table, desk, bedside or floor-standing, for use solely with light-emitting diode (LED) light sources",
+      "providers": {
+        "jev": {
+          "hs6": "940521",
+          "status": "candidate",
+          "correct": true,
+          "path": [
+            "94",
+            "9405",
+            "940521"
+          ],
+          "predicted_description": "Luminaires and light fittings; electric, table, desk, bedside or floor-standing, for use solely with light-emitting diode (LED) light sources"
+        },
+        "llm": {
+          "hs6": "940542",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "94",
+            "9405",
+            "940542"
+          ],
+          "predicted_description": "Luminaires and light fittings; electric, designed for use solely with light-emitting diode (LED) light sources"
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0574",
+      "product": {
+        "title": "Ear Digging Device Adult Ear Picking Ear Suction Ear Pick Ren's Luminous Earwax Cleaner With Light Soft Head Set",
+        "description": "{\"Origin\": \"AE(Origin)\", \"Item ID\": \"FN20065\", \"Type\": \"Acetone Nail Polish Remover\", \"each pack\": \"1\", \"Package size - width (cm)\": \"12\", \"Measurement unit\": \"100000015\", \"Package size - length (cm)\": \"25\", \"Package weight\": \"0.150\", \"Item Type\": \"nail polish remover\", \"Package size - height (cm)\": \"4\", \"Sold in\": \"sell_by_piece\", \"Hign-concerned Chemical\": \"None\"}",
+        "category": "Beauty & Health > Nail Art & Tools > Nail Polish Removal Products & Tools > Nail Remover Brush Cleanser"
+      },
+      "reference_hs6": "940542",
+      "reference_description": "Luminaires and light fittings; electric, designed for use solely with light-emitting diode (LED) light sources",
+      "providers": {
+        "jev": {
+          "hs6": "330430",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "33",
+            "3304",
+            "330430"
+          ],
+          "predicted_description": "Cosmetic and toilet preparations; manicure or pedicure preparations"
+        },
+        "llm": {
+          "hs6": null,
+          "status": "needs_information",
+          "correct": false,
+          "path": [],
+          "predicted_description": null
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0579",
+      "product": {
+        "title": "Aisilan Replaceable Bulb Wall Lamp Dimmable Plug-in Metal Adjustable Angle Wall Sconce With Switch for Bedside Hotel Study",
+        "description": "{\"Origin\": \"Mainland China\", \"Installation Type\": \"Wall Mounted\", \"Power Source\": \"AC\", \"Package size - length (cm)\": \"31\", \"Light Source\": \"LED bulbs\", \"Shade Direction\": \"Up & Down\", \"Hign-concerned Chemical\": \"None\", \"Base Type\": \"E26\", \"Installation Method\": \"Self-contained\", \"Is Bulbs Included\": \"No\", \"each pack\": \"1\", \"Voltage\": \"90 - 260 V\", \"Style\": \"Modern Style\", \"Features\": \"Retro style\", \"is_customized\": \"No\", \"Is Smart Device\": \"No\", \"Is Dimmable\": \"Yes\", \"Package size - height (cm)\": \"17\", \"Warranty\": \"3 Years\", \"Measurement unit\": \"100000015\", \"Use\": \"Daily Lighting\", \"Color\": \"black\", \"Switch Type\": \"Knob switch\", \"Material\": \"Metal\", \"Item Type\": \"Wall Lamps\", \"Model Number\": \"BD028\", \"Certification\": \"CCC,ROHS,ce\", \"Brand Name\": \"a Aisilan\", \"Body Material\": \"Aluminum\", \"Package size - width (cm)\": \"21\", \"Package weight\": \"1.300\", \"Application\": \"Bed Room,Foyer,Study\", \"Number of light sources\": \"1\", \"Sold in\": \"sell_by_piece\", \"Luminous Flux\": \"60-249\"}",
+        "category": "Lights & Lighting > Indoor Lighting > Wall Lamps"
+      },
+      "reference_hs6": "940599",
+      "reference_description": "Lamps and light fittings; parts thereof, of materials other than glass or plastics",
+      "providers": {
+        "jev": {
+          "hs6": "940549",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "94",
+            "9405",
+            "940549"
+          ],
+          "predicted_description": "Luminaires and light fittings; electric, designed for other than use solely with light-emitting diode (LED) light sources"
+        },
+        "llm": {
+          "hs6": "940519",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "94",
+            "9405",
+            "940519"
+          ],
+          "predicted_description": "Chandeliers and electric ceiling or wall light fittings; (excluding those used for lighting public open spaces or thoroughfares), for use other than with light-emitting diode (LED) light sources"
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0583",
+      "product": {
+        "title": "Projector Heat Insulation Glass Heat Insulation Sheet Polarized Glass Polarized Film 4-inch Projector Repair Screen Yellow",
+        "description": "{\"Brand Name\": \"NoEnName_Null\", \"Origin\": \"Mainland China\", \"each pack\": \"1\", \"Measurement unit\": \"100000015\", \"Package size - width (cm)\": \"10\", \"Package size - length (cm)\": \"10\", \"Package weight\": \"0.100\", \"Package size - height (cm)\": \"10\", \"Sold in\": \"sell_by_piece\", \"Hign-concerned Chemical\": \"None\"}",
+        "category": "Home Appliances > Personal Care Appliances > Personal Care Appliance Parts"
+      },
+      "reference_hs6": "702000",
+      "reference_description": "Glass; articles n.e.c. in chapter 70",
+      "providers": {
+        "jev": {
+          "hs6": "900120",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "90",
+            "9001",
+            "900120"
+          ],
+          "predicted_description": "Optical elements; polarising material, sheets and plates thereof"
+        },
+        "llm": {
+          "hs6": null,
+          "status": "needs_information",
+          "correct": false,
+          "path": [
+            "70",
+            "7014"
+          ],
+          "predicted_description": null
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0599",
+      "product": {
+        "title": "MNFT 10Pcs/lot High Quality Brass Cone Heads Beads Fly Tying Conheads Tubefly Head Tying Material Size: 4/ 4.8 / 5.5/ 6.3MM",
+        "description": "{\"Origin\": \"Mainland China\", \"Category\": \"Carp Bait\", \"Measurement unit\": \"100000015\", \"Position\": \"Lake,Ocean Beach Fishing,Ocean Rock Fshing,Reservoir Pond,River,Stream\", \"Size\": \"4MM / 4.8MM / 5.5MM / 6.3MM\", \"Package size - length (cm)\": \"13\", \"Color\": \"Golden/Silver/Black Nickel\", \"Quantity\": \"One Set\", \"Luminous\": \"No\", \"Electronic\": \"No\", \"Material\": \"Brass\", \"Model Number\": \"JY-WY\", \"Hign-concerned Chemical\": \"None\", \"Brand Name\": \"MNFT\", \"each pack\": \"10\", \"Package size - width (cm)\": \"10\", \"Package weight\": \"0.020\", \"is_customized\": \"Yes\", \"Application\": \"Fly Tying\", \"Package size - height (cm)\": \"2\", \"Sold in\": \"sell_by_lot\"}",
+        "category": "Sports & Entertainment > Fishing > Fishing Lures"
+      },
+      "reference_hs6": "741980",
+      "reference_description": "Copper; articles thereof n.e.c. in chapter 74",
+      "providers": {
+        "jev": {
+          "hs6": null,
+          "status": "none_of_above",
+          "correct": false,
+          "path": [
+            "83",
+            "8308"
+          ],
+          "predicted_description": null
+        },
+        "llm": {
+          "hs6": "741980",
+          "status": "candidate",
+          "correct": true,
+          "path": [
+            "74",
+            "7419",
+            "741980"
+          ],
+          "predicted_description": "Copper; articles thereof n.e.c. in chapter 74"
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0606",
+      "product": {
+        "title": "1 Piece Filter Screen Watch Maintenance Tool Watch Repair Parts Basket Jewelry Small Accessories Cleaning Tool",
+        "description": "{\"Brand Name\": \"NoEnName_Null\", \"Origin\": \"Mainland China\", \"Type\": \"TOOLS\", \"each pack\": \"1\", \"Measurement unit\": \"100000015\", \"Recommended Uses For Product\": \"Accessories replacement,Disassembly and assembly\", \"Item Type\": \"Repair Tools & Kits\", \"Sold in\": \"sell_by_piece\", \"Hign-concerned Chemical\": \"None\"}",
+        "category": "Watches > Watches Accessories > Repair Tools & Kits"
+      },
+      "reference_hs6": "732690",
+      "reference_description": "Iron or steel; articles n.e.c. in heading 7326",
+      "providers": {
+        "jev": {
+          "hs6": null,
+          "status": "needs_information",
+          "correct": false,
+          "path": [],
+          "predicted_description": null
+        },
+        "llm": {
+          "hs6": null,
+          "status": "none_of_above",
+          "correct": false,
+          "path": [
+            "82"
+          ],
+          "predicted_description": null
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0607",
+      "product": {
+        "title": "240Pcs Screws Bolts and Nuts Assortment Kit, Metric Machine Screws and Nuts and Bolts and Flat Washers, M3 M4 M5 Pan Head Sets",
+        "description": "{\"Brand Name\": \"SANJODS\", \"Origin\": \"Mainland China\", \"each pack\": \"1\", \"Measurement unit\": \"100000017\", \"Sold in\": \"sell_by_piece\", \"Hign-concerned Chemical\": \"None\"}",
+        "category": "Home Improvement > Hardware > Fasteners > Screw & Bolt Assortment Sets"
+      },
+      "reference_hs6": "731815",
+      "reference_description": "Iron or steel; threaded screws and bolts n.e.c. in item no. 7318.1, whether or not with their nuts or washers",
+      "providers": {
+        "jev": {
+          "hs6": "731815",
+          "status": "candidate",
+          "correct": true,
+          "path": [
+            "73",
+            "7318",
+            "731815"
+          ],
+          "predicted_description": "Iron or steel; threaded screws and bolts n.e.c. in item no. 7318.1, whether or not with their nuts or washers"
+        },
+        "llm": {
+          "hs6": null,
+          "status": "needs_information",
+          "correct": false,
+          "path": [
+            "73",
+            "7318"
+          ],
+          "predicted_description": null
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0616",
+      "product": {
+        "title": "15M White / Black Hot Melt Adhesive Melamine Edge Banding Pre-glued Veneer Edging Tape for Plywood Table / Cabinet",
+        "description": "{\"Brand Name\": \"NoEnName_Null\", \"Origin\": \"Mainland China\", \"Type\": \"Edge Banding\", \"each pack\": \"1\", \"Shape\": \"Rectangle\", \"Measurement unit\": \"100000015\", \"Model Number\": \"Edge Banding\", \"Sold in\": \"sell_by_piece\", \"Hign-concerned Chemical\": \"None\"}",
+        "category": "Furniture > Furniture Accessories"
+      },
+      "reference_hs6": "442199",
+      "reference_description": "Wood; not of bamboo, articles n.e.c. in heading no. 4414 to 4420 (excluding clothes hangers)",
+      "providers": {
+        "jev": {
+          "hs6": "391910",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "39",
+            "3919",
+            "391910"
+          ],
+          "predicted_description": "Plastics; plates, sheets, film, foil, tape, strip, other flat shapes thereof, self-adhesive, in rolls of a width not exceeding 20cm"
+        },
+        "llm": {
+          "hs6": null,
+          "status": "needs_information",
+          "correct": false,
+          "path": [
+            "39"
+          ],
+          "predicted_description": null
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0617",
+      "product": {
+        "title": "100pcs Wood Joining Biscuits Home Connection Boards for Tenon Machine Woodworking Biscuit Joiner Craft Supplies",
+        "description": "{\"Brand Name\": \"NEWONE\", \"Origin\": \"Mainland China\", \"each pack\": \"1\", \"Measurement unit\": \"100000015\", \"Package size - width (cm)\": \"10\", \"Use\": \"Renovation Team\", \"Package size - length (cm)\": \"10\", \"Package weight\": \"0.300\", \"is_customized\": \"Yes\", \"Package size - height (cm)\": \"2\", \"Sold in\": \"sell_by_piece\", \"Certification\": \"None\"}",
+        "category": "Tools > Power Tools > Electric Planer"
+      },
+      "reference_hs6": "442199",
+      "reference_description": "Wood; not of bamboo, articles n.e.c. in heading no. 4414 to 4420 (excluding clothes hangers)",
+      "providers": {
+        "jev": {
+          "hs6": null,
+          "status": "needs_information",
+          "correct": false,
+          "path": [
+            "44"
+          ],
+          "predicted_description": null
+        },
+        "llm": {
+          "hs6": null,
+          "status": "needs_information",
+          "correct": false,
+          "path": [
+            "44"
+          ],
+          "predicted_description": null
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0624",
+      "product": {
+        "title": "2pcs Pendant Kpop Acrylic Keychain ATEEZ Astro Twic ITZY The Boyz Gidle Key Chain Keyring Lightstick Ningning Rose Fans Collect",
+        "description": "{\"Origin\": \"Mainland China\", \"Group\": \"Unisex\", \"Festival\": \"BirthDay Day\", \"Measurement unit\": \"100000015\", \"Package size - length (cm)\": \"10\", \"Fine or Fashion\": \"Fashion\", \"Material\": \"Plastic\", \"Item Type\": \"Key chains\", \"Model Number\": \"ateez\", \"Metals Type\": \"Zinc Alloy\", \"Hign-concerned Chemical\": \"None\", \"Brand Name\": \"NoEnName_Null\", \"Function\": \"Decoration\", \"Metal Color\": \"Gold-color\", \"each pack\": \"1\", \"Package size - width (cm)\": \"10\", \"Button\": \"Lobster Clapse\", \"Package weight\": \"0.035\", \"Style\": \"Classic\", \"Theme\": \"Celebrity Peripheral,Music\", \"Package size - height (cm)\": \"10\", \"Sold in\": \"sell_by_piece\"}",
+        "category": "Jewelry & Accessories > Fashion Jewelry > Key Chains"
+      },
+      "reference_hs6": "790700",
+      "reference_description": "Zinc; articles n.e.c. in chapter 79",
+      "providers": {
+        "jev": {
+          "hs6": "392690",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "39",
+            "3926",
+            "392690"
+          ],
+          "predicted_description": "Plastics; other articles n.e.c. in chapter 39"
+        },
+        "llm": {
+          "hs6": null,
+          "status": "none_of_above",
+          "correct": false,
+          "path": [
+            "71",
+            "7117"
+          ],
+          "predicted_description": null
+        }
+      }
+    },
+    {
+      "id": "hscodecomp-0628",
+      "product": {
+        "title": "3PC Delicate Flower Claw Hair Clip Set Stylish Bangs Side Clip For Girls Wedding Party Jewelry Hair Pins Headpieces As Gifts",
+        "description": "{\"Origin\": \"Mainland China\", \"Measurement unit\": \"100000015\", \"Material\": \"Alloy\", \"Item Type\": \"headwear\", \"CN\": \"Zhejiang\", \"Gender\": \"Unisex\", \"Model Number\": \"ZUHE-472RG\", \"Feature\": \"Decorate_\", \"Brand Name\": \"NoEnName_Null\", \"Place Of Origin\": \"China (mainland)\", \"Type\": \"Hair Claws\", \"Department Name\": \"Adult\", \"each pack\": \"1\", \"Pattern Type\": \"Floral\", \"Style\": \"Classical\", \"Style type\": \"Flowers\", \"Sold in\": \"sell_by_piece\"}",
+        "category": "Apparel Accessories > New Headwear > Hair Accessories"
+      },
+      "reference_hs6": "961590",
+      "reference_description": "Hairpins, curling pins, curling grips, hair curlers and the like (not those of heading no. 8516) and parts thereof",
+      "providers": {
+        "jev": {
+          "hs6": "711719",
+          "status": "candidate",
+          "correct": false,
+          "path": [
+            "71",
+            "7117",
+            "711719"
+          ],
+          "predicted_description": "Jewellery; imitation, (excluding cuff links and studs), of base metal, whether or not plated with precious metal"
+        },
+        "llm": {
+          "hs6": null,
+          "status": "none_of_above",
+          "correct": false,
+          "path": [
+            "71"
+          ],
+          "predicted_description": null
+        }
+      }
+    }
+  ],
+  "source": {
+    "dataset": "https://huggingface.co/datasets/ATH-MaaS/HSCodeComp",
+    "revision": "ce9119795acef4ca537b2175e10a3feb7a0ecae9",
+    "license": "Apache-2.0",
+    "license_and_notice": "../datasets/customs/2026-10-07/service-scope/"
+  }
+}

@@ -6,9 +6,13 @@
 
 ## Jev 비교 실험
 
-관세 후보 선택에서 Jev와 GPT-6 Luna를 같은 계층 분류 방식으로 비교했습니다. HF94개 표본에서는 중앙 처리시간6.4배, 메루카리30개에서는5.7배 빨랐고 추정 비용도 낮았습니다. 메루카리의 독립 상위 모델 HS6 일치율은84%였으나, HF 정답 정확도는Jev29.8%·Luna38.3%였습니다. 조건별 품질 차이와 보류를 함께 보고합니다. 운영 서비스 도입 결과가 아닙니다.
+가정용·취미 상품으로 선별한 새93개에서 기존 단일 경로 Jev와 GPT-6 Luna를 비교했습니다. 중앙 처리시간은0.645초/4.510초, 추정 API 비용은$0.02258/$0.05266였습니다. 운영 서비스 도입이나 전체 URL 분석시간 개선 결과는 아닙니다.
 
-[실험 설명·한계](docs/jev-experiment-2026-10-06.md) · [코드·실행 안내](notebooks/README.md) · [결과 노트북](notebooks/two-datasets-results-2026-10-06.ipynb)
+전문가 참조 HS6 정답 수는 두 모델 모두41/93(44.1%)였습니다. 답변률은86.0%/64.5%, 답변한 사례의 정확도는51.3%/68.3%로 달라 판단 품질의 동등성을 주장하지 않습니다. 과거 전체94개, 과거 범위안78개, 새93개를 따로 기록했습니다.
+
+[최신 실험 결과·정확도·한계](docs/service-scope-jev-experiment-2026-10-07.md) · [결과 노트북](notebooks/service-scope-results-2026-10-07.ipynb) · [실패 사례](notebooks/service-scope-failures-2026-10-07.json) · [선별 기준](datasets/customs/2026-10-07/service-scope/README.md) · [실행 안내](notebooks/README.md)
+
+[초기 HF·메루카리 실험 기록](docs/jev-experiment-2026-10-06.md)은 별도 보존합니다. 복수 경로 Jev와 Jev 탐색+LLM 선택은 후속 비교에서 제외했습니다.
 
 ## 핵심 구현
 

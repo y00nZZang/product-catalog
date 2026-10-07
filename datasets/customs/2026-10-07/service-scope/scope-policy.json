@@ -1,0 +1,16 @@
+{
+  "version": "household-hobby-v1",
+  "locked_date": "2026-10-07",
+  "status": "Service-scope research draft, not verified Sazo policy or import permission",
+  "include_categories": ["Apparel Accessories", "Beauty & Health", "Computer & Office", "Consumer Electronics", "Furniture", "Hair Extensions & Wigs", "Home & Garden", "Home Appliances", "Home Improvement", "Jewelry & Accessories", "Lights & Lighting", "Luggage & Bags", "Men's Clothing", "Mother & Kids", "Novelty & Special Use", "Office & School Supplies", "Phones & Telecommunications", "Phones & Telecommunications Accessories", "Security & Protection", "Shoes", "Sports & Entertainment", "Sports Shoes,Clothing&Accessories", "Tools", "Toys & Hobbies", "Underwear", "Watches", "Weddings & Events", "Women's Clothing"],
+  "exclude_categories": ["Automobiles, Parts & Accessories", "Motorcycle Equipments & Parts", "Electronic Components & Supplies", "Industrial & Business"],
+  "exclude_title_patterns": {
+    "professional_stage_control": "(?i)\\b(dmx|artnet|stage lighting controller|moving head light)\\b",
+    "industrial_machinery": "(?i)\\b(forklift|lathe|pneumatic|hydraulic|cnc|industrial machine|machine tool|milling machine|commercial ice machine)\\b",
+    "specialized_professional_equipment": "(?i)\\b(dental|surgical|tattoo machine|welding machine|soldering station|laboratory|centrifuge|arc welder)\\b"
+  },
+  "manual_review": "Inspect sampled titles and attributes before any new inference. Overrides require a recorded product-fact-based reason, never labels/predictions. Do not silently replace rejected sampled products.",
+  "hard_cases": "Keep in-scope mixed materials, sets, parts, inconsistent/missing attributes, ambiguous product facts and damaged/used descriptions; no difficulty filtering.",
+  "sampling": "Exclude previous 94 pilot IDs from fresh validation pool, then fixed SHA256(scope-v1|ID) order, balanced round-robin across eligible top categories, 96 maximum; sampling before reading new predictions or reference labels.",
+  "limitations": "Personal use inferred from product type, not verified purchaser intent. Text-only input. Category-balanced sample not marketplace-frequency representative. Country/HS edition differences persist. Original benchmark labels are US expert references, not Korean customs rulings."
+}

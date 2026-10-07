@@ -35,3 +35,21 @@ notebooks/.venv/bin/python -m unittest discover -s notebooks -p 'test_customs_da
 ```
 
 예산/캐시/실패 처리, 확률 검증, 정보 부족 보류, 라벨 유출과 분모 처리를 검증한다. 테스트 통과는 상품 분류 정확도 증거가 아니다.
+
+
+## 최신: 서비스 범위 한정 단일 경로 비교 (2026-10-07)
+
+가정용·취미 범위 초안을 먼저 고정하고 새 표본93개를 선별했습니다. 혼합 재질·세트·정보 부족 사례는 유지하고, 범위 밖으로 검토된 최초 표본3개는 대체하지 않았습니다. 기존 전체94개·범위안78개·새93개 결과는 따로 보존합니다. 자세한 [품질·시간·비용 결과](../docs/service-scope-jev-experiment-2026-10-07.md)와 [선별 기준](../datasets/customs/2026-10-07/service-scope/README.md)을 참고하세요.
+
+```sh
+# Repository root. Replay notebook: no paid requests.
+notebooks/.venv/bin/python -m jupyter nbconvert --execute --to notebook --inplace notebooks/service-scope-results-2026-10-07.ipynb
+# Prepare original pinned HF data and frozen scope; no model calls.
+notebooks/.venv/bin/python notebooks/prepare_customs_datasets.py
+notebooks/.venv/bin/python notebooks/prepare_service_scope.py
+# Explicit paid run: original greedy Jev / Luna only. Reserved cap USD 3.20.
+notebooks/.venv/bin/python notebooks/run_service_scope.py --live
+notebooks/.venv/bin/python -m unittest discover -s notebooks -p 'test_service_scope.py'
+```
+
+복수 경로 Jev와 Jev 탐색+LLM 선택은 후속 비교에서 제외합니다. 새 결과 노트북은 공개 JSON만으로 재생됩니다. `report_service_scope.py`는 과거 원본 로컬 일지가 있어야 과거78/94개를 재집계할 수 있습니다. 공급사 요청 저널은 비공개이며, 보고서의 각 집단별 비용·시간·정확도와 개별 예측은 결과 JSON에서 확인할 수 있습니다.
