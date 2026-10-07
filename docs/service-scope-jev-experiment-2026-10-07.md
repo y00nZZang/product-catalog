@@ -1,5 +1,9 @@
 # 서비스 범위 한정 Jev / LLM 재평가 — 2026-10-07
 
+## Jev와 실험 동기
+
+Jev는 TypeSafe AI가 만든 선택·분류 중심의 판단 모델입니다. 설명문 대신 미리 정한 후보에서 선택하고 후보별 확률을 반환합니다. HS 코드 추론 역시 정해진 코드 후보를 고르는 작업이므로, Jev로 LLM 분류를 대체했을 때 판단시간과 비용을 줄일 수 있는지 실험했습니다. [TypeSafe 공식 소개](https://typesafe.ai/blog/introducing-system-one-models-and-jev).
+
 Fresh93: Jev 41/93 (44.1%); Luna 41/93 (44.1%). Median request-time sums: 0.645s / 4.510s. Usage-based cost estimates: $0.022580 / $0.052664.
 
 | 집단 | 방식 | 정답/전체 | 정확도 | 답변률 | 중앙 시간(s) | p95(s) | 입력 토큰 | 출력 토큰 | 추정 비용(USD) |
